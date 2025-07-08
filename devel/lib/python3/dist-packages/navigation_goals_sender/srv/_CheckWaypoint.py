@@ -1,0 +1,1 @@
+/home/hao/my_workspace/ROS_project/project/devel/.private/navigation_goals_sender/lib/python3/dist-packages/navigation_goals_sender/srv/_CheckWaypoint.py

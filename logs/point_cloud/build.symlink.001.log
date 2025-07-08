@@ -1,0 +1,4 @@
+Linked: (/home/hao/my_workspace/ROS_project/project/devel/.private/point_cloud/share/point_cloud/cmake/point_cloudConfig-version.cmake, /home/hao/my_workspace/ROS_project/project/devel/share/point_cloud/cmake/point_cloudConfig-version.cmake)
+Linked: (/home/hao/my_workspace/ROS_project/project/devel/.private/point_cloud/share/point_cloud/cmake/point_cloudConfig.cmake, /home/hao/my_workspace/ROS_project/project/devel/share/point_cloud/cmake/point_cloudConfig.cmake)
+Linked: (/home/hao/my_workspace/ROS_project/project/devel/.private/point_cloud/lib/pkgconfig/point_cloud.pc, /home/hao/my_workspace/ROS_project/project/devel/lib/pkgconfig/point_cloud.pc)
+Symlinking /home/hao/my_workspace/ROS_project/project/devel/lib/point_cloud/point_cloud_node.py

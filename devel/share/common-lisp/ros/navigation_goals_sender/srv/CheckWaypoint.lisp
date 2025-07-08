@@ -1,0 +1,1 @@
+/home/hao/my_workspace/ROS_project/project/devel/.private/navigation_goals_sender/share/common-lisp/ros/navigation_goals_sender/srv/CheckWaypoint.lisp

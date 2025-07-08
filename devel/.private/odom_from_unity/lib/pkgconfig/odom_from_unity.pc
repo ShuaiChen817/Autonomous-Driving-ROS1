@@ -1,0 +1,8 @@
+prefix=/home/hao/my_workspace/ROS_project/project/devel/.private/odom_from_unity
+
+Name: odom_from_unity
+Description: Description of odom_from_unity
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
