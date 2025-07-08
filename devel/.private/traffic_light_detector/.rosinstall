@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_detector/setup.sh
