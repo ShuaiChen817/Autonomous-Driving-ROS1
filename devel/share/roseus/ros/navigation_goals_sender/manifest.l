@@ -1,1 +1,0 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/navigation_goals_sender/share/roseus/ros/navigation_goals_sender/manifest.l

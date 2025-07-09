@@ -1,7 +1,7 @@
 <launch>
-  <!-- 发布 TF -->
+  <!-- 发布 TF：深度相机相对于INS传感器的坐标变换 -->
   <node pkg="tf" type="static_transform_publisher" name="depth_to_ins"
-        args="0.82 0 0.56 0 0 0 OurCar/INS OurCar/Sensors/DepthCamera 100" />
+      args="0.82 0 0.56 -1.5708 0 -1.5708 OurCar/INS OurCar/Sensors/DepthCamera 100" />
 
   <!-- nodelet manager -->
   <node pkg="nodelet" type="nodelet" name="depth_proc_manager" args="manager" output="screen" />

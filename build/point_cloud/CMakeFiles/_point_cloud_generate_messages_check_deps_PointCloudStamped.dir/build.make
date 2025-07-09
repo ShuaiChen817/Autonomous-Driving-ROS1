@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hao/my_workspace/ROS_project/project/build/point_cloud
 include CMakeFiles/_point_cloud_generate_messages_check_deps_PointCloudStamped.dir/progress.make
 
 CMakeFiles/_point_cloud_generate_messages_check_deps_PointCloudStamped:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py point_cloud /home/hao/my_workspace/ROS_project/project/src/point_cloud/msg/PointCloudStamped.msg std_msgs/Header:sensor_msgs/PointField:sensor_msgs/PointCloud2
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py point_cloud /home/hao/my_workspace/ROS_project/project/src/point_cloud/msg/PointCloudStamped.msg sensor_msgs/PointCloud2:sensor_msgs/PointField:std_msgs/Header
 
 _point_cloud_generate_messages_check_deps_PointCloudStamped: CMakeFiles/_point_cloud_generate_messages_check_deps_PointCloudStamped
 _point_cloud_generate_messages_check_deps_PointCloudStamped: CMakeFiles/_point_cloud_generate_messages_check_deps_PointCloudStamped.dir/build.make

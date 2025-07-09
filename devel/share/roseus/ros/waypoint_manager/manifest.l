@@ -1,0 +1,1 @@
+/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/share/roseus/ros/waypoint_manager/manifest.l

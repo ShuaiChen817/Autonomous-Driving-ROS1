@@ -1,8 +1,11 @@
 <launch>
-  <!-- 发布深度相机相对于 INS 的静态 TF -->
-  <node pkg="tf" type="static_transform_publisher" name="depth_to_ins"
-        args="0.82 0 0.56 0 0 0 OurCar/INS depth_camera_link 100" />
+    
+    <!-- 启动 点云 -->
+    <include file="$(find point_cloud)/launch/depth_to_pointcloud.launch" />
+   
+    <!-- 启动 体积块 -->
+    <include file="$(find point_cloud)/launch/octomap_mapping.launch" />
 
-  <!-- 启动你的点云节点 -->
-  <node pkg="point_cloud" type="point_cloud_node.py" name="point_cloud_node" output="screen"/>
+    <!-- 启动 RViz 并加载配置 -->
+    <node pkg="rviz" type="rviz" name="rviz" output="screen" args="-d $(find point_cloud)/rviz/my_config.rviz"/>
 </launch>

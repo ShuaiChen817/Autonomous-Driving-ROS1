@@ -1,6 +1,0 @@
-<launch>
-<node pkg = "waypoint_manager" type = "waypoint_manager_sender_server" name = "check_waypoints_server" output = "screen"/>
-<arg name="node_start_delay" default="3.0" />  
-<node pkg = "waypoint_manager" type = "waypoint_manager_sender_client" name = "check_waypoints_client" output = "screen" launch-prefix="bash -c 'sleep $(arg node_start_delay); $0 $@' " />
-</launch>
-

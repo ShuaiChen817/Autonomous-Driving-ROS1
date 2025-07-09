@@ -13,7 +13,6 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   geometry_msgs
   nav_msgs
-  mav_state_machine_msgs
   tf
   move_base
 )
@@ -117,7 +116,7 @@ catkin_package( CATKIN_DEPENDS
   std_msgs
   geometry_msgs
   nav_msgs
-  mav_state_machine_msgs
+
   tf
   move_base
 )
@@ -172,10 +171,6 @@ include_directories(
 
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
-catkin_install_python(PROGRAMS
-  src/local_planner.py
-  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
 
 ## Mark executables for installation
 ## See http://docs.ros.org/melodic/api/catkin/html/howto/format1/building_executables.html

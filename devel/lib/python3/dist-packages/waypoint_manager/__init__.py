@@ -1,0 +1,1 @@
+/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/lib/python3/dist-packages/waypoint_manager/__init__.py

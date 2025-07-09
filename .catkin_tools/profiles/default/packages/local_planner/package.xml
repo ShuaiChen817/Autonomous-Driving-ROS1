@@ -55,7 +55,6 @@
   <build_depend>std_msgs</build_depend>
   <build_depend>geometry_msgs</build_depend>
   <build_depend>nav_msgs</build_depend>
-  <build_depend>mav_state_machine_msgs</build_depend>
   <build_depend>tf</build_depend>
   <build_depend>move_base</build_depend>
   
@@ -67,7 +66,6 @@
   <exec_depend>std_msgs</exec_depend>
   <exec_depend>geometry_msgs</exec_depend>
   <exec_depend>nav_msgs</exec_depend>
-  <exec_depend>mav_state_machine_msgs</exec_depend>
   <exec_depend>tf</exec_depend>
   <exec_depend>move_base</exec_depend>
 

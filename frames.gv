@@ -1,8 +1,8 @@
 digraph G {
-"world" -> "OurCar/INS"[label="Broadcaster: /Unity_ROS_message_Rx\nAverage rate: 50.271 Hz\nMost recent transform: 1751996072.449 ( 0.003 sec old)\nBuffer length: 4.973 sec\n"];
-"OurCar/INS" -> "depth_camera_link"[label="Broadcaster: /depth_to_ins\nAverage rate: 10.193 Hz\nMost recent transform: 1751996072.537 ( -0.085 sec old)\nBuffer length: 4.905 sec\n"];
+"OurCar/INS" -> "OurCar/Sensors/DepthCamera"[label="Broadcaster: /depth_to_ins\nAverage rate: 10.191 Hz\nMost recent transform: 1752014320.714 ( -0.047 sec old)\nBuffer length: 4.906 sec\n"];
+"world" -> "OurCar/INS"[label="Broadcaster: /Unity_ROS_message_Rx\nAverage rate: 29.595 Hz\nMost recent transform: 1752014320.621 ( 0.046 sec old)\nBuffer length: 4.866 sec\n"];
 edge [style=invis];
  subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
-"Recorded at time: 1751996072.452"[ shape=plaintext ] ;
+"Recorded at time: 1752014320.667"[ shape=plaintext ] ;
  }->"world";
 }

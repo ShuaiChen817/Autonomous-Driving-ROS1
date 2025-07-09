@@ -1,1 +1,0 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/navigation_goals_sender/share/navigation_goals_sender/cmake/navigation_goals_senderConfig-version.cmake

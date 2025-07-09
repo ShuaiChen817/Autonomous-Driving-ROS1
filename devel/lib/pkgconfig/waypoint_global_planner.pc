@@ -1,0 +1,1 @@
+/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_global_planner/lib/pkgconfig/waypoint_global_planner.pc

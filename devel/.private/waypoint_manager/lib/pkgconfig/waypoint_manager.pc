@@ -1,0 +1,8 @@
+prefix=/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager
+
+Name: waypoint_manager
+Description: Description of waypoint_manager
+Version: 0.0.0
+Cflags: -I/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime geometry_msgs nav_msgs

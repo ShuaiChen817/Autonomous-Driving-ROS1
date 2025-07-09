@@ -1,0 +1,85 @@
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target _waypoint_manager_generate_messages_check_deps_CheckWaypoint[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target _waypoint_manager_generate_messages_check_deps_CheckWaypoint
+[35m[1mScanning dependencies of target waypoint_manager_generate_messages_lisp[0m
+[35m[1mScanning dependencies of target waypoint_manager_generate_messages_eus[0m
+[35m[1mScanning dependencies of target waypoint_manager_generate_messages_nodejs[0m
+[35m[1mScanning dependencies of target waypoint_manager_generate_messages_cpp[0m
+[35m[1mScanning dependencies of target waypoint_manager_generate_messages_py[0m
+[ 11%] [34m[1mGenerating Lisp code from waypoint_manager/CheckWaypoint.srv[0m
+[ 22%] [34m[1mGenerating C++ code from waypoint_manager/CheckWaypoint.srv[0m
+[ 33%] [34m[1mGenerating EusLisp code from waypoint_manager/CheckWaypoint.srv[0m
+[ 44%] [34m[1mGenerating Javascript code from waypoint_manager/CheckWaypoint.srv[0m
+[ 55%] [34m[1mGenerating EusLisp manifest code for waypoint_manager[0m
+[ 66%] [34m[1mGenerating Python code from SRV waypoint_manager/CheckWaypoint[0m
+[ 66%] Built target waypoint_manager_generate_messages_nodejs
+[ 66%] Built target waypoint_manager_generate_messages_lisp
+[ 77%] [34m[1mGenerating Python srv __init__.py for waypoint_manager[0m
+[ 77%] Built target waypoint_manager_generate_messages_cpp
+[ 77%] Built target waypoint_manager_generate_messages_py
+[ 77%] Built target waypoint_manager_generate_messages_eus
+[35m[1mScanning dependencies of target waypoint_manager[0m
+[35m[1mScanning dependencies of target waypoint_manager_generate_messages[0m
+[ 77%] Built target waypoint_manager_generate_messages
+[ 88%] [32mBuilding CXX object CMakeFiles/waypoint_manager.dir/src/waypoint_manager.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/lib/waypoint_manager/waypoint_manager[0m
+[100%] Built target waypoint_manager
