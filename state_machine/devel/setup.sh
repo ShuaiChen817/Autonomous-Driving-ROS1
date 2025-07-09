@@ -1,1 +1,0 @@
-/home/keqing/intro2ros_keqing/state_machine/devel/.private/catkin_tools_prebuild/setup.sh

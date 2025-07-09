@@ -1,8 +1,0 @@
-prefix=/home/keqing/intro2ros_keqing/state_machine/devel/.private/statemachine_pkg
-
-Name: statemachine_pkg
-Description: Description of statemachine_pkg
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

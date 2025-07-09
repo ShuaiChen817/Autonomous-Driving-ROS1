@@ -1,4 +1,0 @@
-Linked: (/home/keqing/intro2ros_keqing/state_machine/devel/.private/statemachine_pkg/share/statemachine_pkg/cmake/statemachine_pkgConfig-version.cmake, /home/keqing/intro2ros_keqing/state_machine/devel/share/statemachine_pkg/cmake/statemachine_pkgConfig-version.cmake)
-Linked: (/home/keqing/intro2ros_keqing/state_machine/devel/.private/statemachine_pkg/share/statemachine_pkg/cmake/statemachine_pkgConfig.cmake, /home/keqing/intro2ros_keqing/state_machine/devel/share/statemachine_pkg/cmake/statemachine_pkgConfig.cmake)
-Linked: (/home/keqing/intro2ros_keqing/state_machine/devel/.private/statemachine_pkg/lib/pkgconfig/statemachine_pkg.pc, /home/keqing/intro2ros_keqing/state_machine/devel/lib/pkgconfig/statemachine_pkg.pc)
-Symlinking /home/keqing/intro2ros_keqing/state_machine/devel/lib/statemachine_pkg/state_machine01.py

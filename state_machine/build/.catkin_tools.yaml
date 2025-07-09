@@ -1,6 +1,0 @@
-devel_space: /home/keqing/intro2ros_keqing/state_machine/devel
-install: false
-install_space: /home/keqing/intro2ros_keqing/state_machine/install
-profile: default
-source_space: /home/keqing/intro2ros_keqing/state_machine/src
-workspace: /home/keqing/intro2ros_keqing/state_machine
