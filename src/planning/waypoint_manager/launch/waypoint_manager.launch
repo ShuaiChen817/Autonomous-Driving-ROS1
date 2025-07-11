@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="waypoint_manager" type="waypoint_manager" name="waypoint_manager" output="screen" />
+</launch>

@@ -1,0 +1,11 @@
+<launch>
+    
+    <!-- 启动 点云 -->
+    <include file="$(find point_cloud)/launch/depth_to_pointcloud.launch" />
+   
+    <!-- 启动 体积块 -->
+    <include file="$(find point_cloud)/launch/octomap_mapping.launch" />
+
+    <!-- 启动 RViz 并加载配置 -->
+    <node pkg="rviz" type="rviz" name="rviz" output="screen" args="-d $(find point_cloud)/rviz/my_config.rviz"/>
+</launch>

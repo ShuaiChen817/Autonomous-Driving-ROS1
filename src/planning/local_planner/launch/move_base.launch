@@ -1,0 +1,34 @@
+<launch>
+
+<!-- configuration for navigation stack -->
+   <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <!---->
+    <rosparam file="$(find local_planner)/params/costmap_common_params.yaml" command="load" ns="global_costmap" /> 
+    <rosparam file="$(find local_planner)/params/costmap_common_params.yaml" command="load" ns="local_costmap" />
+    <rosparam file="$(find local_planner)/params/local_costmap_params.yaml" command="load" />
+    <rosparam file="$(find local_planner)/params/global_costmap_params.yaml" command="load" /> 
+    <rosparam file="$(find local_planner)/params/base_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find local_planner)/params/global_planner_params.yaml" command="load" /> 
+        <!-- ns stands for namespace -->
+    <rosparam file="$(find local_planner)/params/static_map_params.yaml" command="load" ns="global_costmap/static_layer" />
+    <rosparam file="$(find local_planner)/params/static_map_params.yaml" command="load" ns="local_costmap/static_layer" />
+
+    <param name="base_global_planner" value="waypoint_global_planner/WaypointGlobalPlanner"/> 
+    <!-- <param name="base_global_planner" value="navfn/NavfnROS"/> -->
+    <param name="planner_frequency" value="1.0" />
+    <param name="planner_patience" value="5.0" />
+
+
+    <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
+    <param name="controller_frequency" value="15.0" />
+    <param name="controller_patience" value="15.0" />
+
+ </node>
+
+ <!-- Node for local_planner.py -->
+ 
+
+  <!-- <node pkg="local_planner" name="local_planner"  type="local_planner.py" output="screen" />   -->
+
+
+</launch> 

@@ -1,0 +1,24 @@
+<launch>
+  <!-- 启动 OctoMap 服务 -->
+  <node pkg="octomap_server" type="octomap_server_node" name="octomap_server" output="screen">
+
+    <!-- 地图固定在 world 坐标系下 -->
+    <param name="frame_id" value="world" />
+
+    <!-- 最大测距，单位：米 -->
+    <param name="sensor_model/max_range" value="400" />
+
+    <!-- 可选：RViz 是否立刻能看到地图 -->
+    <param name="latch" value="true" />
+
+    <!-- 分辨率：单位是米，越小越精细但越耗内存 -->
+    <param name="resolution" value="0.5" />
+
+    <!-- 提高生成速度：占用概率阈值。阈值越低，越有可能判定为实体 -->
+    <param name="occupancy_thres" value="0.05" />
+
+    <!-- 输入点云话题（你的是 cloud_xyzrgb 处理后的） -->
+    <remap from="cloud_in" to="/points" />
+    
+  </node>
+</launch>

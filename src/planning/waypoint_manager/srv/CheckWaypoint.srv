@@ -1,0 +1,4 @@
+geometry_msgs/Pose current_pose
+---
+bool is_close_enough
+geometry_msgs/PoseStamped next_waypoint
