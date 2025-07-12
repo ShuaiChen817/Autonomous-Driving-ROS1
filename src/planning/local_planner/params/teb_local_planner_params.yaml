@@ -1,0 +1,29 @@
+TebLocalPlannerROS:
+
+  odom_topic: odom
+  map_frame: world  # 改成你使用的 global_frame
+
+  # Robot configuration
+  max_vel_x: 1.0
+  max_vel_x_backwards: 0.5
+  max_vel_y: 0.0
+  max_vel_theta: 1.0
+  acc_lim_x: 1.0
+  acc_lim_theta: 2.0
+
+  # Robot footprint
+  footprint_model:
+    type: "polygon"
+    vertices: [[0.5, 0.3], [0.5, -0.3], [-0.5, -0.3], [-0.5, 0.3]]
+
+  # Goal tolerance
+  xy_goal_tolerance: 0.2
+  yaw_goal_tolerance: 0.1
+  free_goal_vel: false
+
+  # Obstacles
+  min_obstacle_dist: 0.3
+  inflation_dist: 0.4
+  include_costmap_obstacles: true
+  costmap_obstacles_behind_robot_dist: 1.0
+  obstacle_poses_

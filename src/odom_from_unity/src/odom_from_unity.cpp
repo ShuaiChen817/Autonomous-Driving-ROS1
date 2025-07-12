@@ -31,8 +31,8 @@ private:
         if (!pose_received || !twist_received) return;
 
         odom.header.stamp = latest_pose.header.stamp;
-        odom.header.frame_id = "odom";
-        odom.child_frame_id = "base_link";
+        odom.header.frame_id = "world";  //告诉 ROS 这条数据是相对于 world 坐标系来描述的(隐性功能：向系统声明创建坐标系odom)
+        odom.child_frame_id = "OurCar/INS";  //声明TF关系，但是并未广播，需要另外处理(这个脚本不包含)
         odom.pose.pose.position = latest_pose.pose.position;
 
         Eigen::Quaterniond q;
@@ -66,12 +66,31 @@ private:
 
         odom.twist.twist.linear.x = velocity_odom[0];
         odom.twist.twist.linear.y = velocity_odom[1];
-        odom.twist.twist.angular.z = velocity_odom[2];
+        // pass
+        // odom.twist.twist.angular.z = velocity_odom[2];
+        odom.twist.twist.linear.z = velocity_odom[2];    //之前的代码漏了给z线性速度转换
         odom.twist.twist.angular.x = orientation_odom[0];
         odom.twist.twist.angular.y = orientation_odom[1];
         odom.twist.twist.angular.z = -orientation_odom[2];
 
         odom_pub.publish(odom);
+
+        // pass 添加TF广播：odom -> OurCar/INS
+        // static tf::TransformBroadcaster br;
+        // tf::Transform transform;
+        // transform.setOrigin(tf::Vector3(
+        //     odom.pose.pose.position.x,
+        //     odom.pose.pose.position.y,
+        //     odom.pose.pose.position.z
+        // ));
+        // tf::Quaternion q;
+        // q.setX(odom.pose.pose.orientation.x);
+        // q.setY(odom.pose.pose.orientation.y);
+        // q.setZ(odom.pose.pose.orientation.z);
+        // q.setW(odom.pose.pose.orientation.w);
+        // transform.setRotation(q);
+
+        // br.sendTransform(tf::StampedTransform(transform, odom.header.stamp, "odom", "OurCar/INS"));
     }
 
     ros::NodeHandle nh;

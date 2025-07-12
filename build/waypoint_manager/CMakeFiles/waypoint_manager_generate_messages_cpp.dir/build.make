@@ -58,11 +58,11 @@ CMakeFiles/waypoint_manager_generate_messages_cpp: /home/hao/my_workspace/ROS_pr
 
 /home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/include/waypoint_manager/CheckWaypoint.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
 /home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/include/waypoint_manager/CheckWaypoint.h: /home/hao/my_workspace/ROS_project/project/src/planning/waypoint_manager/srv/CheckWaypoint.srv
-/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/include/waypoint_manager/CheckWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/include/waypoint_manager/CheckWaypoint.h: /opt/ros/noetic/share/std_msgs/msg/Header.msg
-/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/include/waypoint_manager/CheckWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/include/waypoint_manager/CheckWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/include/waypoint_manager/CheckWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
 /home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/include/waypoint_manager/CheckWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/include/waypoint_manager/CheckWaypoint.h: /opt/ros/noetic/share/geometry_msgs/msg/PoseStamped.msg
 /home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/include/waypoint_manager/CheckWaypoint.h: /opt/ros/noetic/share/gencpp/msg.h.template
 /home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/include/waypoint_manager/CheckWaypoint.h: /opt/ros/noetic/share/gencpp/srv.h.template
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hao/my_workspace/ROS_project/project/build/waypoint_manager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from waypoint_manager/CheckWaypoint.srv"

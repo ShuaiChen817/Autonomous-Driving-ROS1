@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hao/my_workspace/ROS_project/project/build/waypoint_man
 include CMakeFiles/_waypoint_manager_generate_messages_check_deps_CheckWaypoint.dir/progress.make
 
 CMakeFiles/_waypoint_manager_generate_messages_check_deps_CheckWaypoint:
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py waypoint_manager /home/hao/my_workspace/ROS_project/project/src/planning/waypoint_manager/srv/CheckWaypoint.srv geometry_msgs/PoseStamped:std_msgs/Header:geometry_msgs/Point:geometry_msgs/Quaternion:geometry_msgs/Pose
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py waypoint_manager /home/hao/my_workspace/ROS_project/project/src/planning/waypoint_manager/srv/CheckWaypoint.srv std_msgs/Header:geometry_msgs/Quaternion:geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/PoseStamped
 
 _waypoint_manager_generate_messages_check_deps_CheckWaypoint: CMakeFiles/_waypoint_manager_generate_messages_check_deps_CheckWaypoint
 _waypoint_manager_generate_messages_check_deps_CheckWaypoint: CMakeFiles/_waypoint_manager_generate_messages_check_deps_CheckWaypoint.dir/build.make

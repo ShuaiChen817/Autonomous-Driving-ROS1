@@ -1,34 +1,24 @@
 <launch>
+  <!-- 启动 move_base 节点 -->
+  <node pkg="move_base" type="move_base" name="move_base" output="screen">
 
-<!-- configuration for navigation stack -->
-   <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
-    <!---->
-    <rosparam file="$(find local_planner)/params/costmap_common_params.yaml" command="load" ns="global_costmap" /> 
-    <rosparam file="$(find local_planner)/params/costmap_common_params.yaml" command="load" ns="local_costmap" />
-    <rosparam file="$(find local_planner)/params/local_costmap_params.yaml" command="load" />
-    <rosparam file="$(find local_planner)/params/global_costmap_params.yaml" command="load" /> 
-    <rosparam file="$(find local_planner)/params/base_local_planner_params.yaml" command="load" />
-    <!-- <rosparam file="$(find local_planner)/params/global_planner_params.yaml" command="load" /> -->
-        <!-- ns stands for namespace -->
-    <rosparam file="$(find local_planner)/params/static_map_params.yaml" command="load" ns="global_costmap/static_layer" />
-    <rosparam file="$(find local_planner)/params/static_map_params.yaml" command="load" ns="local_costmap/static_layer" />
+    <!-- 加载主参数 -->
+    <rosparam file="$(find local_planner)/params/move_base_params.yaml" command="load" />
 
-    <!-- <param name="base_global_planner" value="waypoint_global_planner/WaypointGlobalPlanner"/>  -->
-    <param name="base_global_planner" value="navfn/NavfnROS"/>
-    <param name="planner_frequency" value="1.0" />
-    <param name="planner_patience" value="5.0" />
+    <!-- 公共 costmap 参数（obstacle_layer, inflation_layer 等） -->
+    <rosparam file="$(find local_planner)/params/costmap_common_params.yaml" command="load" />
 
+    <!-- global_costmap 独立配置 -->
+    <rosparam file="$(find local_planner)/params/global_costmap_params.yaml" command="load" ns="global_costmap" />
 
-    <param name="base_local_planner" value="teb_local_planner/TebLocalPlannerROS" />
-    <param name="controller_frequency" value="15.0" />
-    <param name="controller_patience" value="15.0" />
+    <!-- local_costmap 独立配置 -->
+    <rosparam file="$(find local_planner)/params/local_costmap_params.yaml" command="load" ns="local_costmap" />
 
- </node>
+    <!-- 可选：static_map 参数（如果你用了 static layer） -->
+    <rosparam file="$(find local_planner)/params/static_map_params.yaml" command="load" />
 
- <!-- Node for local_planner.py -->
- 
+  </node>
 
-  <!-- <node pkg="local_planner" name="local_planner"  type="local_planner.py" output="screen" />   -->
-
-
-</launch> 
+  <!-- 可选：开启 RViz -->
+  <!-- <node pkg="rviz" type="rviz" name="rviz" args="-d $(find local_planner)/rviz/move_base.rviz" required="false" /> -->
+</launch>

@@ -220,6 +220,10 @@ gtest/googletest/clean: gtest/googletest/CMakeFiles/gtest.dir/clean
 # Target rules for target CMakeFiles/waypoint_global_planner.dir
 
 # All Build rule for target.
+CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/move_base_msgs_generate_messages_py.dir/all
+CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
+CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
+CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/move_base_gencfg.dir/all
 CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/move_base_msgs_generate_messages_nodejs.dir/all
@@ -237,10 +241,6 @@ CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/map_msgs_generate_message
 CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/_catkin_empty_exported_target.dir/all
 CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
 CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/move_base_msgs_generate_messages_py.dir/all
-CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/move_base_msgs_generate_messages_lisp.dir/all
-CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/move_base_msgs_generate_messages_eus.dir/all
-CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/move_base_gencfg.dir/all
 CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
 CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/dynamic_reconfigure_gencfg.dir/all
 CMakeFiles/waypoint_global_planner.dir/all: CMakeFiles/tf2_msgs_generate_messages_cpp.dir/all

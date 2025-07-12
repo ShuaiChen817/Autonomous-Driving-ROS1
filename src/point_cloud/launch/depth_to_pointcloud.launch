@@ -1,4 +1,15 @@
 <launch>
+  
+  <!--测试性代码，world绑定到odom -->
+  <!-- <node pkg="tf" type="static_transform_publisher" name="world_to_odom"
+      args="0 0 0 0 0 0 odom world 100" /> -->
+ 
+ <!-- 测试性代码，base_link绑定到OurCar/INS -->
+<!-- <node pkg="tf" type="static_transform_publisher" name="base_to_ins"
+      args="0 0 0 0 0 0 OurCar/INS base_link 100" /> -->
+
+
+  
   <!-- 发布 TF：深度相机相对于INS传感器的坐标变换 -->
   <node pkg="tf" type="static_transform_publisher" name="depth_to_ins"
       args="0.82 0 0.56 -1.5708 0 -1.5708 OurCar/INS OurCar/Sensors/DepthCamera 100" />
@@ -9,6 +20,8 @@
   <!-- 加载 depth_image_proc 的功能块 -->
   <node pkg="nodelet" type="nodelet" name="depth_to_cloud"
         args="load depth_image_proc/point_cloud_xyz depth_proc_manager" output="screen">
+    
+    <!-- 消息改名 -->
     <remap from="image_rect" to="/Unity_ROS_message_Rx/OurCar/Sensors/DepthCamera/image_raw"/>
     <remap from="camera_info" to="/Unity_ROS_message_Rx/OurCar/Sensors/DepthCamera/camera_info"/>
   </node>
