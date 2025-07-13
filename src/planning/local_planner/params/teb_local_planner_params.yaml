@@ -26,4 +26,4 @@ TebLocalPlannerROS:
   inflation_dist: 0.4
   include_costmap_obstacles: true
   costmap_obstacles_behind_robot_dist: 1.0
-  obstacle_poses_
+  # obstacle_poses_
