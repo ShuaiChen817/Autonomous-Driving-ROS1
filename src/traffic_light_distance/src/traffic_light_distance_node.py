@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+
 import rospy
 from sensor_msgs.msg import Image
 from traffic_light_distance.msg import TrafficLightDistance
@@ -94,13 +95,11 @@ class TrafficLightDistanceEstimator:
                         bx = int((x1 + x2) / 2)
                         by = int((y1 + y2) / 2)
 
-                        # 获取深度值
                         dx = int(bx * self.latest_depth.shape[1] / rgb.shape[1])
                         dy = int(by * self.latest_depth.shape[0] / rgb.shape[0])
                         raw_depth = self.latest_depth[dy, dx] / 1000.0 if 0 <= dx < self.latest_depth.shape[1] and 0 <= dy < self.latest_depth.shape[0] else np.nan
                         distance_text = f"{raw_depth:.2f} m" if not np.isnan(raw_depth) and 0 < raw_depth < 100 else "N/A"
 
-                        # 绘图
                         cv2.rectangle(rgb_draw, (x1, y1), (x2, y2), (0, 255, 0), 2)
                         label_text = f"{label} {conf.item():.2f} | {distance_text}"
                         cv2.putText(
@@ -108,11 +107,11 @@ class TrafficLightDistanceEstimator:
                             label_text,
                             (x1, y1 - 10),
                             cv2.FONT_HERSHEY_SIMPLEX,
-                            0.5,                # 字体大小调大
-                            (0, 255, 0),        # 字体颜色
-                            2,                  # 线宽（加粗）
+                            0.5,
+                            (0, 255, 0),
+                            2,
                             lineType=cv2.LINE_AA
-                        )                        
+                        )
 
                         candidates.append({
                             "x": bx,
@@ -121,14 +120,12 @@ class TrafficLightDistanceEstimator:
                             "distance": float(raw_depth) if not np.isnan(raw_depth) and 0 < raw_depth < 100 else -1.0
                         })
 
-        # 选取目标
         target = None
         if len(candidates) == 1:
             target = candidates[0]
         elif len(candidates) > 1:
             target = min(candidates, key=lambda c: abs(c["y"] - cy))
 
-        # 发布消息
         if target:
             msg_out = TrafficLightDistance()
             msg_out.confidence = target["conf"]
@@ -137,8 +134,13 @@ class TrafficLightDistanceEstimator:
 
             duration_ms = (time.time() - start_time) * 1000
             rospy.loginfo(f"Conf: {target['conf']:.2f}, Distance: {target['distance']:.2f} m, Time: {duration_ms:.1f} ms")
+        else:
+            msg_out = TrafficLightDistance()
+            msg_out.confidence = 0.0
+            msg_out.distance = -1.0
+            self.pub.publish(msg_out)
+            rospy.loginfo("No traffic light detected. Distance: -1.00 m")
 
-        # 显示窗口
         cv2.imshow("YOLO Detection", rgb_draw)
         cv2.waitKey(1)
 

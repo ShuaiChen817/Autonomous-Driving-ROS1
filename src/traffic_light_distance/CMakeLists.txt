@@ -107,7 +107,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES traffic_light_distance
- CATKIN_DEPENDS cv_bridge message_generation rospy sensor_msgs std_msgs
+ CATKIN_DEPENDS cv_bridge message_generation message_runtime rospy sensor_msgs std_msgs
 #  DEPENDS system_lib
 )
 
