@@ -1,5 +1,5 @@
 planning/waypoint_global_planner
-/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_global_planner/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig-version.cmake /home/hao/my_workspace/ROS_project/project/devel/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig-version.cmake
-/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_global_planner/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig.cmake /home/hao/my_workspace/ROS_project/project/devel/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig.cmake
-/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_global_planner/lib/libwaypoint_global_planner.so /home/hao/my_workspace/ROS_project/project/devel/lib/libwaypoint_global_planner.so
-/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_global_planner/lib/pkgconfig/waypoint_global_planner.pc /home/hao/my_workspace/ROS_project/project/devel/lib/pkgconfig/waypoint_global_planner.pc
+/home/fangxu/group-27/devel/.private/waypoint_global_planner/lib/libwaypoint_global_planner.so /home/fangxu/group-27/devel/lib/libwaypoint_global_planner.so
+/home/fangxu/group-27/devel/.private/waypoint_global_planner/lib/pkgconfig/waypoint_global_planner.pc /home/fangxu/group-27/devel/lib/pkgconfig/waypoint_global_planner.pc
+/home/fangxu/group-27/devel/.private/waypoint_global_planner/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig-version.cmake /home/fangxu/group-27/devel/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig-version.cmake
+/home/fangxu/group-27/devel/.private/waypoint_global_planner/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig.cmake /home/fangxu/group-27/devel/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig.cmake

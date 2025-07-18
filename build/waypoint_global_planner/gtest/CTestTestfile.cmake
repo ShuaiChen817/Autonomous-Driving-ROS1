@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest
-# Build directory: /home/hao/my_workspace/ROS_project/project/build/waypoint_global_planner/gtest
+# Build directory: /home/fangxu/group-27/build/waypoint_global_planner/gtest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/catkin_tools_prebuild/setup.zsh
+/home/fangxu/group-27/devel/.private/catkin_tools_prebuild/setup.zsh

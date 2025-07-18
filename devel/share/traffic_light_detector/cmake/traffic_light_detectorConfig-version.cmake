@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_detector/share/traffic_light_detector/cmake/traffic_light_detectorConfig-version.cmake
+/home/fangxu/group-27/devel/.private/traffic_light_detector/share/traffic_light_detector/cmake/traffic_light_detectorConfig-version.cmake

@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -Wl,--no-as-needed -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"simulation\" -Dtcpstreamreader_EXPORTS
 
-CXX_INCLUDES = -I/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -I/home/hao/my_workspace/ROS_project/project/src/simulation/tcpimage 
+CXX_INCLUDES = -I/home/fangxu/group-27/devel/.private/simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -I/home/fangxu/group-27/src/simulation/tcpimage 
 

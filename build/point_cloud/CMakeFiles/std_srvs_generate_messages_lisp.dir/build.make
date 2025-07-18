@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hao/my_workspace/ROS_project/project/src/point_cloud
+CMAKE_SOURCE_DIR = /home/fangxu/group-27/src/point_cloud
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hao/my_workspace/ROS_project/project/build/point_cloud
+CMAKE_BINARY_DIR = /home/fangxu/group-27/build/point_cloud
 
 # Utility rule file for std_srvs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_srvs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/std_srvs_generate_messages_lisp.dir/clean
 
 CMakeFiles/std_srvs_generate_messages_lisp.dir/depend:
-	cd /home/hao/my_workspace/ROS_project/project/build/point_cloud && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hao/my_workspace/ROS_project/project/src/point_cloud /home/hao/my_workspace/ROS_project/project/src/point_cloud /home/hao/my_workspace/ROS_project/project/build/point_cloud /home/hao/my_workspace/ROS_project/project/build/point_cloud /home/hao/my_workspace/ROS_project/project/build/point_cloud/CMakeFiles/std_srvs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fangxu/group-27/build/point_cloud && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fangxu/group-27/src/point_cloud /home/fangxu/group-27/src/point_cloud /home/fangxu/group-27/build/point_cloud /home/fangxu/group-27/build/point_cloud /home/fangxu/group-27/build/point_cloud/CMakeFiles/std_srvs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_srvs_generate_messages_lisp.dir/depend
 

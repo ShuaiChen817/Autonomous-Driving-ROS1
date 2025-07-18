@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/lib/simulation/unity_TCP_stream_receiver"
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/lib/simulation/unity_TCP_stream_receiver.pdb"
+  "/home/fangxu/group-27/devel/.private/simulation/lib/simulation/unity_TCP_stream_receiver"
+  "/home/fangxu/group-27/devel/.private/simulation/lib/simulation/unity_TCP_stream_receiver.pdb"
   "CMakeFiles/unity_TCP_stream_receiver.dir/src/unity_TCP_stream_receiver.cpp.o"
 )
 

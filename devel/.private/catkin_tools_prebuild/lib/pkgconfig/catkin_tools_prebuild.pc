@@ -1,4 +1,4 @@
-prefix=/home/hao/my_workspace/ROS_project/project/devel/.private/catkin_tools_prebuild
+prefix=/home/fangxu/group-27/devel/.private/catkin_tools_prebuild
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "roscpp;rospy;std_msgs;geometry_msgs;nav_msgs;tf;move_base".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "local_planner"
-PROJECT_SPACE_DIR = "/home/hao/my_workspace/ROS_project/project/devel/.private/local_planner"
+PROJECT_SPACE_DIR = "/home/fangxu/group-27/devel/.private/local_planner"
 PROJECT_VERSION = "0.0.0"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/lib/libtcpstreamreader.pdb"
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/lib/libtcpstreamreader.so"
+  "/home/fangxu/group-27/devel/.private/simulation/lib/libtcpstreamreader.pdb"
+  "/home/fangxu/group-27/devel/.private/simulation/lib/libtcpstreamreader.so"
   "CMakeFiles/tcpstreamreader.dir/TCPStreamReader.cpp.o"
 )
 

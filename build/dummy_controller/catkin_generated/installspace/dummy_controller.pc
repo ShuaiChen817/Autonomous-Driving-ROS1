@@ -1,8 +1,8 @@
-prefix=/home/hao/my_workspace/ROS_project/project/install
+prefix=/home/fangxu/group-27/install
 
 Name: dummy_controller
 Description: Description of dummy_controller
 Version: 0.0.6657
 Cflags: 
 Libs: -L${prefix}/lib 
-Requires: simulation roscpp std_msgs
+Requires: simulation roscpp std_msgs nav_msgs geometry_msgs tf

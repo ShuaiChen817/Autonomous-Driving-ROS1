@@ -1,8 +1,8 @@
-prefix=/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_detector
+prefix=/home/fangxu/group-27/devel/.private/traffic_light_detector
 
 Name: traffic_light_detector
 Description: Description of traffic_light_detector
 Version: 0.0.0
-Cflags: -I/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_detector/include
+Cflags: -I/home/fangxu/group-27/devel/.private/traffic_light_detector/include
 Libs: -L${prefix}/lib 
 Requires: rospy std_msgs sensor_msgs message_runtime

@@ -1,6 +1,6 @@
-devel_space: /home/hao/my_workspace/ROS_project/project/devel
+devel_space: /home/fangxu/group-27/devel
 install: false
-install_space: /home/hao/my_workspace/ROS_project/project/install
+install_space: /home/fangxu/group-27/install
 profile: default
-source_space: /home/hao/my_workspace/ROS_project/project/src
-workspace: /home/hao/my_workspace/ROS_project/project
+source_space: /home/fangxu/group-27/src
+workspace: /home/fangxu/group-27

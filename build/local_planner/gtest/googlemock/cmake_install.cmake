@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hao/my_workspace/ROS_project/project/install")
+  set(CMAKE_INSTALL_PREFIX "/home/fangxu/group-27/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hao/my_workspace/ROS_project/project/build/local_planner/gtest/googletest/cmake_install.cmake")
+  include("/home/fangxu/group-27/build/local_planner/gtest/googletest/cmake_install.cmake")
 
 endif()
 

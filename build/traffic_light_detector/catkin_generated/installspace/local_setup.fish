@@ -5,7 +5,7 @@
 # or fall back to the destination set at configure time
 
 if test -z $_CATKIN_SETUP_DIR
-    set _CATKIN_SETUP_DIR /home/hao/my_workspace/ROS_project/project/install
+    set _CATKIN_SETUP_DIR /home/fangxu/group-27/install
 end
 
 set CATKIN_SETUP_UTIL_ARGS "--extend --local"
