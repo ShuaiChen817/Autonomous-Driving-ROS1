@@ -1,0 +1,1 @@
+/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_info/share/traffic_light_info/cmake/traffic_light_infoConfig.cmake

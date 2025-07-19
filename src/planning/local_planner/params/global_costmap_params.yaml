@@ -1,35 +1,64 @@
-global_costmap:
+# global_costmap:
 
-  global_frame: world
-  robot_base_frame: OurCar/INS
-  update_frequency: 1.0
-  publish_frequency: 1.0
-  # static_map: false
-  resolution: 0.5
-  # Increase these dimensions otherwise sensor out of map boundary
-  # width: 10.0  # Increase these dimensions
-  # height: 10.0  # Increase these dimensions
-  footprint_model:
-    type: "polygon"
-    vertices: [[1.5, -1], [-1.5, -1],[-1.5, 1], [1.5, 1]] # for type "polygon"
-  always_send_full_costmap: true
+#   global_frame: world
+#   robot_base_frame: OurCar/INS
+#   update_frequency: 1.0
+#   publish_frequency: 1.0
+#   # static_map: false
+#   resolution: 0.5
+#   # Increase these dimensions otherwise sensor out of map boundary
+#   # width: 10.0  # Increase these dimensions
+#   # height: 10.0  # Increase these dimensions
+#   footprint_model:
+#     type: "polygon"
+#     vertices: [[1.5, -1], [-1.5, -1],[-1.5, 1], [1.5, 1]] # for type "polygon"
+#   always_send_full_costmap: true
 
 
 
-  plugins: 
-      - {name: static_layer,       type: "costmap_2d::StaticLayer"}
+#   plugins: 
+#       - {name: static_layer,       type: "costmap_2d::StaticLayer"}
        
-      - {name: inflation_layer,         type: "costmap_2d::InflationLayer"}
+#       - {name: inflation_layer,         type: "costmap_2d::InflationLayer"}
 
-  # pass
-  obstacle_layer:
-    enabled: true
-    observation_sources: octomap_sensor
-    octomap_sensor:
-      data_type: PointCloud2
-      topic: /octomap_point_cloud_centers
-      marking: true
-      clearing: true
-      min_obstacle_height: 0.1
-      max_obstacle_height: 1.5
-  # pass
+#   # pass
+#   obstacle_layer:
+#     enabled: true
+#     observation_sources: octomap_sensor
+#     octomap_sensor:
+#       data_type: PointCloud2
+#       topic: /octomap_point_cloud_centers
+#       marking: true
+#       clearing: true
+#       min_obstacle_height: 0.1
+#       max_obstacle_height: 1.5
+#   # pass
+
+
+
+  global_costmap:
+    global_frame: map
+    robot_base_frame: OurCar/INS
+    update_frequency: 2.0
+    publish_frequency: 2.0
+    resolution: 1
+    static_map: false
+
+    # Increase these dimensions otherwise sensor out of map boundary
+    width: 2000  # Increase these dimensions
+    height: 2000  # Increase these dimensions    
+    
+
+
+    plugins: 
+    - {name: obstacle_layer, type: "costmap_2d::ObstacleLayer"}
+    - {name: inflation_layer, type: "costmap_2d::InflationLayer"}
+
+
+    # 定义恢复行为
+    recovery_behaviors:
+    - name: clear_costmap   #清除一定范围内代价地图障碍物信息
+      type: clear_costmap_recovery/ClearCostmapRecovery
+
+
+

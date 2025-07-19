@@ -1,16 +1,66 @@
+# base_global_planner: "navfn/NavfnROS"
+# base_local_planner: "teb_local_planner/TebLocalPlannerROS"
+
+# robot_base_frame: "OurCar/INS"
+# global_frame: "world"
+
+# planner_frequency: 1.0
+# controller_frequency: 10.0
+
+# planner_patience: 5.0            # 等待规划器的最大时间（秒）
+# controller_patience: 5.0         # 等待控制器的最大时间（秒）
+# oscillation_timeout: 10.0        # 超过这个时间没有动作会触发recovery（可调大）
+# oscillation_distance: 0.2        # 判定为抖动的移动距离
+
+# shutdown_costmaps: false         # 不要关闭costmap（建议调试时设为false）
+
+# # 目标容差（这是你现在必须加的！）
+# xy_goal_tolerance: 4           # 目标点位置容差（建议你设大一点试试）
+# yaw_goal_tolerance: 3.14          # 朝向容差（如暂不需要可设大）
+
+
+# # Costmap configs（可以先只写global）
+# global_costmap:
+#   global_frame: "world"
+#   robot_base_frame: "OurCar/INS"
+#   update_frequency: 1.0
+#   static_map: true
+#   plugins:
+#     - {name: static_layer, type: "costmap_2d::StaticLayer"}
+
+#   static_layer:
+#     map_topic: "/projected_map"
+
+# local_costmap:
+#   global_frame: "world"
+#   robot_base_frame: "OurCar/INS"
+#   update_frequency: 5.0
+#   rolling_window: true
+#   width: 10.0
+#   height: 10.0
+#   resolution: 0.1
+#   plugins:
+#     - {name: obstacle_layer, type: "costmap_2d::ObstacleLayer"}
+#     - {name: inflation_layer, type: "costmap_2d::InflationLayer"}
+
+
+
+
+
 base_global_planner: "navfn/NavfnROS"
 base_local_planner: "teb_local_planner/TebLocalPlannerROS"
 
 robot_base_frame: "OurCar/INS"
 global_frame: "world"
 
-planner_frequency: 1.0
-controller_frequency: 10.0
+planner_frequency: 20.0
+controller_frequency: 20.0
 
-planner_patience: 5.0            # 等待规划器的最大时间（秒）
-controller_patience: 5.0         # 等待控制器的最大时间（秒）
-oscillation_timeout: 10.0        # 超过这个时间没有动作会触发recovery（可调大）
-oscillation_distance: 0.2        # 判定为抖动的移动距离
+planner_patience: 30            # 等待规划器的最大时间（秒）
+controller_patience: 30         # 等待控制器的最大时间（秒）
+oscillation_timeout: 0        # 超过这个时间没有动作会触发recovery（可调大）
+oscillation_distance: 0        # 判定为抖动的移动距离
+recovery_behavior_enabled: false
 
 shutdown_costmaps: false         # 不要关闭costmap（建议调试时设为false）
 
@@ -19,26 +69,4 @@ xy_goal_tolerance: 4           # 目标点位置容差（建议你设大一点�
 yaw_goal_tolerance: 3.14          # 朝向容差（如暂不需要可设大）
 
 
-# Costmap configs（可以先只写global）
-global_costmap:
-  global_frame: "world"
-  robot_base_frame: "OurCar/INS"
-  update_frequency: 1.0
-  static_map: true
-  plugins:
-    - {name: static_layer, type: "costmap_2d::StaticLayer"}
 
-  static_layer:
-    map_topic: "/projected_map"
-
-local_costmap:
-  global_frame: "world"
-  robot_base_frame: "OurCar/INS"
-  update_frequency: 5.0
-  rolling_window: true
-  width: 10.0
-  height: 10.0
-  resolution: 0.1
-  plugins:
-    - {name: obstacle_layer, type: "costmap_2d::ObstacleLayer"}
-    - {name: inflation_layer, type: "costmap_2d::InflationLayer"}

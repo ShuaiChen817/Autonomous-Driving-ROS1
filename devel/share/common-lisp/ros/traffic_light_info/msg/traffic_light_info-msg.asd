@@ -1,0 +1,1 @@
+/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_info/share/common-lisp/ros/traffic_light_info/msg/traffic_light_info-msg.asd
