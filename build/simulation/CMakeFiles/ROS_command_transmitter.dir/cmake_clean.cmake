@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/lib/simulation/ROS_command_transmitter"
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/lib/simulation/ROS_command_transmitter.pdb"
+  "/home/bygpu/intro2ros/7_19/devel/.private/simulation/lib/simulation/ROS_command_transmitter"
+  "/home/bygpu/intro2ros/7_19/devel/.private/simulation/lib/simulation/ROS_command_transmitter.pdb"
   "CMakeFiles/ROS_command_transmitter.dir/src/ROS_command_transmitter.cpp.o"
 )
 

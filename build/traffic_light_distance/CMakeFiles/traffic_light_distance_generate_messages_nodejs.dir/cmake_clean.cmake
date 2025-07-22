@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_distance/share/gennodejs/ros/traffic_light_distance/msg/TrafficLightDistance.js"
+  "/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_distance/share/gennodejs/ros/traffic_light_distance/msg/TrafficLightDistance.js"
   "CMakeFiles/traffic_light_distance_generate_messages_nodejs"
 )
 

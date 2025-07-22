@@ -1,8 +1,8 @@
-prefix=/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_info
+prefix=/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info
 
 Name: traffic_light_info
 Description: Description of traffic_light_info
 Version: 0.0.0
-Cflags: -I/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_info/include
+Cflags: -I/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/include
 Libs: -L${prefix}/lib 
 Requires: cv_bridge message_generation rospy sensor_msgs std_msgs

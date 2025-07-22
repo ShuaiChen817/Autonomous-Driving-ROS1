@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/share/gennodejs/ros/simulation/msg/VehicleControl.js
+/home/bygpu/intro2ros/7_19/devel/.private/simulation/share/gennodejs/ros/simulation/msg/VehicleControl.js

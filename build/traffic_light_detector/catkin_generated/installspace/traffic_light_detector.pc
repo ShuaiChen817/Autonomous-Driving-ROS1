@@ -1,4 +1,4 @@
-prefix=/home/hao/my_workspace/ROS_project/project/install
+prefix=/home/bygpu/intro2ros/7_19/install
 
 Name: traffic_light_detector
 Description: Description of traffic_light_detector

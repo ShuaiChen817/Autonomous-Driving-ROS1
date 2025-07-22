@@ -1,0 +1,8 @@
+prefix=/home/bygpu/intro2ros/7_19/install
+
+Name: statemachine_pkg
+Description: Description of statemachine_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

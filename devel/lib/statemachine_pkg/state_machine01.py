@@ -1,0 +1,1 @@
+/home/bygpu/intro2ros/7_19/devel/.private/statemachine_pkg/lib/statemachine_pkg/state_machine01.py

@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/hao/my_workspace/ROS_project/project/build/traffic_light_distance/CMakeFiles/CMakeTmp
+Change Dir: /home/bygpu/intro2ros/7_19/build/traffic_light_distance/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_8e373/fast && /usr/bin/make -f CMakeFiles/cmTC_8e373.dir/build.make CMakeFiles/cmTC_8e373.dir/build
-make[1]: Entering directory '/home/hao/my_workspace/ROS_project/project/build/traffic_light_distance/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8e373.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_8e373.dir/src.c.o   -c /home/hao/my_workspace/ROS_project/project/build/traffic_light_distance/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_8e373
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e373.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_8e373.dir/src.c.o  -o cmTC_8e373 
-/usr/bin/ld: CMakeFiles/cmTC_8e373.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_1b168/fast && /usr/bin/make -f CMakeFiles/cmTC_1b168.dir/build.make CMakeFiles/cmTC_1b168.dir/build
+make[1]: Entering directory '/home/bygpu/intro2ros/7_19/build/traffic_light_distance/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b168.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1b168.dir/src.c.o   -c /home/bygpu/intro2ros/7_19/build/traffic_light_distance/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1b168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b168.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_1b168.dir/src.c.o  -o cmTC_1b168 
+/usr/bin/ld: CMakeFiles/cmTC_1b168.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_8e373.dir/build.make:87: cmTC_8e373] Error 1
-make[1]: Leaving directory '/home/hao/my_workspace/ROS_project/project/build/traffic_light_distance/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_8e373/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_1b168.dir/build.make:87: cmTC_1b168] Error 1
+make[1]: Leaving directory '/home/bygpu/intro2ros/7_19/build/traffic_light_distance/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_1b168/fast] Error 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/hao/my_workspace/ROS_project/project/build/traffic_light_distance/CMakeFiles/CMakeTmp
+Change Dir: /home/bygpu/intro2ros/7_19/build/traffic_light_distance/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a9c8b/fast && /usr/bin/make -f CMakeFiles/cmTC_a9c8b.dir/build.make CMakeFiles/cmTC_a9c8b.dir/build
-make[1]: Entering directory '/home/hao/my_workspace/ROS_project/project/build/traffic_light_distance/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a9c8b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a9c8b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a9c8b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9c8b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a9c8b.dir/CheckFunctionExists.c.o  -o cmTC_a9c8b  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_4c0ee/fast && /usr/bin/make -f CMakeFiles/cmTC_4c0ee.dir/build.make CMakeFiles/cmTC_4c0ee.dir/build
+make[1]: Entering directory '/home/bygpu/intro2ros/7_19/build/traffic_light_distance/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c0ee.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4c0ee.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4c0ee
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c0ee.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4c0ee.dir/CheckFunctionExists.c.o  -o cmTC_4c0ee  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_a9c8b.dir/build.make:87: cmTC_a9c8b] Error 1
-make[1]: Leaving directory '/home/hao/my_workspace/ROS_project/project/build/traffic_light_distance/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_a9c8b/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_4c0ee.dir/build.make:87: cmTC_4c0ee] Error 1
+make[1]: Leaving directory '/home/bygpu/intro2ros/7_19/build/traffic_light_distance/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4c0ee/fast] Error 2
 
 
 

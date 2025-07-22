@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/point_cloud/lib/python3/dist-packages/point_cloud/msg/_PointCloudStamped.py"
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/point_cloud/lib/python3/dist-packages/point_cloud/msg/__init__.py"
+  "/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/lib/python3/dist-packages/point_cloud/msg/_PointCloudStamped.py"
+  "/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/lib/python3/dist-packages/point_cloud/msg/__init__.py"
   "CMakeFiles/point_cloud_generate_messages_py"
 )
 

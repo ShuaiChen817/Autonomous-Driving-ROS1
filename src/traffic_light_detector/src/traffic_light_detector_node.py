@@ -14,7 +14,7 @@ import time
 import threading
 
 # 替换为你本地 yolov5 路径
-sys.path.append("/home/hao/my_workspace/yolov5")
+sys.path.append("/home/bygpu/intro2ros/yolo/yolov5")
 
 from models.common import DetectMultiBackend
 from utils.datasets import letterbox

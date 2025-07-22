@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "odom_from_unity"
-PROJECT_SPACE_DIR = "/home/hao/my_workspace/ROS_project/project/devel/.private/odom_from_unity"
+PROJECT_SPACE_DIR = "/home/bygpu/intro2ros/7_19/devel/.private/odom_from_unity"
 PROJECT_VERSION = "0.0.0"

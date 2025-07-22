@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/share/roseus/ros/simulation/manifest.l"
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/share/roseus/ros/simulation/msg/VehicleControl.l"
+  "/home/bygpu/intro2ros/7_19/devel/.private/simulation/share/roseus/ros/simulation/manifest.l"
+  "/home/bygpu/intro2ros/7_19/devel/.private/simulation/share/roseus/ros/simulation/msg/VehicleControl.l"
   "CMakeFiles/simulation_generate_messages_eus"
 )
 

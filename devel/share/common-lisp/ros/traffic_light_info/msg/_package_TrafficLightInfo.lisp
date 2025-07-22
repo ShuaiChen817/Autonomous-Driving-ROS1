@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_info/share/common-lisp/ros/traffic_light_info/msg/_package_TrafficLightInfo.lisp
+/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/share/common-lisp/ros/traffic_light_info/msg/_package_TrafficLightInfo.lisp

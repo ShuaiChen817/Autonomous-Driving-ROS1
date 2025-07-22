@@ -13,7 +13,8 @@ import time
 import threading
 
 # 加载 YOLOv5 模块路径
-sys.path.append("/home/hao/my_workspace/yolov5")
+sys.path.append("/home/bygpu/intro2ros/yolo/yolov5")
+
 from models.common import DetectMultiBackend
 from utils.datasets import letterbox
 from utils.general import non_max_suppression, scale_coords

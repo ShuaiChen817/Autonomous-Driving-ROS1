@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_info/include/traffic_light_info/TrafficLightInfo.h"
+  "/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/include/traffic_light_info/TrafficLightInfo.h"
   "CMakeFiles/traffic_light_info_generate_messages_cpp"
 )
 

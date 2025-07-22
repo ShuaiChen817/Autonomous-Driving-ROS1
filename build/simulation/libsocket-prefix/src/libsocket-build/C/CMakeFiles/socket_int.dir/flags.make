@@ -6,5 +6,5 @@ C_FLAGS = -O3 -DNDEBUG   -Wall -Wextra -fPIC
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/hao/my_workspace/ROS_project/project/build/simulation/libsocket-prefix/src/libsocket/headers -I/home/hao/my_workspace/ROS_project/project/build/simulation/libsocket-prefix/src/libsocket-build/headers 
+C_INCLUDES = -I/home/bygpu/intro2ros/7_19/build/simulation/libsocket-prefix/src/libsocket/headers -I/home/bygpu/intro2ros/7_19/build/simulation/libsocket-prefix/src/libsocket-build/headers 
 

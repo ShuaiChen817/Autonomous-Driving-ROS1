@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hao/my_workspace/ROS_project/project/src/planning/waypoint_global_planner
+CMAKE_SOURCE_DIR = /home/bygpu/intro2ros/7_19/src/planning/waypoint_global_planner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hao/my_workspace/ROS_project/project/build/waypoint_global_planner
+CMAKE_BINARY_DIR = /home/bygpu/intro2ros/7_19/build/waypoint_global_planner
 
 # Utility rule file for sensor_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend:
-	cd /home/hao/my_workspace/ROS_project/project/build/waypoint_global_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hao/my_workspace/ROS_project/project/src/planning/waypoint_global_planner /home/hao/my_workspace/ROS_project/project/src/planning/waypoint_global_planner /home/hao/my_workspace/ROS_project/project/build/waypoint_global_planner /home/hao/my_workspace/ROS_project/project/build/waypoint_global_planner /home/hao/my_workspace/ROS_project/project/build/waypoint_global_planner/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bygpu/intro2ros/7_19/build/waypoint_global_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bygpu/intro2ros/7_19/src/planning/waypoint_global_planner /home/bygpu/intro2ros/7_19/src/planning/waypoint_global_planner /home/bygpu/intro2ros/7_19/build/waypoint_global_planner /home/bygpu/intro2ros/7_19/build/waypoint_global_planner /home/bygpu/intro2ros/7_19/build/waypoint_global_planner/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_lisp.dir/depend
 

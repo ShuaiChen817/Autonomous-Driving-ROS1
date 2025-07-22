@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/point_cloud/include/point_cloud/PointCloudStamped.h"
+  "/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/include/point_cloud/PointCloudStamped.h"
   "CMakeFiles/point_cloud_generate_messages_cpp"
 )
 

@@ -1,8 +1,8 @@
-prefix=/home/hao/my_workspace/ROS_project/project/devel/.private/simulation
+prefix=/home/bygpu/intro2ros/7_19/devel/.private/simulation
 
 Name: simulation
 Description: Description of simulation
 Version: 0.1.0
-Cflags: -I/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/include
+Cflags: -I/home/bygpu/intro2ros/7_19/devel/.private/simulation/include
 Libs: -L${prefix}/lib 
 Requires: message_runtime

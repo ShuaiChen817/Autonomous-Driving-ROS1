@@ -1,6 +1,6 @@
 <launch>
   <node pkg="traffic_light_info" type="traffic_light_info_node.py" name="traffic_light_info_node" output="screen">
-    <param name="model_path" value="/home/hao/YoloV5/yolov5s.pt" />
+    <param name="model_path" value="/home/bygpu/intro2ros/yolo/yolov5/yolov5s.pt" />   # change the path to your own path
     <param name="rgb_topic" value="/Unity_ROS_message_Rx/OurCar/Sensors/RGBCameraLeft/image_raw" />
     <param name="depth_topic" value="/Unity_ROS_message_Rx/OurCar/Sensors/DepthCamera/image_raw" />
     <param name="confidence" value="0.4" />

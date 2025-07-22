@@ -7,19 +7,19 @@
 # planner_frequency: 1.0
 # controller_frequency: 10.0
 
-# planner_patience: 5.0            # 等待规划器的最大时间（秒）
-# controller_patience: 5.0         # 等待控制器的最大时间（秒）
-# oscillation_timeout: 10.0        # 超过这个时间没有动作会触发recovery（可调大）
-# oscillation_distance: 0.2        # 判定为抖动的移动距离
+# planner_patience: 5.0            # Maximum waiting time for the planner (in seconds)
+# controller_patience: 5.0         # Maximum waiting time for the controller (in seconds)
+# oscillation_timeout: 10.0        # Trigger recovery if there's no movement beyond this time (can be increased)
+# oscillation_distance: 0.2        # Movement distance considered as oscillation
 
-# shutdown_costmaps: false         # 不要关闭costmap（建议调试时设为false）
+# shutdown_costmaps: false         # Do not shutdown costmaps (recommended to keep false during debugging)
 
-# # 目标容差（这是你现在必须加的！）
-# xy_goal_tolerance: 4           # 目标点位置容差（建议你设大一点试试）
-# yaw_goal_tolerance: 3.14          # 朝向容差（如暂不需要可设大）
+# # Goal tolerance (you must add this now!)
+# xy_goal_tolerance: 4           # Positional tolerance to goal (try setting a larger value)
+# yaw_goal_tolerance: 3.14          # Orientation tolerance (can be set large if not needed)
 
 
-# # Costmap configs（可以先只写global）
+# # Costmap configs (you can start with only global)
 # global_costmap:
 #   global_frame: "world"
 #   robot_base_frame: "OurCar/INS"
@@ -43,10 +43,6 @@
 #     - {name: obstacle_layer, type: "costmap_2d::ObstacleLayer"}
 #     - {name: inflation_layer, type: "costmap_2d::InflationLayer"}
 
-
-
-
-
 base_global_planner: "navfn/NavfnROS"
 base_local_planner: "teb_local_planner/TebLocalPlannerROS"
 
@@ -56,17 +52,14 @@ global_frame: "world"
 planner_frequency: 20.0
 controller_frequency: 20.0
 
-planner_patience: 30            # 等待规划器的最大时间（秒）
-controller_patience: 30         # 等待控制器的最大时间（秒）
-oscillation_timeout: 0        # 超过这个时间没有动作会触发recovery（可调大）
-oscillation_distance: 0        # 判定为抖动的移动距离
+planner_patience: 30            # Maximum waiting time for the planner (in seconds)
+controller_patience: 30         # Maximum waiting time for the controller (in seconds)
+oscillation_timeout: 0          # Trigger recovery if there's no movement beyond this time (can be increased)
+oscillation_distance: 0         # Movement distance considered as oscillation
 recovery_behavior_enabled: false
 
-shutdown_costmaps: false         # 不要关闭costmap（建议调试时设为false）
+shutdown_costmaps: false        # Do not shutdown costmaps (recommended to keep false during debugging)
 
-# 目标容差（这是你现在必须加的！）
-xy_goal_tolerance: 4           # 目标点位置容差（建议你设大一点试试）
-yaw_goal_tolerance: 3.14          # 朝向容差（如暂不需要可设大）
-
-
-
+# Goal tolerance (you must add this now!)
+xy_goal_tolerance: 4            # Positional tolerance to goal (try setting a larger value)
+yaw_goal_tolerance: 3.14        # Orientation tolerance (can be set large if not needed)

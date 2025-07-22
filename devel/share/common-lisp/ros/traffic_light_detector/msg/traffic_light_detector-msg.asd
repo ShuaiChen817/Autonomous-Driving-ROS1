@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_detector/share/common-lisp/ros/traffic_light_detector/msg/traffic_light_detector-msg.asd
+/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_detector/share/common-lisp/ros/traffic_light_detector/msg/traffic_light_detector-msg.asd

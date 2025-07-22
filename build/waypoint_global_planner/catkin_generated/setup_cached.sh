@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_global_planner:$CMAKE_PREFIX_PATH"
-export PWD='/home/hao/my_workspace/ROS_project/project/build/waypoint_global_planner'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_global_planner/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/hao/my_workspace/ROS_project/project/src/planning/waypoint_global_planner:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/bygpu/intro2ros/7_19/devel/.private/waypoint_global_planner:$CMAKE_PREFIX_PATH"
+export PWD='/home/bygpu/intro2ros/7_19/build/waypoint_global_planner'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/bygpu/intro2ros/7_19/devel/.private/waypoint_global_planner/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/bygpu/intro2ros/7_19/src/planning/waypoint_global_planner:$ROS_PACKAGE_PATH"

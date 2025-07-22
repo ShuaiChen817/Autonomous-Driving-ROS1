@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/hao/my_workspace/ROS_project/project/build/simulation/libsocket-prefix/src/libsocket/C/inet/libinetsocket.c
+/home/bygpu/intro2ros/7_19/build/simulation/libsocket-prefix/src/libsocket/C/inet/libinetsocket.c
 conf.h
-/home/hao/my_workspace/ROS_project/project/build/simulation/libsocket-prefix/src/libsocket/C/inet/conf.h
+/home/bygpu/intro2ros/7_19/build/simulation/libsocket-prefix/src/libsocket/C/inet/conf.h
 errno.h
 -
 net/if.h
@@ -34,7 +34,7 @@ sys/types.h
 unistd.h
 -
 
-/home/hao/my_workspace/ROS_project/project/build/simulation/libsocket-prefix/src/libsocket/C/unix/libunixsocket.c
+/home/bygpu/intro2ros/7_19/build/simulation/libsocket-prefix/src/libsocket/C/unix/libunixsocket.c
 conf.h
 -
 errno.h

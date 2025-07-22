@@ -1,7 +1,7 @@
 TebLocalPlannerROS:
 
   odom_topic: odom
-  map_frame: world  # 改成你使用的 global_frame
+  map_frame: world  # change it into the global_frame you are using
 
   # Robot configuration
   max_vel_x: 1.0

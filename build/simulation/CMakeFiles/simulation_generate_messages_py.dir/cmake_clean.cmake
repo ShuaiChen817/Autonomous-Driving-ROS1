@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/lib/python3/dist-packages/simulation/msg/_VehicleControl.py"
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/lib/python3/dist-packages/simulation/msg/__init__.py"
+  "/home/bygpu/intro2ros/7_19/devel/.private/simulation/lib/python3/dist-packages/simulation/msg/_VehicleControl.py"
+  "/home/bygpu/intro2ros/7_19/devel/.private/simulation/lib/python3/dist-packages/simulation/msg/__init__.py"
   "CMakeFiles/simulation_generate_messages_py"
 )
 

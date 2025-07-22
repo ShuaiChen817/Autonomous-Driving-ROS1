@@ -1,2 +1,2 @@
-set(simulation_MESSAGE_FILES "/home/hao/my_workspace/ROS_project/project/src/simulation/msg/VehicleControl.msg")
+set(simulation_MESSAGE_FILES "/home/bygpu/intro2ros/7_19/src/simulation/msg/VehicleControl.msg")
 set(simulation_SERVICE_FILES "")

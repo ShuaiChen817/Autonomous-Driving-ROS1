@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/point_cloud/share/common-lisp/ros/point_cloud/msg/PointCloudStamped.lisp
+/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/share/common-lisp/ros/point_cloud/msg/PointCloudStamped.lisp

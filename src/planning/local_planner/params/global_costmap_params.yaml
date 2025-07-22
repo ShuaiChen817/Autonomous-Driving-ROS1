@@ -55,9 +55,9 @@
     - {name: inflation_layer, type: "costmap_2d::InflationLayer"}
 
 
-    # 定义恢复行为
+    # definition of recovery
     recovery_behaviors:
-    - name: clear_costmap   #清除一定范围内代价地图障碍物信息
+    - name: clear_costmap   # clean obstacle messages in a certain ranger
       type: clear_costmap_recovery/ClearCostmapRecovery
 
 

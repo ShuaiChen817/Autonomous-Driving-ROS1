@@ -3,7 +3,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/hao/my_workspace/ROS_project/project/devel/.private/point_cloud}
+: ${_CATKIN_SETUP_DIR:=/home/bygpu/intro2ros/7_19/devel/.private/point_cloud}
 CATKIN_SETUP_UTIL_ARGS="--extend --local"
 . "$_CATKIN_SETUP_DIR/setup.sh"
 unset CATKIN_SETUP_UTIL_ARGS
