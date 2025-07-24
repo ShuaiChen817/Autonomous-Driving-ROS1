@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_detector/share/traffic_light_detector/cmake/traffic_light_detector-msg-paths.cmake
+/home/fangxu/ws/devel/.private/traffic_light_detector/share/traffic_light_detector/cmake/traffic_light_detector-msg-paths.cmake

@@ -1,5 +1,5 @@
 planning/waypoint_global_planner
-/home/bygpu/intro2ros/7_19/devel/.private/waypoint_global_planner/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig-version.cmake /home/bygpu/intro2ros/7_19/devel/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig-version.cmake
-/home/bygpu/intro2ros/7_19/devel/.private/waypoint_global_planner/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig.cmake /home/bygpu/intro2ros/7_19/devel/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig.cmake
-/home/bygpu/intro2ros/7_19/devel/.private/waypoint_global_planner/lib/libwaypoint_global_planner.so /home/bygpu/intro2ros/7_19/devel/lib/libwaypoint_global_planner.so
-/home/bygpu/intro2ros/7_19/devel/.private/waypoint_global_planner/lib/pkgconfig/waypoint_global_planner.pc /home/bygpu/intro2ros/7_19/devel/lib/pkgconfig/waypoint_global_planner.pc
+/home/fangxu/ws/devel/.private/waypoint_global_planner/lib/libwaypoint_global_planner.so /home/fangxu/ws/devel/lib/libwaypoint_global_planner.so
+/home/fangxu/ws/devel/.private/waypoint_global_planner/lib/pkgconfig/waypoint_global_planner.pc /home/fangxu/ws/devel/lib/pkgconfig/waypoint_global_planner.pc
+/home/fangxu/ws/devel/.private/waypoint_global_planner/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig-version.cmake /home/fangxu/ws/devel/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig-version.cmake
+/home/fangxu/ws/devel/.private/waypoint_global_planner/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig.cmake /home/fangxu/ws/devel/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig.cmake

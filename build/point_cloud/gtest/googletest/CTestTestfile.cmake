@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest/googletest
-# Build directory: /home/bygpu/intro2ros/7_19/build/point_cloud/gtest/googletest
+# Build directory: /home/fangxu/ws/build/point_cloud/gtest/googletest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

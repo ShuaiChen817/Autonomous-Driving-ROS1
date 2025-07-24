@@ -2,7 +2,7 @@
 
 message(STATUS "point_cloud: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Ipoint_cloud:/home/bygpu/intro2ros/7_19/src/point_cloud/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Ipoint_cloud:/home/fangxu/ws/src/point_cloud/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,9 +17,9 @@ add_custom_target(point_cloud_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/bygpu/intro2ros/7_19/src/point_cloud/msg/PointCloudStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/fangxu/ws/src/point_cloud/msg/PointCloudStamped.msg" NAME_WE)
 add_custom_target(_point_cloud_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "point_cloud" "/home/bygpu/intro2ros/7_19/src/point_cloud/msg/PointCloudStamped.msg" "std_msgs/Header:sensor_msgs/PointCloud2:sensor_msgs/PointField"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "point_cloud" "/home/fangxu/ws/src/point_cloud/msg/PointCloudStamped.msg" "sensor_msgs/PointField:std_msgs/Header:sensor_msgs/PointCloud2"
 )
 
 #
@@ -29,9 +29,9 @@ add_custom_target(_point_cloud_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(point_cloud
-  "/home/bygpu/intro2ros/7_19/src/point_cloud/msg/PointCloudStamped.msg"
+  "/home/fangxu/ws/src/point_cloud/msg/PointCloudStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointField.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointField.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud2.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/point_cloud
 )
 
@@ -49,7 +49,7 @@ add_custom_target(point_cloud_generate_messages_cpp
 add_dependencies(point_cloud_generate_messages point_cloud_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/bygpu/intro2ros/7_19/src/point_cloud/msg/PointCloudStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/fangxu/ws/src/point_cloud/msg/PointCloudStamped.msg" NAME_WE)
 add_dependencies(point_cloud_generate_messages_cpp _point_cloud_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -62,9 +62,9 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS point_cloud_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(point_cloud
-  "/home/bygpu/intro2ros/7_19/src/point_cloud/msg/PointCloudStamped.msg"
+  "/home/fangxu/ws/src/point_cloud/msg/PointCloudStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointField.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointField.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud2.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/point_cloud
 )
 
@@ -82,7 +82,7 @@ add_custom_target(point_cloud_generate_messages_eus
 add_dependencies(point_cloud_generate_messages point_cloud_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/bygpu/intro2ros/7_19/src/point_cloud/msg/PointCloudStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/fangxu/ws/src/point_cloud/msg/PointCloudStamped.msg" NAME_WE)
 add_dependencies(point_cloud_generate_messages_eus _point_cloud_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -95,9 +95,9 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS point_cloud_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(point_cloud
-  "/home/bygpu/intro2ros/7_19/src/point_cloud/msg/PointCloudStamped.msg"
+  "/home/fangxu/ws/src/point_cloud/msg/PointCloudStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointField.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointField.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud2.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/point_cloud
 )
 
@@ -115,7 +115,7 @@ add_custom_target(point_cloud_generate_messages_lisp
 add_dependencies(point_cloud_generate_messages point_cloud_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/bygpu/intro2ros/7_19/src/point_cloud/msg/PointCloudStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/fangxu/ws/src/point_cloud/msg/PointCloudStamped.msg" NAME_WE)
 add_dependencies(point_cloud_generate_messages_lisp _point_cloud_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -128,9 +128,9 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS point_cloud_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(point_cloud
-  "/home/bygpu/intro2ros/7_19/src/point_cloud/msg/PointCloudStamped.msg"
+  "/home/fangxu/ws/src/point_cloud/msg/PointCloudStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointField.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointField.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud2.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/point_cloud
 )
 
@@ -148,7 +148,7 @@ add_custom_target(point_cloud_generate_messages_nodejs
 add_dependencies(point_cloud_generate_messages point_cloud_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/bygpu/intro2ros/7_19/src/point_cloud/msg/PointCloudStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/fangxu/ws/src/point_cloud/msg/PointCloudStamped.msg" NAME_WE)
 add_dependencies(point_cloud_generate_messages_nodejs _point_cloud_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -161,9 +161,9 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS point_cloud_generate_messages_nodej
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(point_cloud
-  "/home/bygpu/intro2ros/7_19/src/point_cloud/msg/PointCloudStamped.msg"
+  "/home/fangxu/ws/src/point_cloud/msg/PointCloudStamped.msg"
   "${MSG_I_FLAGS}"
-  "/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud2.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointField.msg"
+  "/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointField.msg;/opt/ros/noetic/share/std_msgs/cmake/../msg/Header.msg;/opt/ros/noetic/share/sensor_msgs/cmake/../msg/PointCloud2.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/point_cloud
 )
 
@@ -181,7 +181,7 @@ add_custom_target(point_cloud_generate_messages_py
 add_dependencies(point_cloud_generate_messages point_cloud_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/bygpu/intro2ros/7_19/src/point_cloud/msg/PointCloudStamped.msg" NAME_WE)
+get_filename_component(_filename "/home/fangxu/ws/src/point_cloud/msg/PointCloudStamped.msg" NAME_WE)
 add_dependencies(point_cloud_generate_messages_py _point_cloud_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

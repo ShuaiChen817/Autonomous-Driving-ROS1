@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/share/point_cloud/cmake/point_cloudConfig-version.cmake
+/home/fangxu/ws/devel/.private/point_cloud/share/point_cloud/cmake/point_cloudConfig-version.cmake

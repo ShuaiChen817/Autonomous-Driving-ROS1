@@ -1,4 +1,4 @@
-prefix=/home/bygpu/intro2ros/7_19/install
+prefix=/home/fangxu/ws/install
 
 Name: traffic_light_distance
 Description: Description of traffic_light_distance

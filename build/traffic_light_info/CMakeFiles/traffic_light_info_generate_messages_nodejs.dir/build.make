@@ -43,26 +43,26 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bygpu/intro2ros/7_19/src/traffic_light_info
+CMAKE_SOURCE_DIR = /home/fangxu/ws/src/traffic_light_info
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bygpu/intro2ros/7_19/build/traffic_light_info
+CMAKE_BINARY_DIR = /home/fangxu/ws/build/traffic_light_info
 
 # Utility rule file for traffic_light_info_generate_messages_nodejs.
 
 # Include the progress variables for this target.
 include CMakeFiles/traffic_light_info_generate_messages_nodejs.dir/progress.make
 
-CMakeFiles/traffic_light_info_generate_messages_nodejs: /home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg/TrafficLightInfo.js
+CMakeFiles/traffic_light_info_generate_messages_nodejs: /home/fangxu/ws/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg/TrafficLightInfo.js
 
 
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg/TrafficLightInfo.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg/TrafficLightInfo.js: /home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/bygpu/intro2ros/7_19/build/traffic_light_info/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from traffic_light_info/TrafficLightInfo.msg"
-	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg -Itraffic_light_info:/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p traffic_light_info -o /home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg
+/home/fangxu/ws/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg/TrafficLightInfo.js: /opt/ros/noetic/lib/gennodejs/gen_nodejs.py
+/home/fangxu/ws/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg/TrafficLightInfo.js: /home/fangxu/ws/src/traffic_light_info/msg/TrafficLightInfo.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fangxu/ws/build/traffic_light_info/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Javascript code from traffic_light_info/TrafficLightInfo.msg"
+	catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gennodejs/cmake/../../../lib/gennodejs/gen_nodejs.py /home/fangxu/ws/src/traffic_light_info/msg/TrafficLightInfo.msg -Itraffic_light_info:/home/fangxu/ws/src/traffic_light_info/msg -Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -p traffic_light_info -o /home/fangxu/ws/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg
 
 traffic_light_info_generate_messages_nodejs: CMakeFiles/traffic_light_info_generate_messages_nodejs
-traffic_light_info_generate_messages_nodejs: /home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg/TrafficLightInfo.js
+traffic_light_info_generate_messages_nodejs: /home/fangxu/ws/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg/TrafficLightInfo.js
 traffic_light_info_generate_messages_nodejs: CMakeFiles/traffic_light_info_generate_messages_nodejs.dir/build.make
 
 .PHONY : traffic_light_info_generate_messages_nodejs
@@ -77,6 +77,6 @@ CMakeFiles/traffic_light_info_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/traffic_light_info_generate_messages_nodejs.dir/clean
 
 CMakeFiles/traffic_light_info_generate_messages_nodejs.dir/depend:
-	cd /home/bygpu/intro2ros/7_19/build/traffic_light_info && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bygpu/intro2ros/7_19/src/traffic_light_info /home/bygpu/intro2ros/7_19/src/traffic_light_info /home/bygpu/intro2ros/7_19/build/traffic_light_info /home/bygpu/intro2ros/7_19/build/traffic_light_info /home/bygpu/intro2ros/7_19/build/traffic_light_info/CMakeFiles/traffic_light_info_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fangxu/ws/build/traffic_light_info && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fangxu/ws/src/traffic_light_info /home/fangxu/ws/src/traffic_light_info /home/fangxu/ws/build/traffic_light_info /home/fangxu/ws/build/traffic_light_info /home/fangxu/ws/build/traffic_light_info/CMakeFiles/traffic_light_info_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/traffic_light_info_generate_messages_nodejs.dir/depend
 

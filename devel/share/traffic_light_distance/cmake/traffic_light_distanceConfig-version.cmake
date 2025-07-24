@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_distance/share/traffic_light_distance/cmake/traffic_light_distanceConfig-version.cmake
+/home/fangxu/ws/devel/.private/traffic_light_distance/share/traffic_light_distance/cmake/traffic_light_distanceConfig-version.cmake

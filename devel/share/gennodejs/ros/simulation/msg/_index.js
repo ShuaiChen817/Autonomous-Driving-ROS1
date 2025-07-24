@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/simulation/share/gennodejs/ros/simulation/msg/_index.js
+/home/fangxu/ws/devel/.private/simulation/share/gennodejs/ros/simulation/msg/_index.js

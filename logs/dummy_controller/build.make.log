@@ -1,4 +1,1 @@
-[35m[1mScanning dependencies of target dummy_controller_node[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/bygpu/intro2ros/7_19/devel/.private/dummy_controller/lib/dummy_controller/dummy_controller_node[0m
 [100%] Built target dummy_controller_node

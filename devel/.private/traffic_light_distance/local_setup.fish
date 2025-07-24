@@ -5,7 +5,7 @@
 # or fall back to the destination set at configure time
 
 if test -z $_CATKIN_SETUP_DIR
-    set _CATKIN_SETUP_DIR /home/bygpu/intro2ros/7_19/devel/.private/traffic_light_distance
+    set _CATKIN_SETUP_DIR /home/fangxu/ws/devel/.private/traffic_light_distance
 end
 
 set CATKIN_SETUP_UTIL_ARGS "--extend --local"

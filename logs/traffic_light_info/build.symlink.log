@@ -1,18 +1,18 @@
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/traffic_light_info/cmake/traffic_light_infoConfig-version.cmake
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/traffic_light_info/cmake/traffic_light_info-msg-paths.cmake
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/traffic_light_info/cmake/traffic_light_info-msg-extras.cmake
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/traffic_light_info/cmake/traffic_light_infoConfig.cmake
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/gennodejs/ros/traffic_light_info/_index.js
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/gennodejs/ros/traffic_light_info/msg/_index.js
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/gennodejs/ros/traffic_light_info/msg/TrafficLightInfo.js
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/roseus/ros/traffic_light_info/manifest.l
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/roseus/ros/traffic_light_info/msg/TrafficLightInfo.l
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/common-lisp/ros/traffic_light_info/msg/_package.lisp
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/common-lisp/ros/traffic_light_info/msg/TrafficLightInfo.lisp
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/common-lisp/ros/traffic_light_info/msg/_package_TrafficLightInfo.lisp
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/common-lisp/ros/traffic_light_info/msg/traffic_light_info-msg.asd
-Symlinking /home/bygpu/intro2ros/7_19/devel/include/traffic_light_info/TrafficLightInfo.h
-Symlinking /home/bygpu/intro2ros/7_19/devel/lib/python3/dist-packages/traffic_light_info/__init__.py
-Symlinking /home/bygpu/intro2ros/7_19/devel/lib/python3/dist-packages/traffic_light_info/msg/__init__.py
-Symlinking /home/bygpu/intro2ros/7_19/devel/lib/python3/dist-packages/traffic_light_info/msg/_TrafficLightInfo.py
-Symlinking /home/bygpu/intro2ros/7_19/devel/lib/pkgconfig/traffic_light_info.pc
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/include/traffic_light_info/TrafficLightInfo.h, /home/fangxu/ws/devel/include/traffic_light_info/TrafficLightInfo.h)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/lib/pkgconfig/traffic_light_info.pc, /home/fangxu/ws/devel/lib/pkgconfig/traffic_light_info.pc)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/lib/python3/dist-packages/traffic_light_info/__init__.py, /home/fangxu/ws/devel/lib/python3/dist-packages/traffic_light_info/__init__.py)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/lib/python3/dist-packages/traffic_light_info/msg/__init__.py, /home/fangxu/ws/devel/lib/python3/dist-packages/traffic_light_info/msg/__init__.py)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/lib/python3/dist-packages/traffic_light_info/msg/_TrafficLightInfo.py, /home/fangxu/ws/devel/lib/python3/dist-packages/traffic_light_info/msg/_TrafficLightInfo.py)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/share/common-lisp/ros/traffic_light_info/msg/TrafficLightInfo.lisp, /home/fangxu/ws/devel/share/common-lisp/ros/traffic_light_info/msg/TrafficLightInfo.lisp)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/share/common-lisp/ros/traffic_light_info/msg/_package_TrafficLightInfo.lisp, /home/fangxu/ws/devel/share/common-lisp/ros/traffic_light_info/msg/_package_TrafficLightInfo.lisp)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/share/common-lisp/ros/traffic_light_info/msg/_package.lisp, /home/fangxu/ws/devel/share/common-lisp/ros/traffic_light_info/msg/_package.lisp)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/share/common-lisp/ros/traffic_light_info/msg/traffic_light_info-msg.asd, /home/fangxu/ws/devel/share/common-lisp/ros/traffic_light_info/msg/traffic_light_info-msg.asd)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/share/traffic_light_info/cmake/traffic_light_info-msg-paths.cmake, /home/fangxu/ws/devel/share/traffic_light_info/cmake/traffic_light_info-msg-paths.cmake)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/share/traffic_light_info/cmake/traffic_light_infoConfig-version.cmake, /home/fangxu/ws/devel/share/traffic_light_info/cmake/traffic_light_infoConfig-version.cmake)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/share/traffic_light_info/cmake/traffic_light_infoConfig.cmake, /home/fangxu/ws/devel/share/traffic_light_info/cmake/traffic_light_infoConfig.cmake)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/share/traffic_light_info/cmake/traffic_light_info-msg-extras.cmake, /home/fangxu/ws/devel/share/traffic_light_info/cmake/traffic_light_info-msg-extras.cmake)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/_index.js, /home/fangxu/ws/devel/share/gennodejs/ros/traffic_light_info/_index.js)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg/_index.js, /home/fangxu/ws/devel/share/gennodejs/ros/traffic_light_info/msg/_index.js)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg/TrafficLightInfo.js, /home/fangxu/ws/devel/share/gennodejs/ros/traffic_light_info/msg/TrafficLightInfo.js)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/share/roseus/ros/traffic_light_info/manifest.l, /home/fangxu/ws/devel/share/roseus/ros/traffic_light_info/manifest.l)
+Linked: (/home/fangxu/ws/devel/.private/traffic_light_info/share/roseus/ros/traffic_light_info/msg/TrafficLightInfo.l, /home/fangxu/ws/devel/share/roseus/ros/traffic_light_info/msg/TrafficLightInfo.l)

@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_distance/share/gennodejs/ros/traffic_light_distance/_index.js
+/home/fangxu/ws/devel/.private/traffic_light_distance/share/gennodejs/ros/traffic_light_distance/_index.js

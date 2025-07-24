@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_distance/share/roseus/ros/traffic_light_distance/manifest.l
+/home/fangxu/ws/devel/.private/traffic_light_distance/share/roseus/ros/traffic_light_distance/manifest.l

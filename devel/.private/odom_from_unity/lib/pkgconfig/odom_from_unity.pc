@@ -1,4 +1,4 @@
-prefix=/home/bygpu/intro2ros/7_19/devel/.private/odom_from_unity
+prefix=/home/fangxu/ws/devel/.private/odom_from_unity
 
 Name: odom_from_unity
 Description: Description of odom_from_unity

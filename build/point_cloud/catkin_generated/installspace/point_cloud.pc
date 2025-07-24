@@ -1,4 +1,4 @@
-prefix=/home/bygpu/intro2ros/7_19/install
+prefix=/home/fangxu/ws/install
 
 Name: point_cloud
 Description: Description of point_cloud

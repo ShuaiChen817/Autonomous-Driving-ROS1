@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/bygpu/intro2ros/7_19/devel/.private/statemachine_pkg:$CMAKE_PREFIX_PATH"
-export PWD='/home/bygpu/intro2ros/7_19/build/statemachine_pkg'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/bygpu/intro2ros/7_19/devel/.private/statemachine_pkg/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/bygpu/intro2ros/7_19/src/statemachine_pkg:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/fangxu/ws/devel/.private/statemachine_pkg:$CMAKE_PREFIX_PATH"
+export PWD='/home/fangxu/ws/build/statemachine_pkg'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/fangxu/ws/devel/.private/statemachine_pkg/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/fangxu/ws/src/statemachine_pkg:$ROS_PACKAGE_PATH"

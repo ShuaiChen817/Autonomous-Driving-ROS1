@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/dummy_controller/lib/pkgconfig/dummy_controller.pc
+/home/fangxu/ws/devel/.private/dummy_controller/lib/pkgconfig/dummy_controller.pc

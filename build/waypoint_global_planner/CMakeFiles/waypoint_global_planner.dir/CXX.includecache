@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/bygpu/intro2ros/7_19/src/planning/waypoint_global_planner/include/waypoint_global_planner/waypoint_global_planner.h
+/home/fangxu/ws/src/planning/waypoint_global_planner/include/waypoint_global_planner/waypoint_global_planner.h
 ros/ros.h
 -
 costmap_2d/costmap_2d_ros.h
@@ -28,9 +28,9 @@ visualization_msgs/MarkerArray.h
 nav_msgs/Path.h
 -
 
-/home/bygpu/intro2ros/7_19/src/planning/waypoint_global_planner/src/waypoint_global_planner.cpp
+/home/fangxu/ws/src/planning/waypoint_global_planner/src/waypoint_global_planner.cpp
 waypoint_global_planner/waypoint_global_planner.h
-/home/bygpu/intro2ros/7_19/src/planning/waypoint_global_planner/src/waypoint_global_planner/waypoint_global_planner.h
+/home/fangxu/ws/src/planning/waypoint_global_planner/src/waypoint_global_planner/waypoint_global_planner.h
 pluginlib/class_list_macros.h
 -
 tf/tf.h

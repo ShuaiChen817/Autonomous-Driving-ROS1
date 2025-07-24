@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/local_planner/lib/pkgconfig/local_planner.pc
+/home/fangxu/ws/devel/.private/local_planner/lib/pkgconfig/local_planner.pc

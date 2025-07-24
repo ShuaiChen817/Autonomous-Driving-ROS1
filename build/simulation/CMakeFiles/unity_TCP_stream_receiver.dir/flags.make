@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -Wl,--no-as-needed
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"simulation\"
 
-CXX_INCLUDES = -I/home/bygpu/intro2ros/7_19/devel/.private/simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -I/home/bygpu/intro2ros/7_19/src/simulation/tcpimage 
+CXX_INCLUDES = -I/home/fangxu/ws/devel/.private/simulation/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/opencv4 -I/home/fangxu/ws/src/simulation/tcpimage 
 

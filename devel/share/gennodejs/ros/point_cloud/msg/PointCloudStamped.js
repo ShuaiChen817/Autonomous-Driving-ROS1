@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/share/gennodejs/ros/point_cloud/msg/PointCloudStamped.js
+/home/fangxu/ws/devel/.private/point_cloud/share/gennodejs/ros/point_cloud/msg/PointCloudStamped.js

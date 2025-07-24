@@ -67,14 +67,14 @@ set(point_cloud_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(point_cloud_SOURCE_PREFIX /home/bygpu/intro2ros/7_19/src/point_cloud)
-  set(point_cloud_DEVEL_PREFIX /home/bygpu/intro2ros/7_19/devel/.private/point_cloud)
+  set(point_cloud_SOURCE_PREFIX /home/fangxu/ws/src/point_cloud)
+  set(point_cloud_DEVEL_PREFIX /home/fangxu/ws/devel/.private/point_cloud)
   set(point_cloud_INSTALL_PREFIX "")
   set(point_cloud_PREFIX ${point_cloud_DEVEL_PREFIX})
 else()
   set(point_cloud_SOURCE_PREFIX "")
   set(point_cloud_DEVEL_PREFIX "")
-  set(point_cloud_INSTALL_PREFIX /home/bygpu/intro2ros/7_19/install)
+  set(point_cloud_INSTALL_PREFIX /home/fangxu/ws/install)
   set(point_cloud_PREFIX ${point_cloud_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(point_cloud_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/include " STREQUAL " ")
+if(NOT "/home/fangxu/ws/devel/.private/point_cloud/include " STREQUAL " ")
   set(point_cloud_INCLUDE_DIRS "")
-  set(_include_dirs "/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/include")
+  set(_include_dirs "/home/fangxu/ws/devel/.private/point_cloud/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/include " STREQUAL
         message(FATAL_ERROR "Project 'point_cloud' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'point_cloud' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/bygpu/intro2ros/7_19/src/point_cloud/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'point_cloud' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/fangxu/ws/src/point_cloud/${idir}'.  ${_report}")
     endif()
     _list_append_unique(point_cloud_INCLUDE_DIRS ${include})
   endforeach()
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/bygpu/intro2ros/7_19/devel/.private/point_cloud/lib;/home/bygpu/intro2ros/7_19/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/fangxu/ws/devel/.private/point_cloud/lib;/home/fangxu/ws/devel/lib;/home/fangxu/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

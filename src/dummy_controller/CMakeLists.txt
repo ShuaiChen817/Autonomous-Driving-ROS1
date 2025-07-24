@@ -7,6 +7,9 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   std_msgs
   simulation
+  nav_msgs
+  geometry_msgs
+  tf
 )
 
 
@@ -17,7 +20,7 @@ catkin_package(
 #  LIBRARIES dummy_controller
 #  CATKIN_DEPENDS mav_msgs roscpp std_msgs
 #  DEPENDS system_lib
-  CATKIN_DEPENDS simulation roscpp std_msgs
+  CATKIN_DEPENDS simulation roscpp std_msgs nav_msgs geometry_msgs tf
 )
 
 

@@ -18,7 +18,7 @@ if not type -q bass
 end
 
 if test -z $_CATKIN_SETUP_DIR
-    set _CATKIN_SETUP_DIR /home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info
+    set _CATKIN_SETUP_DIR /home/fangxu/ws/devel/.private/traffic_light_info
 end
 
 set _SETUP_UTIL "$_CATKIN_SETUP_DIR/_setup_util.py"

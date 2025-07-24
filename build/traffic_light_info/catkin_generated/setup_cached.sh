@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info:$CMAKE_PREFIX_PATH"
-export PWD='/home/bygpu/intro2ros/7_19/build/traffic_light_info'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/bygpu/intro2ros/7_19/src/traffic_light_info:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/fangxu/ws/devel/.private/traffic_light_info:$CMAKE_PREFIX_PATH"
+export PWD='/home/fangxu/ws/build/traffic_light_info'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/fangxu/ws/devel/.private/traffic_light_info/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/fangxu/ws/src/traffic_light_info:$ROS_PACKAGE_PATH"

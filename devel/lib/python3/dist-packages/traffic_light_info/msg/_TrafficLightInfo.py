@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/lib/python3/dist-packages/traffic_light_info/msg/_TrafficLightInfo.py
+/home/fangxu/ws/devel/.private/traffic_light_info/lib/python3/dist-packages/traffic_light_info/msg/_TrafficLightInfo.py

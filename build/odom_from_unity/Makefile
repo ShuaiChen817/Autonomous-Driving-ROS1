@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bygpu/intro2ros/7_19/src/odom_from_unity
+CMAKE_SOURCE_DIR = /home/fangxu/ws/src/odom_from_unity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bygpu/intro2ros/7_19/build/odom_from_unity
+CMAKE_BINARY_DIR = /home/fangxu/ws/build/odom_from_unity
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bygpu/intro2ros/7_19/build/odom_from_unity/CMakeFiles /home/bygpu/intro2ros/7_19/build/odom_from_unity/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fangxu/ws/build/odom_from_unity/CMakeFiles /home/fangxu/ws/build/odom_from_unity/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bygpu/intro2ros/7_19/build/odom_from_unity/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fangxu/ws/build/odom_from_unity/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

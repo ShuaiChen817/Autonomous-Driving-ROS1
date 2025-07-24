@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_detector/share/roseus/ros/traffic_light_detector/msg/TrafficLightStatus.l
+/home/fangxu/ws/devel/.private/traffic_light_detector/share/roseus/ros/traffic_light_detector/msg/TrafficLightStatus.l

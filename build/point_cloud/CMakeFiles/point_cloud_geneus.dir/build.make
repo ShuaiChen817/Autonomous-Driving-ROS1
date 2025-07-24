@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bygpu/intro2ros/7_19/src/point_cloud
+CMAKE_SOURCE_DIR = /home/fangxu/ws/src/point_cloud
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bygpu/intro2ros/7_19/build/point_cloud
+CMAKE_BINARY_DIR = /home/fangxu/ws/build/point_cloud
 
 # Utility rule file for point_cloud_geneus.
 
@@ -67,6 +67,6 @@ CMakeFiles/point_cloud_geneus.dir/clean:
 .PHONY : CMakeFiles/point_cloud_geneus.dir/clean
 
 CMakeFiles/point_cloud_geneus.dir/depend:
-	cd /home/bygpu/intro2ros/7_19/build/point_cloud && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bygpu/intro2ros/7_19/src/point_cloud /home/bygpu/intro2ros/7_19/src/point_cloud /home/bygpu/intro2ros/7_19/build/point_cloud /home/bygpu/intro2ros/7_19/build/point_cloud /home/bygpu/intro2ros/7_19/build/point_cloud/CMakeFiles/point_cloud_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fangxu/ws/build/point_cloud && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fangxu/ws/src/point_cloud /home/fangxu/ws/src/point_cloud /home/fangxu/ws/build/point_cloud /home/fangxu/ws/build/point_cloud /home/fangxu/ws/build/point_cloud/CMakeFiles/point_cloud_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/point_cloud_geneus.dir/depend
 

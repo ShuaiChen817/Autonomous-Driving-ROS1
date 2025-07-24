@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/share/common-lisp/ros/traffic_light_info/msg/traffic_light_info-msg.asd
+/home/fangxu/ws/devel/.private/traffic_light_info/share/common-lisp/ros/traffic_light_info/msg/traffic_light_info-msg.asd

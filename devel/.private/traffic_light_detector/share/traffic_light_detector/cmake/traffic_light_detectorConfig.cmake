@@ -67,14 +67,14 @@ set(traffic_light_detector_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(traffic_light_detector_SOURCE_PREFIX /home/bygpu/intro2ros/7_19/src/traffic_light_detector)
-  set(traffic_light_detector_DEVEL_PREFIX /home/bygpu/intro2ros/7_19/devel/.private/traffic_light_detector)
+  set(traffic_light_detector_SOURCE_PREFIX /home/fangxu/ws/src/traffic_light_detector)
+  set(traffic_light_detector_DEVEL_PREFIX /home/fangxu/ws/devel/.private/traffic_light_detector)
   set(traffic_light_detector_INSTALL_PREFIX "")
   set(traffic_light_detector_PREFIX ${traffic_light_detector_DEVEL_PREFIX})
 else()
   set(traffic_light_detector_SOURCE_PREFIX "")
   set(traffic_light_detector_DEVEL_PREFIX "")
-  set(traffic_light_detector_INSTALL_PREFIX /home/bygpu/intro2ros/7_19/install)
+  set(traffic_light_detector_INSTALL_PREFIX /home/fangxu/ws/install)
   set(traffic_light_detector_PREFIX ${traffic_light_detector_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(traffic_light_detector_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_detector/include " STREQUAL " ")
+if(NOT "/home/fangxu/ws/devel/.private/traffic_light_detector/include " STREQUAL " ")
   set(traffic_light_detector_INCLUDE_DIRS "")
-  set(_include_dirs "/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_detector/include")
+  set(_include_dirs "/home/fangxu/ws/devel/.private/traffic_light_detector/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_detector/include
         message(FATAL_ERROR "Project 'traffic_light_detector' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'traffic_light_detector' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/bygpu/intro2ros/7_19/src/traffic_light_detector/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'traffic_light_detector' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/fangxu/ws/src/traffic_light_detector/${idir}'.  ${_report}")
     endif()
     _list_append_unique(traffic_light_detector_INCLUDE_DIRS ${include})
   endforeach()
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/bygpu/intro2ros/7_19/devel/.private/traffic_light_detector/lib;/home/bygpu/intro2ros/7_19/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/fangxu/ws/devel/.private/traffic_light_detector/lib;/home/fangxu/ws/devel/lib;/home/fangxu/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

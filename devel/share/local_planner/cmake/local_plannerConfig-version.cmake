@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/local_planner/share/local_planner/cmake/local_plannerConfig-version.cmake
+/home/fangxu/ws/devel/.private/local_planner/share/local_planner/cmake/local_plannerConfig-version.cmake
