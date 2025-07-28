@@ -27,8 +27,7 @@
 
 
 
-robot_radius: 2.2
-# inflation_radius: 0.2
+# robot_radius: 2.2
 obstacle_range: 60
 raytrace_range: 60
 
@@ -58,5 +57,5 @@ obstacle_layer:
 
 
 inflation_layer:
-  inflation_radius: 2     # 根据你机器大小设置
-  cost_scaling_factor: 5.0  # 越大下降越快（越陡），越小影响范围越广
+  inflation_radius: 1     # 根据你机器大小设置
+  cost_scaling_factor: 2  # 越大下降越快（越陡），越小影响范围越广

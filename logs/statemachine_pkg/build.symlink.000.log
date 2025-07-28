@@ -1,0 +1,4 @@
+Symlinking /home/hao/my_workspace/ROS_project/project/devel/share/statemachine_pkg/cmake/statemachine_pkgConfig-version.cmake
+Symlinking /home/hao/my_workspace/ROS_project/project/devel/share/statemachine_pkg/cmake/statemachine_pkgConfig.cmake
+Symlinking /home/hao/my_workspace/ROS_project/project/devel/lib/statemachine_pkg/state_machine01.py
+Symlinking /home/hao/my_workspace/ROS_project/project/devel/lib/pkgconfig/statemachine_pkg.pc

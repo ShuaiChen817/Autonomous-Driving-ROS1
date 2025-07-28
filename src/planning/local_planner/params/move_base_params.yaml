@@ -53,14 +53,14 @@ base_local_planner: "teb_local_planner/TebLocalPlannerROS"
 robot_base_frame: "OurCar/INS"
 global_frame: "world"
 
-planner_frequency: 20.0
-controller_frequency: 20.0
+planner_frequency: 5
+controller_frequency: 5
 
 planner_patience: 30            # 等待规划器的最大时间（秒）
 controller_patience: 30         # 等待控制器的最大时间（秒）
-oscillation_timeout: 0        # 超过这个时间没有动作会触发recovery（可调大）
-oscillation_distance: 0        # 判定为抖动的移动距离
-recovery_behavior_enabled: false
+oscillation_timeout: 3       # 超过这个时间没有动作会触发recovery（可调大）
+oscillation_distance: 0.5        # 判定为抖动的移动距离
+recovery_behavior_enabled: true
 
 shutdown_costmaps: false         # 不要关闭costmap（建议调试时设为false）
 

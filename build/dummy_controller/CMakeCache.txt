@@ -385,6 +385,9 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//The directory containing a CMake configuration file for actionlib_msgs.
+actionlib_msgs_DIR:PATH=/opt/ros/noetic/share/actionlib_msgs/cmake
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 
@@ -396,6 +399,27 @@ dummy_controller_BINARY_DIR:STATIC=/home/hao/my_workspace/ROS_project/project/bu
 
 //Value Computed by CMake
 dummy_controller_SOURCE_DIR:STATIC=/home/hao/my_workspace/ROS_project/project/src/dummy_controller
+
+//The directory containing a CMake configuration file for gencpp.
+gencpp_DIR:PATH=/opt/ros/noetic/share/gencpp/cmake
+
+//The directory containing a CMake configuration file for geneus.
+geneus_DIR:PATH=/opt/ros/noetic/share/geneus/cmake
+
+//The directory containing a CMake configuration file for genlisp.
+genlisp_DIR:PATH=/opt/ros/noetic/share/genlisp/cmake
+
+//The directory containing a CMake configuration file for genmsg.
+genmsg_DIR:PATH=/opt/ros/noetic/share/genmsg/cmake
+
+//The directory containing a CMake configuration file for gennodejs.
+gennodejs_DIR:PATH=/opt/ros/noetic/share/gennodejs/cmake
+
+//The directory containing a CMake configuration file for genpy.
+genpy_DIR:PATH=/opt/ros/noetic/share/genpy/cmake
+
+//The directory containing a CMake configuration file for geometry_msgs.
+geometry_msgs_DIR:PATH=/opt/ros/noetic/share/geometry_msgs/cmake
 
 //Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/hao/my_workspace/ROS_project/project/build/dummy_controller/gtest/googlemock
@@ -448,6 +472,9 @@ lib:FILEPATH=/opt/ros/noetic/lib/libxmlrpcpp.so
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
+
+//The directory containing a CMake configuration file for nav_msgs.
+nav_msgs_DIR:PATH=/opt/ros/noetic/share/nav_msgs/cmake
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake

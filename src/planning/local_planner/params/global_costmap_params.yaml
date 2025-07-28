@@ -41,7 +41,7 @@
     robot_base_frame: OurCar/INS
     update_frequency: 2.0
     publish_frequency: 2.0
-    resolution: 1
+    resolution: 0.7
     static_map: false
 
     # Increase these dimensions otherwise sensor out of map boundary

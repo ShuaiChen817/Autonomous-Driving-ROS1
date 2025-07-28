@@ -3,6 +3,14 @@
 
 CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /home/hao/my_workspace/ROS_project/project/devel/.private/simulation/include/simulation/VehicleControl.h
 CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /home/hao/my_workspace/ROS_project/project/src/dummy_controller/src/dummy_controller_node.cpp
+CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/geometry_msgs/Point.h
+CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/geometry_msgs/Pose.h
+CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/geometry_msgs/PoseWithCovariance.h
+CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/geometry_msgs/Quaternion.h
+CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/geometry_msgs/Twist.h
+CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/geometry_msgs/TwistWithCovariance.h
+CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/geometry_msgs/Vector3.h
+CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/nav_msgs/Odometry.h
 CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/ros/advertise_options.h
 CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/ros/advertise_service_options.h
 CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/ros/assert.h
@@ -59,6 +67,7 @@ CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/n
 CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/ros/wall_timer.h
 CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/ros/wall_timer_options.h
 CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/rosconsole/macros_generated.h
+CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/std_msgs/Header.h
 CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/xmlrpcpp/XmlRpcDecl.h
 CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o: /opt/ros/noetic/include/xmlrpcpp/XmlRpcValue.h
 

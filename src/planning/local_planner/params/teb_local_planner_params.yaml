@@ -14,7 +14,7 @@ TebLocalPlannerROS:
   # Robot footprint
   footprint_model:
     type: "polygon"
-    vertices: [[0.5, 0.3], [0.5, -0.3], [-0.5, -0.3], [-0.5, 0.3]]
+    vertices: [[2.2, 1.0], [2.2, -1.0], [-2.2, -1.0], [-2.2, 1.0]]
 
   # Goal tolerance
   xy_goal_tolerance: 0.2
@@ -22,8 +22,15 @@ TebLocalPlannerROS:
   free_goal_vel: false
 
   # Obstacles
-  min_obstacle_dist: 0.3
-  inflation_dist: 0.4
+  min_obstacle_dist: 1
+  inflation_dist: 2
   include_costmap_obstacles: true
   costmap_obstacles_behind_robot_dist: 1.0
   # obstacle_poses_
+
+
+  #允许后退初始化
+  allow_init_with_backwards_motion: true
+
+  #动态障碍物
+  dynamic_obstacle_inflation_dist: 0.8

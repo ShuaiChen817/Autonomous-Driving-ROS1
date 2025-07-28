@@ -1,0 +1,9 @@
+<launch>
+    <!--start state machine -->
+    <node pkg="statemachine_pkg"
+          type="state_machine01.py"
+          name="state_machine_node"
+          output="screen"
+          launch-prefix="python3">
+    </node>
+</launch>

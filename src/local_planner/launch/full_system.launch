@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find simulation)/launch/simulation.launch"/>
+  <include file="$(find point_cloud)/launch/point_cloud.launch"/>
+  <include file="$(find local_planner)/launch/move_base.launch"/>
+  <node pkg="local_planner" type="multi_goal_manager.py" name="multi_goal_manager" output="screen"/>
+</launch>
+
