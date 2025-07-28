@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg/_index.js
+/home/fangxu/wss/devel/.private/traffic_light_info/share/gennodejs/ros/traffic_light_info/msg/_index.js

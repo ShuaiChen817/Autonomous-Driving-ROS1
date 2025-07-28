@@ -1,4 +1,4 @@
-prefix=/home/bygpu/intro2ros/7_19/install
+prefix=/home/fangxu/wss/install
 
 Name: traffic_light_detector
 Description: Description of traffic_light_detector

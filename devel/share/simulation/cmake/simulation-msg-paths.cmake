@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/simulation/share/simulation/cmake/simulation-msg-paths.cmake
+/home/fangxu/wss/devel/.private/simulation/share/simulation/cmake/simulation-msg-paths.cmake

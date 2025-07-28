@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/fangxu/wss/src/dummy_controller/CMakeLists.txt:18 (target_link_libraries):
+  Cannot specify link libraries for target "cdummy_controller_node" which is
+  not built by this project.
+
+
+make: *** [Makefile:854: cmake_check_build_system] Error 1

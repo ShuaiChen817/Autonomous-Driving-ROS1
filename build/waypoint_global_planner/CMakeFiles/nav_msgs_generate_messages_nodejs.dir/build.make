@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bygpu/intro2ros/7_19/src/planning/waypoint_global_planner
+CMAKE_SOURCE_DIR = /home/fangxu/wss/src/planning/waypoint_global_planner
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bygpu/intro2ros/7_19/build/waypoint_global_planner
+CMAKE_BINARY_DIR = /home/fangxu/wss/build/waypoint_global_planner
 
 # Utility rule file for nav_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/nav_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/nav_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/nav_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/bygpu/intro2ros/7_19/build/waypoint_global_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bygpu/intro2ros/7_19/src/planning/waypoint_global_planner /home/bygpu/intro2ros/7_19/src/planning/waypoint_global_planner /home/bygpu/intro2ros/7_19/build/waypoint_global_planner /home/bygpu/intro2ros/7_19/build/waypoint_global_planner /home/bygpu/intro2ros/7_19/build/waypoint_global_planner/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fangxu/wss/build/waypoint_global_planner && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fangxu/wss/src/planning/waypoint_global_planner /home/fangxu/wss/src/planning/waypoint_global_planner /home/fangxu/wss/build/waypoint_global_planner /home/fangxu/wss/build/waypoint_global_planner /home/fangxu/wss/build/waypoint_global_planner/CMakeFiles/nav_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nav_msgs_generate_messages_nodejs.dir/depend
 

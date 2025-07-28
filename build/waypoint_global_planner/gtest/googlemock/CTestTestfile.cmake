@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest/googlemock
-# Build directory: /home/bygpu/intro2ros/7_19/build/waypoint_global_planner/gtest/googlemock
+# Build directory: /home/fangxu/wss/build/waypoint_global_planner/gtest/googlemock
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/share/roseus/ros/point_cloud/msg/PointCloudStamped.l
+/home/fangxu/wss/devel/.private/point_cloud/share/roseus/ros/point_cloud/msg/PointCloudStamped.l

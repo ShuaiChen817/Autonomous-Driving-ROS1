@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/bygpu/intro2ros/7_19/devel/.private/waypoint_global_planner/lib/libwaypoint_global_planner.pdb"
-  "/home/bygpu/intro2ros/7_19/devel/.private/waypoint_global_planner/lib/libwaypoint_global_planner.so"
+  "/home/fangxu/wss/devel/.private/waypoint_global_planner/lib/libwaypoint_global_planner.pdb"
+  "/home/fangxu/wss/devel/.private/waypoint_global_planner/lib/libwaypoint_global_planner.so"
   "CMakeFiles/waypoint_global_planner.dir/src/waypoint_global_planner.cpp.o"
 )
 

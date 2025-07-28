@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_distance/share/common-lisp/ros/traffic_light_distance/msg/traffic_light_distance-msg.asd
+/home/fangxu/wss/devel/.private/traffic_light_distance/share/common-lisp/ros/traffic_light_distance/msg/traffic_light_distance-msg.asd

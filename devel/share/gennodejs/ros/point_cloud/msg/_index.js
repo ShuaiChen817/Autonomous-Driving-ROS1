@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/share/gennodejs/ros/point_cloud/msg/_index.js
+/home/fangxu/wss/devel/.private/point_cloud/share/gennodejs/ros/point_cloud/msg/_index.js

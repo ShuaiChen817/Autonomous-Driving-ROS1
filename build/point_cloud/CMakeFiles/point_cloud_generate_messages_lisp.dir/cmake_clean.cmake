@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/share/common-lisp/ros/point_cloud/msg/PointCloudStamped.lisp"
+  "/home/fangxu/wss/devel/.private/point_cloud/share/common-lisp/ros/point_cloud/msg/PointCloudStamped.lisp"
   "CMakeFiles/point_cloud_generate_messages_lisp"
 )
 

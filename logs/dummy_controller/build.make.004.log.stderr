@@ -1,0 +1,7 @@
+[01m[K/home/fangxu/wss/src/dummy_controller/src/dummy_controller_node.cpp:[m[K In member function ‘[01m[Kvoid ControllerNode::controlStep()[m[K’:
+[01m[K/home/fangxu/wss/src/dummy_controller/src/dummy_controller_node.cpp:123:27:[m[K [01;31m[Kerror: [m[K‘[01m[KgetYaw[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+  123 |         double yaw = tf2::[01;31m[KgetYaw[m[K(current_pose_ctrl.pose.orientation);
+      |                           [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/dummy_controller_node.dir/build.make:63: CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:438: CMakeFiles/dummy_controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bygpu/intro2ros/7_19/src/traffic_light_distance
+CMAKE_SOURCE_DIR = /home/fangxu/wss/src/traffic_light_distance
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bygpu/intro2ros/7_19/build/traffic_light_distance
+CMAKE_BINARY_DIR = /home/fangxu/wss/build/traffic_light_distance
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bygpu/intro2ros/7_19/build/traffic_light_distance/CMakeFiles /home/bygpu/intro2ros/7_19/build/traffic_light_distance/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fangxu/wss/build/traffic_light_distance/CMakeFiles /home/fangxu/wss/build/traffic_light_distance/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bygpu/intro2ros/7_19/build/traffic_light_distance/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fangxu/wss/build/traffic_light_distance/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

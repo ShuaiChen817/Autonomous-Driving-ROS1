@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/lib/python3/dist-packages/traffic_light_info/msg/_TrafficLightInfo.py"
-  "/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/lib/python3/dist-packages/traffic_light_info/msg/__init__.py"
+  "/home/fangxu/wss/devel/.private/traffic_light_info/lib/python3/dist-packages/traffic_light_info/msg/_TrafficLightInfo.py"
+  "/home/fangxu/wss/devel/.private/traffic_light_info/lib/python3/dist-packages/traffic_light_info/msg/__init__.py"
   "CMakeFiles/traffic_light_info_generate_messages_py"
 )
 

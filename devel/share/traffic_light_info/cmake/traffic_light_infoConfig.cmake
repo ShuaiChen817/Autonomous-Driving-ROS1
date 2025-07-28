@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/share/traffic_light_info/cmake/traffic_light_infoConfig.cmake
+/home/fangxu/wss/devel/.private/traffic_light_info/share/traffic_light_info/cmake/traffic_light_infoConfig.cmake

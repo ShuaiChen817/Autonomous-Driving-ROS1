@@ -1,1 +1,1 @@
-cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX:PATH=/home/bygpu/intro2ros/7_19/devel/.private/simulation;-DCMAKE_BUILD_TYPE:STRING=Release;-DBUILD_SHARED_LIBS=ON;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX:PATH=/home/fangxu/wss/devel/.private/simulation;-DCMAKE_BUILD_TYPE:STRING=Release;-DBUILD_SHARED_LIBS=ON;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

@@ -1,8 +1,8 @@
-# Install script for directory: /home/bygpu/intro2ros/7_19/build/simulation/libsocket-prefix/src/libsocket/C++
+# Install script for directory: /home/fangxu/wss/build/simulation/libsocket-prefix/src/libsocket/C++
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/bygpu/intro2ros/7_19/devel/.private/simulation")
+  set(CMAKE_INSTALL_PREFIX "/home/fangxu/wss/devel/.private/simulation")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsocket++.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/bygpu/intro2ros/7_19/build/simulation/libsocket-prefix/src/libsocket-build/C++/libsocket++.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/fangxu/wss/build/simulation/libsocket-prefix/src/libsocket-build/C++/libsocket++.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsocket++.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libsocket++.so")
     if(CMAKE_INSTALL_DO_STRIP)

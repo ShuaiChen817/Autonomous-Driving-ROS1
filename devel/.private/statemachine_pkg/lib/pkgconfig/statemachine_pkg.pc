@@ -1,4 +1,4 @@
-prefix=/home/bygpu/intro2ros/7_19/devel/.private/statemachine_pkg
+prefix=/home/fangxu/wss/devel/.private/statemachine_pkg
 
 Name: statemachine_pkg
 Description: Description of statemachine_pkg

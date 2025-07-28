@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_detector/share/traffic_light_detector/cmake/traffic_light_detectorConfig-version.cmake
+/home/fangxu/wss/devel/.private/traffic_light_detector/share/traffic_light_detector/cmake/traffic_light_detectorConfig-version.cmake

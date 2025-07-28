@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/share/roseus/ros/point_cloud/manifest.l"
-  "/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/share/roseus/ros/point_cloud/msg/PointCloudStamped.l"
+  "/home/fangxu/wss/devel/.private/point_cloud/share/roseus/ros/point_cloud/manifest.l"
+  "/home/fangxu/wss/devel/.private/point_cloud/share/roseus/ros/point_cloud/msg/PointCloudStamped.l"
   "CMakeFiles/point_cloud_generate_messages_eus"
 )
 

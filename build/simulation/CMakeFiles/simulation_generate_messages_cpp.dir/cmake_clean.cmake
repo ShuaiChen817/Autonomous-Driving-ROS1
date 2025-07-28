@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/bygpu/intro2ros/7_19/devel/.private/simulation/include/simulation/VehicleControl.h"
+  "/home/fangxu/wss/devel/.private/simulation/include/simulation/VehicleControl.h"
   "CMakeFiles/simulation_generate_messages_cpp"
 )
 

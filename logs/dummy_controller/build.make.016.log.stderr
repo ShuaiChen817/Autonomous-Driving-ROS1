@@ -1,0 +1,16 @@
+[01m[K/home/fangxu/wss/src/dummy_controller/src/dummy_controller_node.cpp:[m[K In member function ‘[01m[Kvoid CmdVelController::step()[m[K’:
+[01m[K/home/fangxu/wss/src/dummy_controller/src/dummy_controller_node.cpp:131:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  131 |     double steer_cmd = steer_prev_ + std::[01;31m[Kclamp[m[K(steer_des - steer_prev_, -max_step, max_step);
+      |                                           [01;31m[K^~~~~[m[K
+[01m[K/home/fangxu/wss/src/dummy_controller/src/dummy_controller_node.cpp:150:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  150 |         throttle_I_ = std::[01;31m[Kclamp[m[K(throttle_I_, -MAX_ACC_I, MAX_ACC_I);
+      |                            [01;31m[K^~~~~[m[K
+[01m[K/home/fangxu/wss/src/dummy_controller/src/dummy_controller_node.cpp:151:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  151 |         out.Throttle = std::[01;31m[Kclamp[m[K(kp_throttle_ * v_err + ki_throttle_ * throttle_I_, 0.0, 1.0);
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/fangxu/wss/src/dummy_controller/src/dummy_controller_node.cpp:158:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kclamp[m[K’ is not a member of ‘[01m[Kstd[m[K’
+  158 |         out.Brake    = std::[01;31m[Kclamp[m[K(kp_brake_ * (-v_err), 0.0, 1.0);
+      |                             [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/dummy_controller_node.dir/build.make:63: CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/dummy_controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

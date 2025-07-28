@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/simulation/share/common-lisp/ros/simulation/msg/simulation-msg.asd
+/home/fangxu/wss/devel/.private/simulation/share/common-lisp/ros/simulation/msg/simulation-msg.asd

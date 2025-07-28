@@ -7,7 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/bygpu/intro2ros/7_19/devel/.private/local_planner:$CMAKE_PREFIX_PATH"
-export PWD='/home/bygpu/intro2ros/7_19/build/local_planner'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/bygpu/intro2ros/7_19/devel/.private/local_planner/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/bygpu/intro2ros/7_19/src/planning/local_planner:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/fangxu/wss/devel/.private/local_planner:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/fangxu/wss/devel/.private/local_planner/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/fangxu/wss/devel/.private/local_planner/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/fangxu/wss/build/local_planner'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/fangxu/wss/devel/.private/local_planner/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/fangxu/wss/src/planning/local_planner:$ROS_PACKAGE_PATH"

@@ -1,18 +1,18 @@
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/gennodejs/ros/traffic_light_detector/_index.js
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/gennodejs/ros/traffic_light_detector/msg/_index.js
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/gennodejs/ros/traffic_light_detector/msg/TrafficLightStatus.js
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/roseus/ros/traffic_light_detector/manifest.l
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/roseus/ros/traffic_light_detector/msg/TrafficLightStatus.l
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/traffic_light_detector/cmake/traffic_light_detector-msg-extras.cmake
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/traffic_light_detector/cmake/traffic_light_detectorConfig.cmake
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/traffic_light_detector/cmake/traffic_light_detectorConfig-version.cmake
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/traffic_light_detector/cmake/traffic_light_detector-msg-paths.cmake
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/common-lisp/ros/traffic_light_detector/msg/_package_TrafficLightStatus.lisp
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/common-lisp/ros/traffic_light_detector/msg/_package.lisp
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/common-lisp/ros/traffic_light_detector/msg/traffic_light_detector-msg.asd
-Symlinking /home/bygpu/intro2ros/7_19/devel/share/common-lisp/ros/traffic_light_detector/msg/TrafficLightStatus.lisp
-Symlinking /home/bygpu/intro2ros/7_19/devel/include/traffic_light_detector/TrafficLightStatus.h
-Symlinking /home/bygpu/intro2ros/7_19/devel/lib/python3/dist-packages/traffic_light_detector/__init__.py
-Symlinking /home/bygpu/intro2ros/7_19/devel/lib/python3/dist-packages/traffic_light_detector/msg/__init__.py
-Symlinking /home/bygpu/intro2ros/7_19/devel/lib/python3/dist-packages/traffic_light_detector/msg/_TrafficLightStatus.py
-Symlinking /home/bygpu/intro2ros/7_19/devel/lib/pkgconfig/traffic_light_detector.pc
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/include/traffic_light_detector/TrafficLightStatus.h, /home/fangxu/wss/devel/include/traffic_light_detector/TrafficLightStatus.h)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/lib/pkgconfig/traffic_light_detector.pc, /home/fangxu/wss/devel/lib/pkgconfig/traffic_light_detector.pc)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/lib/python3/dist-packages/traffic_light_detector/__init__.py, /home/fangxu/wss/devel/lib/python3/dist-packages/traffic_light_detector/__init__.py)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/lib/python3/dist-packages/traffic_light_detector/msg/_TrafficLightStatus.py, /home/fangxu/wss/devel/lib/python3/dist-packages/traffic_light_detector/msg/_TrafficLightStatus.py)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/lib/python3/dist-packages/traffic_light_detector/msg/__init__.py, /home/fangxu/wss/devel/lib/python3/dist-packages/traffic_light_detector/msg/__init__.py)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/share/common-lisp/ros/traffic_light_detector/msg/TrafficLightStatus.lisp, /home/fangxu/wss/devel/share/common-lisp/ros/traffic_light_detector/msg/TrafficLightStatus.lisp)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/share/common-lisp/ros/traffic_light_detector/msg/_package_TrafficLightStatus.lisp, /home/fangxu/wss/devel/share/common-lisp/ros/traffic_light_detector/msg/_package_TrafficLightStatus.lisp)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/share/common-lisp/ros/traffic_light_detector/msg/_package.lisp, /home/fangxu/wss/devel/share/common-lisp/ros/traffic_light_detector/msg/_package.lisp)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/share/common-lisp/ros/traffic_light_detector/msg/traffic_light_detector-msg.asd, /home/fangxu/wss/devel/share/common-lisp/ros/traffic_light_detector/msg/traffic_light_detector-msg.asd)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/share/traffic_light_detector/cmake/traffic_light_detector-msg-extras.cmake, /home/fangxu/wss/devel/share/traffic_light_detector/cmake/traffic_light_detector-msg-extras.cmake)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/share/traffic_light_detector/cmake/traffic_light_detector-msg-paths.cmake, /home/fangxu/wss/devel/share/traffic_light_detector/cmake/traffic_light_detector-msg-paths.cmake)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/share/traffic_light_detector/cmake/traffic_light_detectorConfig-version.cmake, /home/fangxu/wss/devel/share/traffic_light_detector/cmake/traffic_light_detectorConfig-version.cmake)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/share/traffic_light_detector/cmake/traffic_light_detectorConfig.cmake, /home/fangxu/wss/devel/share/traffic_light_detector/cmake/traffic_light_detectorConfig.cmake)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/share/gennodejs/ros/traffic_light_detector/_index.js, /home/fangxu/wss/devel/share/gennodejs/ros/traffic_light_detector/_index.js)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/share/gennodejs/ros/traffic_light_detector/msg/TrafficLightStatus.js, /home/fangxu/wss/devel/share/gennodejs/ros/traffic_light_detector/msg/TrafficLightStatus.js)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/share/gennodejs/ros/traffic_light_detector/msg/_index.js, /home/fangxu/wss/devel/share/gennodejs/ros/traffic_light_detector/msg/_index.js)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/share/roseus/ros/traffic_light_detector/manifest.l, /home/fangxu/wss/devel/share/roseus/ros/traffic_light_detector/manifest.l)
+Linked: (/home/fangxu/wss/devel/.private/traffic_light_detector/share/roseus/ros/traffic_light_detector/msg/TrafficLightStatus.l, /home/fangxu/wss/devel/share/roseus/ros/traffic_light_detector/msg/TrafficLightStatus.l)

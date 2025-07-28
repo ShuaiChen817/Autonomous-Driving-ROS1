@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/bygpu/intro2ros/7_19/devel/.private/point_cloud:$CMAKE_PREFIX_PATH"
-export PWD='/home/bygpu/intro2ros/7_19/build/point_cloud'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/bygpu/intro2ros/7_19/src/point_cloud:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/fangxu/wss/devel/.private/point_cloud:$CMAKE_PREFIX_PATH"
+export PWD='/home/fangxu/wss/build/point_cloud'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/fangxu/wss/devel/.private/point_cloud/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/fangxu/wss/src/point_cloud:$ROS_PACKAGE_PATH"

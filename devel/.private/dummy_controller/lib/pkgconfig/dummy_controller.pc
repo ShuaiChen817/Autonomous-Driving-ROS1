@@ -1,8 +1,8 @@
-prefix=/home/bygpu/intro2ros/7_19/devel/.private/dummy_controller
+prefix=/home/fangxu/wss/devel/.private/dummy_controller
 
 Name: dummy_controller
 Description: Description of dummy_controller
-Version: 0.0.6657
+Version: 0.0.0
 Cflags: 
 Libs: -L${prefix}/lib 
-Requires: simulation roscpp std_msgs
+Requires: 

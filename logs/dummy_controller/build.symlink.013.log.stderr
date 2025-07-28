@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/catkin_tools/execution/stages.py", line 177, in function_proxy
+    return function(logger, event_queue, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/catkin_tools/jobs/catkin.py", line 338, in link_devel_products
+    for source_file, dest_file in manifest_reader:
+ValueError: not enough values to unpack (expected 2, got 1)
+
+Stage `symlink` failed with arguments:
+  package: {'package_format': 2, 'name': 'dummy_controller', 'version': '0.0.0', 'version_compatibility': None, 'description': 'simple cmd_vel to car_command controller', 'plaintext_description': 'simple cmd_vel to car_command controller', 'maintainers': [<catkin_pkg.package.Person object at 0x7f69f5d92f40>], 'licenses': ['BSD'], 'urls': [], 'authors': [], 'build_depends': [Dependency(name='roscpp', evaluated_condition=True), Dependency(name='geometry_msgs', evaluated_condition=True), Dependency(name='nav_msgs', evaluated_condition=True), Dependency(name='simulation', evaluated_condition=True)], 'buildtool_depends': [Dependency(name='catkin', evaluated_condition=True)], 'build_export_depends': [Dependency(name='roscpp', evaluated_condition=True), Dependency(name='geometry_msgs', evaluated_condition=True), Dependency(name='nav_msgs', evaluated_condition=True), Dependency(name='simulation', evaluated_condition=True)], 'buildtool_export_depends': [], 'exec_depends': [Dependency(name='roscpp', evaluated_condition=True), Dependency(name='geometry_msgs', evaluated_condition=True), Dependency(name='nav_msgs', evaluated_condition=True), Dependency(name='simulation', evaluated_condition=True)], 'test_depends': [], 'doc_depends': [], 'conflicts': [], 'replaces': [], 'group_depends': [], 'member_of_groups': [], 'exports': [], 'filename': '/home/fangxu/wss/src/dummy_controller/package.xml'}
+  package_path: dummy_controller
+  devel_manifest_path: /home/fangxu/wss/.catkin_tools/profiles/default/packages/dummy_controller
+  source_devel_path: /home/fangxu/wss/devel/.private/dummy_controller
+  dest_devel_path: /home/fangxu/wss/devel
+  metadata_path: /home/fangxu/wss/.catkin_tools/profiles/default
+  prebuild: False

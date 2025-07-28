@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bygpu/intro2ros/7_19/src/traffic_light_info
+CMAKE_SOURCE_DIR = /home/fangxu/wss/src/traffic_light_info
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bygpu/intro2ros/7_19/build/traffic_light_info
+CMAKE_BINARY_DIR = /home/fangxu/wss/build/traffic_light_info
 
 # Utility rule file for traffic_light_info_generate_messages.
 
@@ -67,6 +67,6 @@ CMakeFiles/traffic_light_info_generate_messages.dir/clean:
 .PHONY : CMakeFiles/traffic_light_info_generate_messages.dir/clean
 
 CMakeFiles/traffic_light_info_generate_messages.dir/depend:
-	cd /home/bygpu/intro2ros/7_19/build/traffic_light_info && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bygpu/intro2ros/7_19/src/traffic_light_info /home/bygpu/intro2ros/7_19/src/traffic_light_info /home/bygpu/intro2ros/7_19/build/traffic_light_info /home/bygpu/intro2ros/7_19/build/traffic_light_info /home/bygpu/intro2ros/7_19/build/traffic_light_info/CMakeFiles/traffic_light_info_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fangxu/wss/build/traffic_light_info && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fangxu/wss/src/traffic_light_info /home/fangxu/wss/src/traffic_light_info /home/fangxu/wss/build/traffic_light_info /home/fangxu/wss/build/traffic_light_info /home/fangxu/wss/build/traffic_light_info/CMakeFiles/traffic_light_info_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/traffic_light_info_generate_messages.dir/depend
 

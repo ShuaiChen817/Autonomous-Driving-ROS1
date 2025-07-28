@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/catkin_tools_prebuild/setup.bash
+/home/fangxu/wss/devel/.private/catkin_tools_prebuild/setup.bash

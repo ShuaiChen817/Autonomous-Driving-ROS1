@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/bygpu/intro2ros/7_19/devel/.private/waypoint_global_planner/setup.sh
+    local-name: /home/fangxu/wss/devel/.private/waypoint_global_planner/setup.sh

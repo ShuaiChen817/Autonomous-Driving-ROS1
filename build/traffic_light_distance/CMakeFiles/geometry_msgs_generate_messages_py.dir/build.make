@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bygpu/intro2ros/7_19/src/traffic_light_distance
+CMAKE_SOURCE_DIR = /home/fangxu/wss/src/traffic_light_distance
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bygpu/intro2ros/7_19/build/traffic_light_distance
+CMAKE_BINARY_DIR = /home/fangxu/wss/build/traffic_light_distance
 
 # Utility rule file for geometry_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_py.dir/depend:
-	cd /home/bygpu/intro2ros/7_19/build/traffic_light_distance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bygpu/intro2ros/7_19/src/traffic_light_distance /home/bygpu/intro2ros/7_19/src/traffic_light_distance /home/bygpu/intro2ros/7_19/build/traffic_light_distance /home/bygpu/intro2ros/7_19/build/traffic_light_distance /home/bygpu/intro2ros/7_19/build/traffic_light_distance/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fangxu/wss/build/traffic_light_distance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fangxu/wss/src/traffic_light_distance /home/fangxu/wss/src/traffic_light_distance /home/fangxu/wss/build/traffic_light_distance /home/fangxu/wss/build/traffic_light_distance /home/fangxu/wss/build/traffic_light_distance/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 

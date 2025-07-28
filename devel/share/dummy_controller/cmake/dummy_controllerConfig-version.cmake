@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/dummy_controller/share/dummy_controller/cmake/dummy_controllerConfig-version.cmake
+/home/fangxu/wss/devel/.private/dummy_controller/share/dummy_controller/cmake/dummy_controllerConfig-version.cmake

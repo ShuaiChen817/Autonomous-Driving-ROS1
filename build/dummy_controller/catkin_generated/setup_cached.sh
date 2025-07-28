@@ -7,7 +7,9 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/bygpu/intro2ros/7_19/devel/.private/dummy_controller:$CMAKE_PREFIX_PATH"
-export PWD='/home/bygpu/intro2ros/7_19/build/dummy_controller'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/bygpu/intro2ros/7_19/devel/.private/dummy_controller/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/bygpu/intro2ros/7_19/src/dummy_controller:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/fangxu/wss/devel/.private/dummy_controller:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/fangxu/wss/devel/.private/dummy_controller/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/fangxu/wss/devel/.private/dummy_controller/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD='/home/fangxu/wss/build/dummy_controller'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/fangxu/wss/devel/.private/dummy_controller/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/fangxu/wss/src/dummy_controller:$ROS_PACKAGE_PATH"

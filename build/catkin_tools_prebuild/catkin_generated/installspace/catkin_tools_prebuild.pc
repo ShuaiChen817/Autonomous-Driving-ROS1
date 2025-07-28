@@ -1,4 +1,4 @@
-prefix=/home/bygpu/intro2ros/7_19/install
+prefix=/home/fangxu/wss/install
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

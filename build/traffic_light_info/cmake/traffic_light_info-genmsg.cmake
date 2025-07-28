@@ -2,7 +2,7 @@
 
 message(STATUS "traffic_light_info: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Itraffic_light_info:/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Itraffic_light_info:/home/fangxu/wss/src/traffic_light_info/msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,9 +17,9 @@ add_custom_target(traffic_light_info_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/fangxu/wss/src/traffic_light_info/msg/TrafficLightInfo.msg" NAME_WE)
 add_custom_target(_traffic_light_info_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "traffic_light_info" "/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "traffic_light_info" "/home/fangxu/wss/src/traffic_light_info/msg/TrafficLightInfo.msg" ""
 )
 
 #
@@ -29,7 +29,7 @@ add_custom_target(_traffic_light_info_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(traffic_light_info
-  "/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg"
+  "/home/fangxu/wss/src/traffic_light_info/msg/TrafficLightInfo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/traffic_light_info
@@ -49,7 +49,7 @@ add_custom_target(traffic_light_info_generate_messages_cpp
 add_dependencies(traffic_light_info_generate_messages traffic_light_info_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/fangxu/wss/src/traffic_light_info/msg/TrafficLightInfo.msg" NAME_WE)
 add_dependencies(traffic_light_info_generate_messages_cpp _traffic_light_info_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -62,7 +62,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS traffic_light_info_generate_message
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(traffic_light_info
-  "/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg"
+  "/home/fangxu/wss/src/traffic_light_info/msg/TrafficLightInfo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/traffic_light_info
@@ -82,7 +82,7 @@ add_custom_target(traffic_light_info_generate_messages_eus
 add_dependencies(traffic_light_info_generate_messages traffic_light_info_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/fangxu/wss/src/traffic_light_info/msg/TrafficLightInfo.msg" NAME_WE)
 add_dependencies(traffic_light_info_generate_messages_eus _traffic_light_info_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -95,7 +95,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS traffic_light_info_generate_message
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(traffic_light_info
-  "/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg"
+  "/home/fangxu/wss/src/traffic_light_info/msg/TrafficLightInfo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/traffic_light_info
@@ -115,7 +115,7 @@ add_custom_target(traffic_light_info_generate_messages_lisp
 add_dependencies(traffic_light_info_generate_messages traffic_light_info_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/fangxu/wss/src/traffic_light_info/msg/TrafficLightInfo.msg" NAME_WE)
 add_dependencies(traffic_light_info_generate_messages_lisp _traffic_light_info_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -128,7 +128,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS traffic_light_info_generate_message
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(traffic_light_info
-  "/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg"
+  "/home/fangxu/wss/src/traffic_light_info/msg/TrafficLightInfo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/traffic_light_info
@@ -148,7 +148,7 @@ add_custom_target(traffic_light_info_generate_messages_nodejs
 add_dependencies(traffic_light_info_generate_messages traffic_light_info_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/fangxu/wss/src/traffic_light_info/msg/TrafficLightInfo.msg" NAME_WE)
 add_dependencies(traffic_light_info_generate_messages_nodejs _traffic_light_info_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -161,7 +161,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS traffic_light_info_generate_message
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(traffic_light_info
-  "/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg"
+  "/home/fangxu/wss/src/traffic_light_info/msg/TrafficLightInfo.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/traffic_light_info
@@ -181,7 +181,7 @@ add_custom_target(traffic_light_info_generate_messages_py
 add_dependencies(traffic_light_info_generate_messages traffic_light_info_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/bygpu/intro2ros/7_19/src/traffic_light_info/msg/TrafficLightInfo.msg" NAME_WE)
+get_filename_component(_filename "/home/fangxu/wss/src/traffic_light_info/msg/TrafficLightInfo.msg" NAME_WE)
 add_dependencies(traffic_light_info_generate_messages_py _traffic_light_info_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

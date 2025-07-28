@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/simulation/share/roseus/ros/simulation/manifest.l
+/home/fangxu/wss/devel/.private/simulation/share/roseus/ros/simulation/manifest.l

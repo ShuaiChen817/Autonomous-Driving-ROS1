@@ -1,8 +1,8 @@
-# Install script for directory: /home/bygpu/intro2ros/7_19/src/simulation/tcpimage
+# Install script for directory: /home/fangxu/wss/src/simulation/tcpimage
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/bygpu/intro2ros/7_19/install")
+  set(CMAKE_INSTALL_PREFIX "/home/fangxu/wss/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

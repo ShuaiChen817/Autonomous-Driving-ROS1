@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bygpu/intro2ros/7_19/src/simulation/tcpimage/TCPImageServer.cpp" "/home/bygpu/intro2ros/7_19/build/simulation/tcpimage/CMakeFiles/tcpimage.dir/TCPImageServer.cpp.o"
+  "/home/fangxu/wss/src/simulation/tcpimage/TCPImageServer.cpp" "/home/fangxu/wss/build/simulation/tcpimage/CMakeFiles/tcpimage.dir/TCPImageServer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,16 +18,16 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/bygpu/intro2ros/7_19/devel/.private/simulation/include"
+  "/home/fangxu/wss/devel/.private/simulation/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/opencv4"
-  "/home/bygpu/intro2ros/7_19/src/simulation/tcpimage"
+  "/home/fangxu/wss/src/simulation/tcpimage"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/bygpu/intro2ros/7_19/build/simulation/tcpimage/CMakeFiles/tcpstreamreader.dir/DependInfo.cmake"
+  "/home/fangxu/wss/build/simulation/tcpimage/CMakeFiles/tcpstreamreader.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

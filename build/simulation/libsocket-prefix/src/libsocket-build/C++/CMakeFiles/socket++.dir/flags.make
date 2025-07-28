@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -std=c++11 -O3 -DNDEBUG -fPIC   -Wall -Wextra -fPIC
 
 CXX_DEFINES = -DMIXED -Dsocket___EXPORTS
 
-CXX_INCLUDES = -I/home/bygpu/intro2ros/7_19/build/simulation/libsocket-prefix/src/libsocket/headers -I/home/bygpu/intro2ros/7_19/build/simulation/libsocket-prefix/src/libsocket-build/headers 
+CXX_INCLUDES = -I/home/fangxu/wss/build/simulation/libsocket-prefix/src/libsocket/headers -I/home/fangxu/wss/build/simulation/libsocket-prefix/src/libsocket-build/headers 
 

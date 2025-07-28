@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/bygpu/intro2ros/7_19/devel/.private/point_cloud/share/gennodejs/ros/point_cloud/msg/PointCloudStamped.js"
+  "/home/fangxu/wss/devel/.private/point_cloud/share/gennodejs/ros/point_cloud/msg/PointCloudStamped.js"
   "CMakeFiles/point_cloud_generate_messages_nodejs"
 )
 

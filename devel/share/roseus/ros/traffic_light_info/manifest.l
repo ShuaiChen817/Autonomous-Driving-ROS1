@@ -1,1 +1,1 @@
-/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_info/share/roseus/ros/traffic_light_info/manifest.l
+/home/fangxu/wss/devel/.private/traffic_light_info/share/roseus/ros/traffic_light_info/manifest.l

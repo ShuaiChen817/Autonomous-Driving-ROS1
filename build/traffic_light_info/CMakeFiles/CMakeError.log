@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/bygpu/intro2ros/7_19/build/traffic_light_info/CMakeFiles/CMakeTmp
+Change Dir: /home/fangxu/wss/build/traffic_light_info/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_a4bde/fast && /usr/bin/make -f CMakeFiles/cmTC_a4bde.dir/build.make CMakeFiles/cmTC_a4bde.dir/build
-make[1]: Entering directory '/home/bygpu/intro2ros/7_19/build/traffic_light_info/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a4bde.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_a4bde.dir/src.c.o   -c /home/bygpu/intro2ros/7_19/build/traffic_light_info/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_a4bde
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4bde.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_a4bde.dir/src.c.o  -o cmTC_a4bde 
-/usr/bin/ld: CMakeFiles/cmTC_a4bde.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_bfaa5/fast && /usr/bin/make -f CMakeFiles/cmTC_bfaa5.dir/build.make CMakeFiles/cmTC_bfaa5.dir/build
+make[1]: Entering directory '/home/fangxu/wss/build/traffic_light_info/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfaa5.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_bfaa5.dir/src.c.o   -c /home/fangxu/wss/build/traffic_light_info/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bfaa5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfaa5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_bfaa5.dir/src.c.o  -o cmTC_bfaa5 
+/usr/bin/ld: CMakeFiles/cmTC_bfaa5.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_a4bde.dir/build.make:87: cmTC_a4bde] Error 1
-make[1]: Leaving directory '/home/bygpu/intro2ros/7_19/build/traffic_light_info/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_a4bde/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_bfaa5.dir/build.make:87: cmTC_bfaa5] Error 1
+make[1]: Leaving directory '/home/fangxu/wss/build/traffic_light_info/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_bfaa5/fast] Error 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/bygpu/intro2ros/7_19/build/traffic_light_info/CMakeFiles/CMakeTmp
+Change Dir: /home/fangxu/wss/build/traffic_light_info/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_376d6/fast && /usr/bin/make -f CMakeFiles/cmTC_376d6.dir/build.make CMakeFiles/cmTC_376d6.dir/build
-make[1]: Entering directory '/home/bygpu/intro2ros/7_19/build/traffic_light_info/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_376d6.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_376d6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_376d6
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_376d6.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_376d6.dir/CheckFunctionExists.c.o  -o cmTC_376d6  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_4154c/fast && /usr/bin/make -f CMakeFiles/cmTC_4154c.dir/build.make CMakeFiles/cmTC_4154c.dir/build
+make[1]: Entering directory '/home/fangxu/wss/build/traffic_light_info/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4154c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4154c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4154c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4154c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4154c.dir/CheckFunctionExists.c.o  -o cmTC_4154c  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_376d6.dir/build.make:87: cmTC_376d6] Error 1
-make[1]: Leaving directory '/home/bygpu/intro2ros/7_19/build/traffic_light_info/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_376d6/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_4154c.dir/build.make:87: cmTC_4154c] Error 1
+make[1]: Leaving directory '/home/fangxu/wss/build/traffic_light_info/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_4154c/fast] Error 2
 
 
 

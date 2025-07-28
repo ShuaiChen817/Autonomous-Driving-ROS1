@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_distance/include/traffic_light_distance/TrafficLightDistance.h"
+  "/home/fangxu/wss/devel/.private/traffic_light_distance/include/traffic_light_distance/TrafficLightDistance.h"
   "CMakeFiles/traffic_light_distance_generate_messages_cpp"
 )
 

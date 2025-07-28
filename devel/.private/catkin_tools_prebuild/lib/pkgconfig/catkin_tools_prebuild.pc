@@ -1,4 +1,4 @@
-prefix=/home/bygpu/intro2ros/7_19/devel/.private/catkin_tools_prebuild
+prefix=/home/fangxu/wss/devel/.private/catkin_tools_prebuild
 
 Name: catkin_tools_prebuild
 Description: Description of catkin_tools_prebuild

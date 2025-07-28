@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/bygpu/intro2ros/7_19/devel/.private/traffic_light_distance/share/common-lisp/ros/traffic_light_distance/msg/TrafficLightDistance.lisp"
+  "/home/fangxu/wss/devel/.private/traffic_light_distance/share/common-lisp/ros/traffic_light_distance/msg/TrafficLightDistance.lisp"
   "CMakeFiles/traffic_light_distance_generate_messages_lisp"
 )
 

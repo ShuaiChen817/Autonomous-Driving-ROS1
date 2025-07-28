@@ -1,6 +1,6 @@
-devel_space: /home/bygpu/intro2ros/7_19/devel
+devel_space: /home/fangxu/wss/devel
 install: false
-install_space: /home/bygpu/intro2ros/7_19/install
+install_space: /home/fangxu/wss/install
 profile: default
-source_space: /home/bygpu/intro2ros/7_19/src
-workspace: /home/bygpu/intro2ros/7_19
+source_space: /home/fangxu/wss/src
+workspace: /home/fangxu/wss

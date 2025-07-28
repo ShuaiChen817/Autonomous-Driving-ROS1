@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/fangxu/wss/devel/.private/catkin_tools_prebuild/setup.sh

@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "odom_from_unity"
-PROJECT_SPACE_DIR = "/home/bygpu/intro2ros/7_19/install"
+PROJECT_SPACE_DIR = "/home/fangxu/wss/install"
 PROJECT_VERSION = "0.0.0"
