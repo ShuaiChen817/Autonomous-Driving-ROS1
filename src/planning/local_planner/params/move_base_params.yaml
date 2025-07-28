@@ -47,7 +47,49 @@
 
 
 
-base_global_planner: "navfn/NavfnROS"
+# base_global_planner: "navfn/NavfnROS"
+# base_local_planner: "teb_local_planner/TebLocalPlannerROS"
+
+# robot_base_frame: "OurCar/INS"
+# global_frame: "world"
+
+# planner_frequency: 5
+# controller_frequency: 5
+
+# planner_patience: 5            # 等待规划器的最大时间（秒）
+# controller_patience: 5         # 等待控制器的最大时间（秒）
+# oscillation_timeout: 10       # 超过这个时间没有动作会触发recovery（可调大）
+# oscillation_distance: 0.5        # 判定为抖动的移动距离
+
+# shutdown_costmaps: false         # 不要关闭costmap（建议调试时设为false）
+
+# # 目标容差（这是你现在必须加的！）
+# xy_goal_tolerance: 4           # 目标点位置容差（建议你设大一点试试）
+# yaw_goal_tolerance: 3.14          # 朝向容差（如暂不需要可设大）
+
+
+# # 定义恢复行为
+# recovery_behavior_enabled: true
+
+# recovery_behaviors:
+#   - name: clear_costmap
+#     type: clear_costmap_recovery/ClearCostmapRecovery
+#     parameters:
+#       reset_distance: 5
+
+#   - name: move_slow_clear
+#     type: move_slow_and_clear/MoveSlowAndClear
+#     parameters:
+#       clearing_distance: 2.0
+#       limited_trans_speed: 0.2
+#       limited_rot_speed: 0.0
+#       planner_namespace: "TebLocalPlannerROS"
+
+
+
+
+#用GlobalPlanner代替NavfnROS
+base_global_planner: "global_planner/GlobalPlanner"
 base_local_planner: "teb_local_planner/TebLocalPlannerROS"
 
 robot_base_frame: "OurCar/INS"
@@ -56,17 +98,46 @@ global_frame: "world"
 planner_frequency: 5
 controller_frequency: 5
 
-planner_patience: 30            # 等待规划器的最大时间（秒）
-controller_patience: 30         # 等待控制器的最大时间（秒）
-oscillation_timeout: 3       # 超过这个时间没有动作会触发recovery（可调大）
+planner_patience: 5            # 等待规划器的最大时间（秒）
+controller_patience: 5         # 等待控制器的最大时间（秒）
+oscillation_timeout: 10       # 超过这个时间没有动作会触发recovery（可调大）
 oscillation_distance: 0.5        # 判定为抖动的移动距离
-recovery_behavior_enabled: true
 
 shutdown_costmaps: false         # 不要关闭costmap（建议调试时设为false）
 
 # 目标容差（这是你现在必须加的！）
 xy_goal_tolerance: 4           # 目标点位置容差（建议你设大一点试试）
 yaw_goal_tolerance: 3.14          # 朝向容差（如暂不需要可设大）
+
+
+# 定义恢复行为
+recovery_behavior_enabled: true
+
+recovery_behaviors:
+  - name: clear_costmap
+    type: clear_costmap_recovery/ClearCostmapRecovery
+    parameters:
+      reset_distance: 5
+
+  - name: move_slow_clear
+    type: move_slow_and_clear/MoveSlowAndClear
+    parameters:
+      clearing_distance: 2.0
+      limited_trans_speed: 0.2
+      limited_rot_speed: 0.0
+      planner_namespace: "TebLocalPlannerROS"
+
+
+# GlobalPlanner参数
+GlobalPlanner:
+  use_dijkstra: true              # 使用 Dijkstra 而不是 A*
+  use_quadratic: true             # 使用更平滑的代价插值
+  use_grid_path: false            # 是否只走栅格中心点，false 表示更光滑路径
+  allow_unknown: false            # 是否允许穿过未知区域
+
+  cost_factor: 1.5                # 控制代价膨胀的敏感程度，越大越怕贴边
+  neutral_cost: 100               # 基础代价值，调高可使 planner 更保守
+  lethal_cost: 253                # 代价地图中认为致命不可通过的代价值
 
 
 

@@ -41,7 +41,7 @@
     robot_base_frame: OurCar/INS
     update_frequency: 2.0
     publish_frequency: 2.0
-    resolution: 0.7
+    resolution: 1
     static_map: false
 
     # Increase these dimensions otherwise sensor out of map boundary
@@ -55,10 +55,10 @@
     - {name: inflation_layer, type: "costmap_2d::InflationLayer"}
 
 
-    # 定义恢复行为
-    recovery_behaviors:
-    - name: clear_costmap   #清除一定范围内代价地图障碍物信息
-      type: clear_costmap_recovery/ClearCostmapRecovery
+    # # 定义恢复行为
+    # recovery_behaviors:
+    # - name: clear_costmap   #清除一定范围内代价地图障碍物信息
+    #   type: clear_costmap_recovery/ClearCostmapRecovery
 
 
 
