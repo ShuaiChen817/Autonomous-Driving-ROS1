@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hao/my_workspace/ROS_project/project/src/odom_from_unity
+CMAKE_SOURCE_DIR = /home/fangxu/ws/src/odom_from_unity
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hao/my_workspace/ROS_project/project/build/odom_from_unity
+CMAKE_BINARY_DIR = /home/fangxu/ws/build/odom_from_unity
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/hao/my_workspace/ROS_project/project/build/odom_from_unity && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hao/my_workspace/ROS_project/project/src/odom_from_unity /home/hao/my_workspace/ROS_project/project/src/odom_from_unity /home/hao/my_workspace/ROS_project/project/build/odom_from_unity /home/hao/my_workspace/ROS_project/project/build/odom_from_unity /home/hao/my_workspace/ROS_project/project/build/odom_from_unity/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fangxu/ws/build/odom_from_unity && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fangxu/ws/src/odom_from_unity /home/fangxu/ws/src/odom_from_unity /home/fangxu/ws/build/odom_from_unity /home/fangxu/ws/build/odom_from_unity /home/fangxu/ws/build/odom_from_unity/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

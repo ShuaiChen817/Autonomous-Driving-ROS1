@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hao/my_workspace/ROS_project/project/devel/.private/local_planner:$CMAKE_PREFIX_PATH"
-export PWD='/home/hao/my_workspace/ROS_project/project/build/local_planner'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/hao/my_workspace/ROS_project/project/devel/.private/local_planner/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/hao/my_workspace/ROS_project/project/src/planning/local_planner:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/fangxu/ws/devel/.private/local_planner:$CMAKE_PREFIX_PATH"
+export PWD='/home/fangxu/ws/build/local_planner'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/fangxu/ws/devel/.private/local_planner/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/fangxu/ws/src/planning/local_planner:$ROS_PACKAGE_PATH"

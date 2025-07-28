@@ -7,7 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hao/my_workspace/ROS_project/project/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export PWD='/home/hao/my_workspace/ROS_project/project/build/catkin_tools_prebuild'
-export ROSLISP_PACKAGE_DIRECTORIES='/home/hao/my_workspace/ROS_project/project/devel/.private/catkin_tools_prebuild/share/common-lisp'
-export ROS_PACKAGE_PATH="/home/hao/my_workspace/ROS_project/project/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/fangxu/ws/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH='/home/fangxu/catkin_ws/devel/lib:/opt/ros/noetic/lib'
+export PKG_CONFIG_PATH='/home/fangxu/catkin_ws/devel/lib/pkgconfig:/opt/ros/noetic/lib/pkgconfig'
+export PWD='/home/fangxu/ws/build/catkin_tools_prebuild'
+export PYTHONPATH='/opt/ros/noetic/lib/python3/dist-packages'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/fangxu/ws/devel/.private/catkin_tools_prebuild/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/fangxu/ws/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

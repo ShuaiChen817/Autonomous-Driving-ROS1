@@ -1,0 +1,38 @@
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:166:25:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  166 |   ros::init(argc, argv, [01;31m[K\[m[K"simple_fast_controller\");
+      |                         [01;31m[K^[m[K
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:166:26:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+  166 |   ros::init(argc, argv, \[01;35m[K"[m[Ksimple_fast_controller\");
+      |                          [01;35m[K^[m[K
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:166:26:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+  166 |   ros::init(argc, argv, \[01;31m[K"simple_fast_controller\");[m[K
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:168:23:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K\[m[K’ in program
+  168 |   ros::NodeHandle pnh([01;31m[K\[m[K"~\");
+      |                       [01;31m[K^[m[K
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:168:24:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+  168 |   ros::NodeHandle pnh(\[01;35m[K"[m[K~\");
+      |                        [01;35m[K^[m[K
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:168:24:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+  168 |   ros::NodeHandle pnh(\[01;31m[K"~\");[m[K
+      |                        [01;31m[K^~~~~~[m[K
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:167:19:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Knh[m[K’
+  167 |   ros::NodeHandle [01;31m[Knh[m[K;
+      |                   [01;31m[K^~[m[K
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:169:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K([m[K’ token
+  169 |   SimpleFastController node[01;31m[K([m[Knh, pnh);
+      |                            [01;31m[K^[m[K
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:169:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+  169 |   SimpleFastController node(nh, pnh)[01;31m[K;[m[K
+      |                                     [01;31m[K^[m[K
+      |                                     [32m[K)[m[K
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:168:22:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  168 |   ros::NodeHandle pnh[01;36m[K([m[K\"~\");
+      |                      [01;36m[K^[m[K
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:170:3:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+  170 |   [01;31m[Knode[m[K.spin();
+      |   [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/dummy_controller_node.dir/build.make:63: CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/dummy_controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

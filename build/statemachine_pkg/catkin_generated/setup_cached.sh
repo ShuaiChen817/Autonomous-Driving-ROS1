@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hao/my_workspace/ROS_project/project/devel/.private/statemachine_pkg:$CMAKE_PREFIX_PATH"
-export PWD='/home/hao/my_workspace/ROS_project/project/build/statemachine_pkg'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/hao/my_workspace/ROS_project/project/devel/.private/statemachine_pkg/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/hao/my_workspace/ROS_project/project/src/statemachine_pkg:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/fangxu/ws/devel/.private/statemachine_pkg:$CMAKE_PREFIX_PATH"
+export PWD='/home/fangxu/ws/build/statemachine_pkg'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/fangxu/ws/devel/.private/statemachine_pkg/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/fangxu/ws/src/statemachine_pkg:$ROS_PACKAGE_PATH"

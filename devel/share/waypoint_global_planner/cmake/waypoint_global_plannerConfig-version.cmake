@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_global_planner/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig-version.cmake
+/home/fangxu/ws/devel/.private/waypoint_global_planner/share/waypoint_global_planner/cmake/waypoint_global_plannerConfig-version.cmake

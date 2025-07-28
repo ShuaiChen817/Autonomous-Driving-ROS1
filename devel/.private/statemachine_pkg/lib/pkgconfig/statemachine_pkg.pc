@@ -1,4 +1,4 @@
-prefix=/home/hao/my_workspace/ROS_project/project/devel/.private/statemachine_pkg
+prefix=/home/fangxu/ws/devel/.private/statemachine_pkg
 
 Name: statemachine_pkg
 Description: Description of statemachine_pkg

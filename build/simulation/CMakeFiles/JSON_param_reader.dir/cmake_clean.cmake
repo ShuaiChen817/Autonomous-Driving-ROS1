@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/lib/simulation/JSON_param_reader"
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/lib/simulation/JSON_param_reader.pdb"
+  "/home/fangxu/ws/devel/.private/simulation/lib/simulation/JSON_param_reader"
+  "/home/fangxu/ws/devel/.private/simulation/lib/simulation/JSON_param_reader.pdb"
   "CMakeFiles/JSON_param_reader.dir/src/JSON_param_reader.cpp.o"
 )
 

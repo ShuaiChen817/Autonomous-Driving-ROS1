@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hao/my_workspace/ROS_project/project/src/traffic_light_distance
+CMAKE_SOURCE_DIR = /home/fangxu/ws/src/traffic_light_distance
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hao/my_workspace/ROS_project/project/build/traffic_light_distance
+CMAKE_BINARY_DIR = /home/fangxu/ws/build/traffic_light_distance
 
 # Utility rule file for sensor_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/hao/my_workspace/ROS_project/project/build/traffic_light_distance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hao/my_workspace/ROS_project/project/src/traffic_light_distance /home/hao/my_workspace/ROS_project/project/src/traffic_light_distance /home/hao/my_workspace/ROS_project/project/build/traffic_light_distance /home/hao/my_workspace/ROS_project/project/build/traffic_light_distance /home/hao/my_workspace/ROS_project/project/build/traffic_light_distance/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fangxu/ws/build/traffic_light_distance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fangxu/ws/src/traffic_light_distance /home/fangxu/ws/src/traffic_light_distance /home/fangxu/ws/build/traffic_light_distance /home/fangxu/ws/build/traffic_light_distance /home/fangxu/ws/build/traffic_light_distance/CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sensor_msgs_generate_messages_nodejs.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_info/share/roseus/ros/traffic_light_info/manifest.l"
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_info/share/roseus/ros/traffic_light_info/msg/TrafficLightInfo.l"
+  "/home/fangxu/ws/devel/.private/traffic_light_info/share/roseus/ros/traffic_light_info/manifest.l"
+  "/home/fangxu/ws/devel/.private/traffic_light_info/share/roseus/ros/traffic_light_info/msg/TrafficLightInfo.l"
   "CMakeFiles/traffic_light_info_generate_messages_eus"
 )
 

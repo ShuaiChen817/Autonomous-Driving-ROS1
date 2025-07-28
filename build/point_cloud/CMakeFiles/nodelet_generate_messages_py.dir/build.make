@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hao/my_workspace/ROS_project/project/src/point_cloud
+CMAKE_SOURCE_DIR = /home/fangxu/ws/src/point_cloud
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hao/my_workspace/ROS_project/project/build/point_cloud
+CMAKE_BINARY_DIR = /home/fangxu/ws/build/point_cloud
 
 # Utility rule file for nodelet_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/nodelet_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/nodelet_generate_messages_py.dir/clean
 
 CMakeFiles/nodelet_generate_messages_py.dir/depend:
-	cd /home/hao/my_workspace/ROS_project/project/build/point_cloud && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hao/my_workspace/ROS_project/project/src/point_cloud /home/hao/my_workspace/ROS_project/project/src/point_cloud /home/hao/my_workspace/ROS_project/project/build/point_cloud /home/hao/my_workspace/ROS_project/project/build/point_cloud /home/hao/my_workspace/ROS_project/project/build/point_cloud/CMakeFiles/nodelet_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fangxu/ws/build/point_cloud && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fangxu/ws/src/point_cloud /home/fangxu/ws/src/point_cloud /home/fangxu/ws/build/point_cloud /home/fangxu/ws/build/point_cloud /home/fangxu/ws/build/point_cloud/CMakeFiles/nodelet_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/nodelet_generate_messages_py.dir/depend
 

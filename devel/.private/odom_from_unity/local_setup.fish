@@ -5,7 +5,7 @@
 # or fall back to the destination set at configure time
 
 if test -z $_CATKIN_SETUP_DIR
-    set _CATKIN_SETUP_DIR /home/hao/my_workspace/ROS_project/project/devel/.private/odom_from_unity
+    set _CATKIN_SETUP_DIR /home/fangxu/ws/devel/.private/odom_from_unity
 end
 
 set CATKIN_SETUP_UTIL_ARGS "--extend --local"

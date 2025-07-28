@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/point_cloud/share/point_cloud/cmake/point_cloud-msg-paths.cmake
+/home/fangxu/ws/devel/.private/point_cloud/share/point_cloud/cmake/point_cloud-msg-paths.cmake

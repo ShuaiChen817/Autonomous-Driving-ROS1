@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/statemachine_pkg/share/statemachine_pkg/cmake/statemachine_pkgConfig.cmake
+/home/fangxu/ws/devel/.private/statemachine_pkg/share/statemachine_pkg/cmake/statemachine_pkgConfig.cmake

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_detector/include/traffic_light_detector/TrafficLightStatus.h"
+  "/home/fangxu/ws/devel/.private/traffic_light_detector/include/traffic_light_detector/TrafficLightStatus.h"
   "CMakeFiles/traffic_light_detector_generate_messages_cpp"
 )
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/simulation/share/gennodejs/ros/simulation/msg/VehicleControl.js"
+  "/home/fangxu/ws/devel/.private/simulation/share/gennodejs/ros/simulation/msg/VehicleControl.js"
   "CMakeFiles/simulation_generate_messages_nodejs"
 )
 

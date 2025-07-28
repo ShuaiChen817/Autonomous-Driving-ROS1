@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/point_cloud/share/gennodejs/ros/point_cloud/msg/PointCloudStamped.js
+/home/fangxu/ws/devel/.private/point_cloud/share/gennodejs/ros/point_cloud/msg/PointCloudStamped.js

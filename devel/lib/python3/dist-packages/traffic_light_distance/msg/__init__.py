@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_distance/lib/python3/dist-packages/traffic_light_distance/msg/__init__.py
+/home/fangxu/ws/devel/.private/traffic_light_distance/lib/python3/dist-packages/traffic_light_distance/msg/__init__.py

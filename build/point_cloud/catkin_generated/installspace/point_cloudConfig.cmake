@@ -67,14 +67,14 @@ set(point_cloud_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(point_cloud_SOURCE_PREFIX /home/hao/my_workspace/ROS_project/project/src/point_cloud)
-  set(point_cloud_DEVEL_PREFIX /home/hao/my_workspace/ROS_project/project/devel/.private/point_cloud)
+  set(point_cloud_SOURCE_PREFIX /home/fangxu/ws/src/point_cloud)
+  set(point_cloud_DEVEL_PREFIX /home/fangxu/ws/devel/.private/point_cloud)
   set(point_cloud_INSTALL_PREFIX "")
   set(point_cloud_PREFIX ${point_cloud_DEVEL_PREFIX})
 else()
   set(point_cloud_SOURCE_PREFIX "")
   set(point_cloud_DEVEL_PREFIX "")
-  set(point_cloud_INSTALL_PREFIX /home/hao/my_workspace/ROS_project/project/install)
+  set(point_cloud_INSTALL_PREFIX /home/fangxu/ws/install)
   set(point_cloud_PREFIX ${point_cloud_INSTALL_PREFIX})
 endif()
 
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/hao/my_workspace/ROS_project/project/install/lib;/home/hao/my_workspace/ROS_project/project/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/fangxu/ws/install/lib;/home/fangxu/ws/devel/lib;/home/fangxu/catkin_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

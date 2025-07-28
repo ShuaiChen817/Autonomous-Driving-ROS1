@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_distance/share/roseus/ros/traffic_light_distance/manifest.l
+/home/fangxu/ws/devel/.private/traffic_light_distance/share/roseus/ros/traffic_light_distance/manifest.l

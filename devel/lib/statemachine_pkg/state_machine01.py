@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/statemachine_pkg/lib/statemachine_pkg/state_machine01.py
+/home/fangxu/ws/devel/.private/statemachine_pkg/lib/statemachine_pkg/state_machine01.py

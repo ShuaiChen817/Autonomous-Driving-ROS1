@@ -20,9 +20,9 @@ public:
 
     // params
     pnh.param<double>("wheelbase",       L_,             2.7);
-    pnh.param<double>("steer_gain",      steer_gain_,    1.6);
-    pnh.param<double>("max_steer",       max_steer_,     0.6);
-    pnh.param<double>("max_steer_rate",  max_sr_,        3.0);
+    pnh.param<double>("steer_gain",      steer_gain_,    1.5);
+    pnh.param<double>("max_steer",       max_steer_,     1.4);
+    pnh.param<double>("max_steer_rate",  max_sr_,        8.0);
     pnh.param<double>("k_accel",         k_accel_,       8.0);
     pnh.param<double>("k_brake",         k_brake_,       2.0);
     pnh.param<double>("coast_band",      coast_band_,    0.1);
@@ -41,6 +41,7 @@ public:
     steer_cmd_ = 0.0;
   }
 
+  
   void spin(){
     ros::Rate r(20.0); // 20Hz
     while(ros::ok()){

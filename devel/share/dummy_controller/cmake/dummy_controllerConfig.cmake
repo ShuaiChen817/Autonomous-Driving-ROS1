@@ -1,1 +1,1 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/dummy_controller/share/dummy_controller/cmake/dummy_controllerConfig.cmake
+/home/fangxu/ws/devel/.private/dummy_controller/share/dummy_controller/cmake/dummy_controllerConfig.cmake

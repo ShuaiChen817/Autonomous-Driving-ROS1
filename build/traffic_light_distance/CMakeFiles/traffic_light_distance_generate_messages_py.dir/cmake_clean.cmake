@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_distance/lib/python3/dist-packages/traffic_light_distance/msg/_TrafficLightDistance.py"
-  "/home/hao/my_workspace/ROS_project/project/devel/.private/traffic_light_distance/lib/python3/dist-packages/traffic_light_distance/msg/__init__.py"
+  "/home/fangxu/ws/devel/.private/traffic_light_distance/lib/python3/dist-packages/traffic_light_distance/msg/_TrafficLightDistance.py"
+  "/home/fangxu/ws/devel/.private/traffic_light_distance/lib/python3/dist-packages/traffic_light_distance/msg/__init__.py"
   "CMakeFiles/traffic_light_distance_generate_messages_py"
 )
 

@@ -3,7 +3,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/hao/my_workspace/ROS_project/project/devel/.private/odom_from_unity}
+: ${_CATKIN_SETUP_DIR:=/home/fangxu/ws/devel/.private/odom_from_unity}
 CATKIN_SETUP_UTIL_ARGS="--extend --local"
 . "$_CATKIN_SETUP_DIR/setup.sh"
 unset CATKIN_SETUP_UTIL_ARGS

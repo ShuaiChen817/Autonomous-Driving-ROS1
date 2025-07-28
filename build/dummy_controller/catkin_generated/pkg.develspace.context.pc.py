@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "dummy_controller"
-PROJECT_SPACE_DIR = "/home/hao/my_workspace/ROS_project/project/devel/.private/dummy_controller"
+PROJECT_SPACE_DIR = "/home/fangxu/ws/devel/.private/dummy_controller"
 PROJECT_VERSION = "0.0.0"

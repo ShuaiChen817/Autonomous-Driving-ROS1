@@ -1,1 +1,0 @@
-/home/hao/my_workspace/ROS_project/project/devel/.private/waypoint_manager/share/waypoint_manager/cmake/waypoint_managerConfig.cmake

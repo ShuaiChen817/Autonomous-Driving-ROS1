@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hao/my_workspace/ROS_project/project/src/dummy_controller
+CMAKE_SOURCE_DIR = /home/fangxu/ws/src/dummy_controller
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hao/my_workspace/ROS_project/project/build/dummy_controller
+CMAKE_BINARY_DIR = /home/fangxu/ws/build/dummy_controller
 
 # Utility rule file for roscpp_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/roscpp_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/clean
 
 CMakeFiles/roscpp_generate_messages_py.dir/depend:
-	cd /home/hao/my_workspace/ROS_project/project/build/dummy_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hao/my_workspace/ROS_project/project/src/dummy_controller /home/hao/my_workspace/ROS_project/project/src/dummy_controller /home/hao/my_workspace/ROS_project/project/build/dummy_controller /home/hao/my_workspace/ROS_project/project/build/dummy_controller /home/hao/my_workspace/ROS_project/project/build/dummy_controller/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fangxu/ws/build/dummy_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fangxu/ws/src/dummy_controller /home/fangxu/ws/src/dummy_controller /home/fangxu/ws/build/dummy_controller /home/fangxu/ws/build/dummy_controller /home/fangxu/ws/build/dummy_controller/CMakeFiles/roscpp_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_py.dir/depend
 
