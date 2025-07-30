@@ -23,7 +23,7 @@ public:
 
     // params
     pnh.param<double>("wheelbase",       L_,               2.7);
-    pnh.param<double>("steer_gain",      steer_gain_,      1.5);
+    pnh.param<double>("steer_gain",      steer_gain_,      1.6);
     pnh.param<double>("steer_gain_turn", steer_gain_turn_, 3.0);   // 仅转弯时可放大
     pnh.param<double>("max_steer",       max_steer_,       2.0);
     pnh.param<double>("max_steer_rate",  max_sr_,          6.0);
