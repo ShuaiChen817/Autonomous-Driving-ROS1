@@ -23,8 +23,8 @@ local_costmap:
   # global_frame: world
   global_frame: map
   robot_base_frame: OurCar/INS
-  update_frequency: 10.0
-  publish_frequency: 10.0
+  update_frequency: 50.0
+  publish_frequency: 50.0
   rolling_window: true
   width: 10.0
   height: 10.0

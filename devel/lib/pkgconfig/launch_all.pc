@@ -1,0 +1,1 @@
+/home/fangxu/ws/devel/.private/launch_all/lib/pkgconfig/launch_all.pc

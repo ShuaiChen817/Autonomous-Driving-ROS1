@@ -1,0 +1,4 @@
+launch_all
+/home/fangxu/ws/devel/.private/launch_all/lib/pkgconfig/launch_all.pc /home/fangxu/ws/devel/lib/pkgconfig/launch_all.pc
+/home/fangxu/ws/devel/.private/launch_all/share/launch_all/cmake/launch_allConfig.cmake /home/fangxu/ws/devel/share/launch_all/cmake/launch_allConfig.cmake
+/home/fangxu/ws/devel/.private/launch_all/share/launch_all/cmake/launch_allConfig-version.cmake /home/fangxu/ws/devel/share/launch_all/cmake/launch_allConfig-version.cmake
