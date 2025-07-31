@@ -1,0 +1,29 @@
+<launch>
+      <node pkg="simulation" type="JSON_param_reader" name="JSON_param_reader" output="screen"/>
+      <node pkg="simulation" type="unity_TCP_stream_receiver" name="Unity_ROS_message_Rx" output="screen"/>
+      <node pkg="simulation" type="ROS_command_transmitter" name="ROS_Unity_command_Tx" output="screen"/>
+      <node pkg="simulation" type="run_unity.sh" name="unity_sim" output="screen" />
+
+
+      <!-- Launch point cloud processing and costmap -->
+<include file="$(find point_cloud)/launch/point_cloud.launch"/>
+
+<!-- Launch path planning module -->
+<include file="$(find local_planner)/launch/move_base.launch"/>
+
+<!-- Launch anchor point placement script -->
+<!-- <node pkg="local_planner" type="multi_goal_manager.py" name="multi_goal_manager" output="screen" /> -->
+
+<!-- Launch traffic light information module -->
+<include file="$(find traffic_light_info)/launch/traffic_light_info.launch"/>
+
+<!-- Launch state machine -->
+<include file="$(find statemachine_pkg)/launch/state_machine.launch"/>
+<node pkg="smach_viewer" type="smach_viewer.py" name="smach_viewer" output="screen"/>
+
+<node pkg="statemachine_pkg" type="state_machine01.py" name="state_machine01" output="screen" />
+
+<!-- Launch dummy controller -->
+<node pkg="dummy_controller" type="dummy_controller_node" name="dummy_controller_node" output="screen" />
+
+</launch>

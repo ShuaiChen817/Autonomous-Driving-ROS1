@@ -1,0 +1,23 @@
+<launch>
+  
+
+
+
+  
+  <!-- Publish TF: the coordinate transformation from the depth camera to the INS sensor -->
+  <node pkg="tf" type="static_transform_publisher" name="depth_to_ins"
+      args="0.82 0 0.56 -1.5708 0 -1.5708 OurCar/INS OurCar/Sensors/DepthCamera 100" />
+
+  <!-- nodelet manager -->
+  <node pkg="nodelet" type="nodelet" name="depth_proc_manager" args="manager" output="screen" />
+
+  <!-- Load the depth_image_proc nodelet -->
+  <node pkg="nodelet" type="nodelet" name="depth_to_cloud"
+        args="load depth_image_proc/point_cloud_xyz depth_proc_manager" output="screen">
+    
+    <!-- Rename the message -->
+    <remap from="image_rect" to="/Unity_ROS_message_Rx/OurCar/Sensors/DepthCamera/image_raw"/>
+    <remap from="camera_info" to="/Unity_ROS_message_Rx/OurCar/Sensors/DepthCamera/camera_info"/>
+  </node>
+</launch>
+

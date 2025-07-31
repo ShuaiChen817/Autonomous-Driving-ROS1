@@ -1,0 +1,11 @@
+<launch>
+    
+    <!-- Launch the point cloud launch file -->
+    <include file="$(find point_cloud)/launch/depth_to_pointcloud.launch" />
+   
+    <!-- Launch the volumetric block launch file -->
+    <include file="$(find point_cloud)/launch/octomap_mapping.launch" />
+
+    <!-- Start RViz and load the configuration -->
+    <node pkg="rviz" type="rviz" name="rviz" output="screen" args="-d $(find point_cloud)/rviz/my_config.rviz"/>
+</launch>

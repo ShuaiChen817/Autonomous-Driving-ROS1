@@ -1,0 +1,24 @@
+<launch>
+  <!-- Start OctoMap service -->
+  <node pkg="octomap_server" type="octomap_server_node" name="octomap_server" output="screen">
+
+    <!-- The map is fixed in the world coordinate frame -->
+    <param name="frame_id" value="world" />
+
+    <!-- Maximum range (unit: meters) -->
+    <param name="sensor_model/max_range" value="400" />
+
+    <!-- Whether the map is immediately visible in RViz -->
+    <param name="latch" value="true" />
+
+    <!-- Resolution (unit: meters) -->
+    <param name="resolution" value="0.5" />
+
+    <!-- Increase generation speed: occupancy probability threshold -->
+    <param name="occupancy_thres" value="0.05" />
+
+    <!-- Input point cloud topic -->
+    <remap from="cloud_in" to="/points" />
+    
+  </node>
+</launch>

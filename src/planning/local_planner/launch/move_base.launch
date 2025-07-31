@@ -1,0 +1,54 @@
+<!-- <launch> -->
+  <!-- 启动 move_base 节点 -->
+  <!-- <node pkg="move_base" type="move_base" name="move_base" output="screen"> -->
+
+    <!-- 加载主参数 -->
+    <!-- <rosparam file="$(find local_planner)/params/move_base_params.yaml" command="load" /> -->
+
+    <!-- 公共 costmap 参数（obstacle_layer, inflation_layer 等） -->
+    <!-- <rosparam file="$(find local_planner)/params/costmap_common_params.yaml" command="load" /> -->
+
+    <!-- global_costmap 独立配置 -->
+    <!-- <rosparam file="$(find local_planner)/params/global_costmap_params.yaml" command="load" ns="global_costmap" /> -->
+
+    <!-- local_costmap 独立配置 -->
+    <!-- <rosparam file="$(find local_planner)/params/local_costmap_params.yaml" command="load" ns="local_costmap" /> -->
+
+    <!-- teb_local_planner 独立配置 -->
+    <!-- <rosparam file="$(find local_planner)/params/teb_local_planner_params.yaml" command="load" /> -->
+    
+    <!-- 可选：static_map 参数（如果你用了 static layer） -->
+    <!-- <rosparam file="$(find local_planner)/params/static_map_params.yaml" command="load" /> -->
+
+  <!-- </node> -->
+
+  <!-- 可选：开启 RViz -->
+  <!-- <node pkg="rviz" type="rviz" name="rviz" args="-d $(find local_planner)/rviz/move_base.rviz" required="false" /> -->
+<!-- </launch> -->
+
+
+<launch>
+
+  <node pkg="tf" type="static_transform_publisher" name="map_offset_tf" 
+      args="-1000 -1000 0 0 0 0 world map 100" />
+
+
+  <!-- 启动 move_base 节点 -->
+  <node pkg="move_base" type="move_base" name="move_base" output="screen">
+
+    <!-- 加载主参数 -->
+    <rosparam file="$(find local_planner)/params/move_base_params.yaml" command="load" />
+
+    <!-- global和local规划器共享common参数 -->
+    <rosparam file="$(find local_planner)/params/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find local_planner)/params/costmap_common_params.yaml" command="load" ns="local_costmap" />
+
+    <!-- global_costmap  -->
+    <rosparam file="$(find local_planner)/params/global_costmap_params.yaml" command="load" />
+    <!-- local_costmap  -->
+    <rosparam file="$(find local_planner)/params/local_costmap_params.yaml" command="load" />
+
+    <!-- teb_local_planner -->
+    <rosparam file="$(find local_planner)/params/teb_local_planner_params.yaml" command="load" />
+  </node>   
+</launch>

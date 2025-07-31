@@ -1,0 +1,61 @@
+
+# obstacle_range: 30
+# raytrace_range: 30
+
+# obstacle_layer:
+#   enable: True
+#   combination_method: 1
+#   track_unknown_space: True
+#   observation_sources: point_cloud_sensor
+#   point_cloud_sensor: {
+#     sensor_frame: OurCar/Sensors/DepthCamera, 
+#     data_type: PointCloud2, 
+#     topic: /points, 
+#     marking: true, 
+#     clearing: true
+#   }
+
+# cost_type: costmap
+
+# inflater_layer:
+#   enabled: true
+#   inflation_radius: 0.5
+#   cost_scaling_factor: 3.0
+
+# static_layer:
+#   enabled: true
+
+
+
+# robot_radius: 2.2
+obstacle_range: 100
+raytrace_range: 100
+
+# observation_sources: point_cloud_sensor 
+
+# point_cloud_sensor:
+#   sensor_frame: "OurCar/Sensors/DepthCamera"
+#   data_type: PointCloud2
+#   topic: "/points"
+#   marking: true
+#   clearing: true
+#   max_obstacle_height: 1.5
+#   min_obstacle_height: 0.3
+
+
+obstacle_layer:
+  observation_sources: point_cloud_sensor 
+
+  point_cloud_sensor:
+    sensor_frame: "OurCar/Sensors/DepthCamera"
+    data_type: PointCloud2
+    topic: "/points"
+    marking: true
+    clearing: true
+    max_obstacle_height: 1.5
+    min_obstacle_height: 0.1
+
+
+inflation_layer:
+  inflation_radius: 2     # 根据你机器大小设置
+  cost_scaling_factor: 0.02  # 越大下降越快（越陡），越小影响范围越广
