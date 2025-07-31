@@ -71,6 +71,13 @@ ros-noetic-global-planner
 ros-noetic-smach
 ros-noetic-smach-ros
 ros-noetic-smach-viewer
+ros-noetic-cv-bridge
+ros-noetic-image-transport
+ros-noetic-eigen-conversions
+ros-noetic-move-base
+ros-noetic-base-local-planner
+tf_conversions
+depth_image_proc
 ```
 
 ### 2. Install Yolov5
