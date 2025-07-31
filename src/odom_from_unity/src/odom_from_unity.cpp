@@ -42,9 +42,9 @@ private:
 
         // 坐标系转换（使得 x-前进，z-向上）
         Eigen::Matrix3d mat;
-        mat << 0.0, -1.0, 0.0,
-               1.0,  0.0, 0.0,
-               0.0,  0.0, 1.0;
+        mat << 0.0,  0.0, 1.0,
+               -1.0,  0.0, 0.0,
+               0.0,  1.0, 0.0;
         Eigen::Matrix3d rot_mat = mat * R;
         Eigen::Quaterniond rot_q(rot_mat);
         odom.pose.pose.orientation.x = rot_q.x();
@@ -109,4 +109,4 @@ int main(int argc, char** argv) {
     ros::init(argc, argv, "odometry_publisher");
     OdomFromUnityNode odom_broadcaster;
     ros::spin();
-}
+} 

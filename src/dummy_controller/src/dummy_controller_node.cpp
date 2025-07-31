@@ -25,10 +25,10 @@ public:
     pnh.param<double>("wheelbase",       L_,               2.7);
     pnh.param<double>("steer_gain",      steer_gain_,      1.6);
     pnh.param<double>("steer_gain_turn", steer_gain_turn_, 3.0);   // 仅转弯时可放大
-    pnh.param<double>("max_steer",       max_steer_,       2.0);
+    pnh.param<double>("max_steer",       max_steer_,       3.0);
     pnh.param<double>("max_steer_rate",  max_sr_,          6.0);
-    pnh.param<double>("k_accel",         k_accel_,         12.0);
-    pnh.param<double>("k_brake",         k_brake_,         2.0);
+    pnh.param<double>("k_accel",         k_accel_,         0.3);
+    pnh.param<double>("k_brake",         k_brake_,         0.1);
     pnh.param<double>("coast_band",      coast_band_,      0.1);
     pnh.param<double>("min_v_to_steer",  min_v_to_steer_,  0.02);
     pnh.param<double>("cmd_timeout",     cmd_to_,          2.0);
@@ -51,7 +51,7 @@ public:
   }
 
   void spin(){
-    ros::Rate r(50.0); // 20Hz
+    ros::Rate r(100.0); // 20Hz
     while(ros::ok()){
       ros::spinOnce();
       step();
@@ -141,7 +141,7 @@ private:
 
     // ---------- Longitudinal ----------
     if(!have_odom_ || odom_timeout){
-      out.Throttle = (vx_cmd_eff > 0.05)? 0.5 : 0.0;
+      out.Throttle = (vx_cmd_eff > 0.05)? 0.6 : 0.0;
       out.Brake    = (vx_cmd_eff > 0.05)? 0.0 : 0.8;
     }else{
       double v_err = vx_cmd_eff - vx_meas_;

@@ -1,0 +1,8 @@
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:[m[K In constructor ‘[01m[KSimpleFastController::SimpleFastController(ros::NodeHandle&, ros::NodeHandle&)[m[K’:
+[01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:22:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   22 |     pnh.param[34m[K([m[K"steer_gain",     steer_k_,      1.6[01;31m[K;[m[K
+      |              [34m[K~[m[K                                    [01;31m[K^[m[K
+      |                                                   [32m[K)[m[K
+make[2]: *** [CMakeFiles/dummy_controller_node.dir/build.make:63: CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/dummy_controller_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

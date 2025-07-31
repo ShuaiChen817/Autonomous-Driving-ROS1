@@ -4,12 +4,12 @@ TebLocalPlannerROS:
   map_frame: world  # 改成你使用的 global_frame
 
   # Robot configuration
-  max_vel_x: 10
+  max_vel_x: 1.0
   max_vel_x_backwards: 0.5
   max_vel_y: 0.0
-  max_vel_theta: 6.0
-  acc_lim_x: 5.0
-  acc_lim_theta: 3.0
+  max_vel_theta: 7.0
+  acc_lim_x: 1.0
+  acc_lim_theta: 4.0
 
   # Robot footprint
   footprint_model:

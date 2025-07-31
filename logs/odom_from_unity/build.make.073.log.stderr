@@ -1,0 +1,8 @@
+[01m[K/home/fangxu/ws/src/odom_from_unity/src/odom_from_unity.cpp:[m[K In member function ‘[01m[Kvoid OdomFromUnityNode::publishOdom()[m[K’:
+[01m[K/home/fangxu/ws/src/odom_from_unity/src/odom_from_unity.cpp:65:38:[m[K [01;31m[Kerror: [m[K‘[01m[KcreateQuaternionMsgFromEigen[m[K’ is not a member of ‘[01m[Ktf[m[K’; did you mean ‘[01m[KcreateQuaternionMsgFromYaw[m[K’?
+   65 |     odom.pose.pose.orientation = tf::[01;31m[KcreateQuaternionMsgFromEigen[m[K(q_ros);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                      [32m[KcreateQuaternionMsgFromYaw[m[K
+make[2]: *** [CMakeFiles/odom_from_unity.dir/build.make:63: CMakeFiles/odom_from_unity.dir/src/odom_from_unity.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:1054: CMakeFiles/odom_from_unity.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
