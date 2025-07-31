@@ -1,1 +1,0 @@
-/home/hao/my_workspace/7_31_2/devel/.private/point_cloud/include/point_cloud/PointCloudStamped.h

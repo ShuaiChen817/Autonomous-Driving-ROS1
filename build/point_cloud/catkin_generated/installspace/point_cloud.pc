@@ -1,8 +1,0 @@
-prefix=/home/hao/my_workspace/7_31_2/install
-
-Name: point_cloud
-Description: Description of point_cloud
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: rospy std_msgs sensor_msgs tf pcl_ros pcl_conversions message_runtime

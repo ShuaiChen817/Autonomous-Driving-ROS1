@@ -1,8 +1,0 @@
-prefix=/home/hao/my_workspace/7_31_2/devel/.private/statemachine_pkg
-
-Name: statemachine_pkg
-Description: Description of statemachine_pkg
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

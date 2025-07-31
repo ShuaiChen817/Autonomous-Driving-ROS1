@@ -1,8 +1,0 @@
-prefix=/home/hao/my_workspace/7_31_2/devel/.private/simulation
-
-Name: simulation
-Description: Description of simulation
-Version: 0.1.0
-Cflags: -I/home/hao/my_workspace/7_31_2/devel/.private/simulation/include
-Libs: -L${prefix}/lib 
-Requires: message_runtime

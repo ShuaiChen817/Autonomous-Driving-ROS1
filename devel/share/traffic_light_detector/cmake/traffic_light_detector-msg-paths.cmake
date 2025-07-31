@@ -1,1 +1,0 @@
-/home/hao/my_workspace/7_31_2/devel/.private/traffic_light_detector/share/traffic_light_detector/cmake/traffic_light_detector-msg-paths.cmake

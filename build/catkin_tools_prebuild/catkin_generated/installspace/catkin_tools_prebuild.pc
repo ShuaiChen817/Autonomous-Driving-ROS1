@@ -1,8 +1,0 @@
-prefix=/home/hao/my_workspace/7_31_2/install
-
-Name: catkin_tools_prebuild
-Description: Description of catkin_tools_prebuild
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

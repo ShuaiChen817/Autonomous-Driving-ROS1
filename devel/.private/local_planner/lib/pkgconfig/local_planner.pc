@@ -1,8 +1,0 @@
-prefix=/home/hao/my_workspace/7_31_2/devel/.private/local_planner
-
-Name: local_planner
-Description: Description of local_planner
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: roscpp rospy std_msgs geometry_msgs nav_msgs tf move_base

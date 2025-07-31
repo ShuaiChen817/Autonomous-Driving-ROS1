@@ -1,1 +1,0 @@
-/home/hao/my_workspace/7_31_2/devel/.private/statemachine_pkg/lib/statemachine_pkg/state_machine01.py

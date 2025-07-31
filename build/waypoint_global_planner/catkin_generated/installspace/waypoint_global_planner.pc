@@ -1,8 +1,0 @@
-prefix=/home/hao/my_workspace/7_31_2/install
-
-Name: waypoint_global_planner
-Description: Description of waypoint_global_planner
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib -lwaypoint_global_planner
-Requires: base_local_planner costmap_2d geometry_msgs nav_core nav_msgs pluginlib roscpp tf visualization_msgs
