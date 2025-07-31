@@ -65,19 +65,19 @@ ros-noetic-rviz \
 ros-noetic-octomap-server \
 ros-noetic-navigation \
 ros-noetic-octomap-rviz-plugins \
-ros-noetic-teb-local-planner
-ros-noetic-move-slow-clear
-ros-noetic-global-planner
-ros-noetic-smach
-ros-noetic-smach-ros
-ros-noetic-smach-viewer
-ros-noetic-cv-bridge
-ros-noetic-image-transport
-ros-noetic-eigen-conversions
-ros-noetic-move-base
-ros-noetic-base-local-planner
-tf_conversions
-depth_image_proc
+ros-noetic-teb-local-planner \
+ros-noetic-move-slow-clear \
+ros-noetic-global-planner \
+ros-noetic-smach \
+ros-noetic-smach-ros \
+ros-noetic-smach-viewer \
+ros-noetic-cv-bridge \
+ros-noetic-image-transport \
+ros-noetic-eigen-conversions \
+ros-noetic-move-base \
+ros-noetic-base-local-planner \
+tf_conversions \
+depth_image_proc \
 ```
 
 ### 2. Install Yolov5
