@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fangxu/ws/src/traffic_light_distance
+CMAKE_SOURCE_DIR = /home/hao/my_workspace/7_31_2/src/traffic_light_distance
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fangxu/ws/build/traffic_light_distance
+CMAKE_BINARY_DIR = /home/hao/my_workspace/7_31_2/build/traffic_light_distance
 
 # Utility rule file for std_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/std_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/std_msgs_generate_messages_py.dir/depend:
-	cd /home/fangxu/ws/build/traffic_light_distance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fangxu/ws/src/traffic_light_distance /home/fangxu/ws/src/traffic_light_distance /home/fangxu/ws/build/traffic_light_distance /home/fangxu/ws/build/traffic_light_distance /home/fangxu/ws/build/traffic_light_distance/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hao/my_workspace/7_31_2/build/traffic_light_distance && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hao/my_workspace/7_31_2/src/traffic_light_distance /home/hao/my_workspace/7_31_2/src/traffic_light_distance /home/hao/my_workspace/7_31_2/build/traffic_light_distance /home/hao/my_workspace/7_31_2/build/traffic_light_distance /home/hao/my_workspace/7_31_2/build/traffic_light_distance/CMakeFiles/std_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/std_msgs_generate_messages_py.dir/depend
 

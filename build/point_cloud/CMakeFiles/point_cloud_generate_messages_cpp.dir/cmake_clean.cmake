@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/fangxu/ws/devel/.private/point_cloud/include/point_cloud/PointCloudStamped.h"
+  "/home/hao/my_workspace/7_31_2/devel/.private/point_cloud/include/point_cloud/PointCloudStamped.h"
   "CMakeFiles/point_cloud_generate_messages_cpp"
 )
 

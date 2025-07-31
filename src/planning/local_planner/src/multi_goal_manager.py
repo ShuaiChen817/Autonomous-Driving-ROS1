@@ -37,7 +37,7 @@ class MultiGoalPublisher:
         ]
 
         self.goal_index = 0
-        self.goal_tolerance = 4  # 判定为到达的距离阈值（单位：米）
+        self.goal_tolerance = 4  # Distance threshold for determining arrival (unit: meters)
         self.goal_active = False
 
         rospy.sleep(1.0)
@@ -45,7 +45,7 @@ class MultiGoalPublisher:
 
     def send_next_goal(self):
         if self.goal_index >= len(self.goals):
-            rospy.loginfo("所有目标点已发布完毕")
+            rospy.loginfo("All target points have been fully released")
             self.goal_active = False
             return
 
@@ -56,9 +56,9 @@ class MultiGoalPublisher:
         goal.pose.position.x = x
         goal.pose.position.y = y
         goal.pose.position.z = 0.0
-        goal.pose.orientation.w = 1.0  # 不关心朝向
+        goal.pose.orientation.w = 1.0  
 
-        rospy.loginfo(f"发布目标点 {self.goal_index + 1}: ({x}, {y})")
+        rospy.loginfo(f"Release target points {self.goal_index + 1}: ({x}, {y})")
         self.goal_pub.publish(goal)
         self.goal_active = True
 
@@ -73,7 +73,7 @@ class MultiGoalPublisher:
         distance = math.hypot(goal_x - current_x, goal_y - current_y)
 
         if distance <= self.goal_tolerance:
-            rospy.loginfo(f"到达目标 {self.goal_index + 1}，距离误差为 {distance:.2f} 米")
+            rospy.loginfo(f"Reach the target {self.goal_index + 1}, The distance error is {distance:.2f} m")
             self.goal_index += 1
             self.goal_active = False
             rospy.sleep(1.0)

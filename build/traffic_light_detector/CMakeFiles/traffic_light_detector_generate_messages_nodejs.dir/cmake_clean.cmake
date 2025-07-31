@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/fangxu/ws/devel/.private/traffic_light_detector/share/gennodejs/ros/traffic_light_detector/msg/TrafficLightStatus.js"
+  "/home/hao/my_workspace/7_31_2/devel/.private/traffic_light_detector/share/gennodejs/ros/traffic_light_detector/msg/TrafficLightStatus.js"
   "CMakeFiles/traffic_light_detector_generate_messages_nodejs"
 )
 

@@ -1,1 +1,1 @@
-/home/fangxu/ws/devel/.private/dummy_controller/share/dummy_controller/cmake/dummy_controllerConfig-version.cmake
+/home/hao/my_workspace/7_31_2/devel/.private/dummy_controller/share/dummy_controller/cmake/dummy_controllerConfig-version.cmake

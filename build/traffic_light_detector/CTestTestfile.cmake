@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/fangxu/ws/src/traffic_light_detector
-# Build directory: /home/fangxu/ws/build/traffic_light_detector
+# Source directory: /home/hao/my_workspace/7_31_2/src/traffic_light_detector
+# Build directory: /home/hao/my_workspace/7_31_2/build/traffic_light_detector
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

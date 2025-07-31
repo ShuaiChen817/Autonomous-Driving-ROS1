@@ -5,7 +5,7 @@
 # or fall back to the destination set at configure time
 
 if test -z $_CATKIN_SETUP_DIR
-    set _CATKIN_SETUP_DIR /home/fangxu/ws/devel/.private/dummy_controller
+    set _CATKIN_SETUP_DIR /home/hao/my_workspace/7_31_2/devel/.private/dummy_controller
 end
 
 set CATKIN_SETUP_UTIL_ARGS "--extend --local"

@@ -1,1 +1,1 @@
-/home/fangxu/ws/devel/.private/point_cloud/share/roseus/ros/point_cloud/msg/PointCloudStamped.l
+/home/hao/my_workspace/7_31_2/devel/.private/point_cloud/share/roseus/ros/point_cloud/msg/PointCloudStamped.l

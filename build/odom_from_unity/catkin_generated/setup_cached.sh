@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/fangxu/ws/devel/.private/odom_from_unity:$CMAKE_PREFIX_PATH"
-export PWD='/home/fangxu/ws/build/odom_from_unity'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/fangxu/ws/devel/.private/odom_from_unity/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/fangxu/ws/src/odom_from_unity:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/hao/my_workspace/7_31_2/devel/.private/odom_from_unity:$CMAKE_PREFIX_PATH"
+export PWD='/home/hao/my_workspace/7_31_2/build/odom_from_unity'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/hao/my_workspace/7_31_2/devel/.private/odom_from_unity/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/hao/my_workspace/7_31_2/src/odom_from_unity:$ROS_PACKAGE_PATH"

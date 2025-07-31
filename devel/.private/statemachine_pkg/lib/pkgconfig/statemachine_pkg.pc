@@ -1,4 +1,4 @@
-prefix=/home/fangxu/ws/devel/.private/statemachine_pkg
+prefix=/home/hao/my_workspace/7_31_2/devel/.private/statemachine_pkg
 
 Name: statemachine_pkg
 Description: Description of statemachine_pkg

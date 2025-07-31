@@ -7,7 +7,8 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/fangxu/ws/devel/.private/simulation:$CMAKE_PREFIX_PATH"
-export PWD='/home/fangxu/ws/build/simulation'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/fangxu/ws/devel/.private/simulation/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/fangxu/ws/src/simulation:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/hao/my_workspace/7_31_2/devel/.private/simulation:$CMAKE_PREFIX_PATH"
+export PWD='/home/hao/my_workspace/7_31_2/build/simulation'
+export PYTHONPATH="/home/hao/my_workspace/7_31_2/devel/lib/python3/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/hao/my_workspace/7_31_2/devel/.private/simulation/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/hao/my_workspace/7_31_2/src/simulation:$ROS_PACKAGE_PATH"

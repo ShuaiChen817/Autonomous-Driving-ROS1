@@ -1,1 +1,1 @@
-cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX:PATH=/home/fangxu/ws/devel/.private/simulation;-DCMAKE_BUILD_TYPE:STRING=Release;-DBUILD_SHARED_LIBS=ON;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'
+cmd='/usr/bin/cmake;-DCMAKE_INSTALL_PREFIX:PATH=/home/hao/my_workspace/7_31_2/devel/.private/simulation;-DCMAKE_BUILD_TYPE:STRING=Release;-DBUILD_SHARED_LIBS=ON;-GUnix Makefiles;<SOURCE_DIR><SOURCE_SUBDIR>'

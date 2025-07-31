@@ -1,4 +1,4 @@
-prefix=/home/fangxu/ws/devel/.private/dummy_controller
+prefix=/home/hao/my_workspace/7_31_2/devel/.private/dummy_controller
 
 Name: dummy_controller
 Description: Description of dummy_controller

@@ -2,7 +2,7 @@
 
 import rospy
 from sensor_msgs.msg import Image
-from traffic_light_info.msg import TrafficLightInfo  # 你自定义的 msg
+from traffic_light_info.msg import TrafficLightInfo  
 from cv_bridge import CvBridge
 
 import torch
@@ -12,7 +12,7 @@ import sys
 import time
 import threading
 
-# 加载 YOLOv5 模块路径
+# load YOLOv5 path
 sys.path.append("/home/hao/my_workspace/yolov5")
 from models.common import DetectMultiBackend
 from utils.datasets import letterbox
@@ -48,7 +48,7 @@ class TrafficLightAnalyzer:
         self.prev_color = "unknown"
         self.stable_color = "unknown"
         self.stable_count = 0
-        self.required_stable_frames = 2
+        self.required_stable_frames = 5
 
         self.latest_frame = None
         threading.Thread(target=self.viewer_thread, daemon=True).start()
@@ -139,7 +139,7 @@ class TrafficLightAnalyzer:
         with self.lock:
             self.latest_frame = rgb_draw
 
-        # 稳定判断
+        # Voting mechanism
         if color == self.prev_color:
             self.stable_count += 1
         else:
@@ -163,17 +163,17 @@ class TrafficLightAnalyzer:
         if height < 6:
             return "unknown"
 
-        # 只看上 1/3 区域
+        # Divide traffic light zone
         top_h = h[0:height // 3, :]
         top_s = s[0:height // 3, :]
         top_v = v[0:height // 3, :]
 
-        # 红色 H 通道范围：0~10 和 160~180（两个区间）
+        # Define the H-channel range for red lights
         lower_red1 = cv2.inRange(top_h, 0, 10)
         lower_red2 = cv2.inRange(top_h, 160, 180)
         red_mask = cv2.bitwise_or(lower_red1, lower_red2)
 
-        # 结合饱和度和亮度做筛选
+        # Filter based on both saturation and brightness
         brightness_mask = top_v > 100
         saturation_mask = top_s > 80
         final_mask = cv2.bitwise_and(red_mask, brightness_mask.astype(np.uint8))
@@ -181,7 +181,7 @@ class TrafficLightAnalyzer:
 
         red_ratio = np.sum(final_mask > 0) / final_mask.size
 
-        # Debug log（可选）
+        # Debug log
         rospy.loginfo_throttle(2, f"[RedDetect] red_ratio={red_ratio:.2f}")
 
         return "red" if red_ratio > 0.02 else "unknown"

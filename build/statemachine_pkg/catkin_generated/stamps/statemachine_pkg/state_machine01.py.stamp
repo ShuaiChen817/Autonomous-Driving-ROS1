@@ -56,7 +56,7 @@ def cmd_vel_cb(msg):
         elif (now - traffic_data.turning_start_time) >= TURNING_MIN_DURATION:
             traffic_data.is_turning = True
     else:
-        # 如果已经进入 turning 状态并停止转动，才重置状态
+        # Only reset the state if already in the turning state and the turning has stopped.
         if traffic_data.is_turning:
             rospy.loginfo("[cmd_vel_cb] turning stopped.")
         traffic_data.turning_start_time = None
@@ -91,8 +91,8 @@ class NormalDriving(smach.State):
             return 'turning'
 
         # red light
-        if traffic_data.color.strip().lower() == "red" and 0 < traffic_data.distance < 20:
-            rospy.logwarn("RED light detected within 20m -> switch to EmergencyBrake")
+        if traffic_data.color.strip().lower() == "red" and 0 < traffic_data.distance < 15:
+            rospy.logwarn("RED light detected within 15m -> switch to EmergencyBrake")
             return 'red_light_close'
 
         rospy.sleep(0.1)
@@ -109,7 +109,7 @@ class EmergencyBrake(smach.State):
         rospy.loginfo("State: EmergencyBrake")
         self.pub.publish(0)
 
-        if traffic_data.color != "red" or (traffic_data.color == "red" and traffic_data.distance >= 20):
+        if traffic_data.color != "red" or (traffic_data.color == "red" and traffic_data.distance >= 15):
             rospy.loginfo("Safe to resume driving.")
             return 'resume_driving'
 
@@ -124,7 +124,7 @@ class Turning(smach.State):
 
     def execute(self, userdata):
 
-        if traffic_data.color.strip().lower() == "red" and 0 < traffic_data.distance <= 20:
+        if traffic_data.color.strip().lower() == "red" and 0 < traffic_data.distance <= 15:
             rospy.logwarn("RED light during turn -> switch to EmergencyBrake")
             return 'red_light_detected'
         

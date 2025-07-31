@@ -1,8 +1,0 @@
-In file included from [01m[K/home/fangxu/ws/src/dummy_controller/src/dummy_controller_node.cpp:24[m[K:
-[01m[K/opt/ros/noetic/include/tf_conversions/tf_eigen.h:36:10:[m[K [01;31m[Kfatal error: [m[KEigen/Core: No such file or directory
-   36 | #include [01;31m[K"Eigen/Core"[m[K
-      |          [01;31m[K^~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/dummy_controller_node.dir/build.make:63: CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o] Error 1
-make[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/dummy_controller_node.dir/all] Error 2
-make: *** [Makefile:141: all] Error 2

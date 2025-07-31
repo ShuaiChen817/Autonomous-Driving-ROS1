@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/fangxu/ws/devel/.private/traffic_light_detector/share/common-lisp/ros/traffic_light_detector/msg/TrafficLightStatus.lisp"
+  "/home/hao/my_workspace/7_31_2/devel/.private/traffic_light_detector/share/common-lisp/ros/traffic_light_detector/msg/TrafficLightStatus.lisp"
   "CMakeFiles/traffic_light_detector_generate_messages_lisp"
 )
 

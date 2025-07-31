@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/fangxu/ws/src/simulation
-# Build directory: /home/fangxu/ws/build/simulation
+# Source directory: /home/hao/my_workspace/7_31_2/src/simulation
+# Build directory: /home/hao/my_workspace/7_31_2/build/simulation
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

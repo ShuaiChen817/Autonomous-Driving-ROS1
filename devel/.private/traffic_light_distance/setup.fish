@@ -18,7 +18,7 @@ if not type -q bass
 end
 
 if test -z $_CATKIN_SETUP_DIR
-    set _CATKIN_SETUP_DIR /home/fangxu/ws/devel/.private/traffic_light_distance
+    set _CATKIN_SETUP_DIR /home/hao/my_workspace/7_31_2/devel/.private/traffic_light_distance
 end
 
 set _SETUP_UTIL "$_CATKIN_SETUP_DIR/_setup_util.py"

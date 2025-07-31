@@ -1,4 +1,4 @@
-prefix=/home/fangxu/ws/install
+prefix=/home/hao/my_workspace/7_31_2/install
 
 Name: local_planner
 Description: Description of local_planner

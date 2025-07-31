@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fangxu/ws/src/point_cloud
+CMAKE_SOURCE_DIR = /home/hao/my_workspace/7_31_2/src/point_cloud
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fangxu/ws/build/point_cloud
+CMAKE_BINARY_DIR = /home/hao/my_workspace/7_31_2/build/point_cloud
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fangxu/ws/build/point_cloud/CMakeFiles /home/fangxu/ws/build/point_cloud/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hao/my_workspace/7_31_2/build/point_cloud/CMakeFiles /home/hao/my_workspace/7_31_2/build/point_cloud/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fangxu/ws/build/point_cloud/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hao/my_workspace/7_31_2/build/point_cloud/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

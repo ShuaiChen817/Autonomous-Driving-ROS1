@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/fangxu/ws/build/traffic_light_info")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/hao/my_workspace/7_31_2/build/traffic_light_info")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

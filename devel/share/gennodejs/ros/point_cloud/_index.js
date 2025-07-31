@@ -1,1 +1,1 @@
-/home/fangxu/ws/devel/.private/point_cloud/share/gennodejs/ros/point_cloud/_index.js
+/home/hao/my_workspace/7_31_2/devel/.private/point_cloud/share/gennodejs/ros/point_cloud/_index.js

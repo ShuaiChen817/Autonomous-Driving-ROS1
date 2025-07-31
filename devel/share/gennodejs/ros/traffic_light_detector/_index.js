@@ -1,1 +1,1 @@
-/home/fangxu/ws/devel/.private/traffic_light_detector/share/gennodejs/ros/traffic_light_detector/_index.js
+/home/hao/my_workspace/7_31_2/devel/.private/traffic_light_detector/share/gennodejs/ros/traffic_light_detector/_index.js

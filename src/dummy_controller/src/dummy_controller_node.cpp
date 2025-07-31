@@ -24,8 +24,8 @@ public:
     // params
     pnh.param<double>("wheelbase",       L_,               2.7);
     pnh.param<double>("steer_gain",      steer_gain_,      1.6);
-    pnh.param<double>("steer_gain_turn", steer_gain_turn_, 3.0);   // 仅转弯时可放大
-    pnh.param<double>("max_steer",       max_steer_,       3.0);
+    pnh.param<double>("steer_gain_turn", steer_gain_turn_, 3.0);   // Only allow zoom-in during turns
+    pnh.param<double>("max_steer",       max_steer_,       3.2);
     pnh.param<double>("max_steer_rate",  max_sr_,          6.0);
     pnh.param<double>("k_accel",         k_accel_,         0.3);
     pnh.param<double>("k_brake",         k_brake_,         0.1);
@@ -35,9 +35,9 @@ public:
     pnh.param<double>("odom_timeout",    odom_to_,         2.0);
     pnh.param<double>("steer_sign",      steer_sign_,     -1.0);
 
-    // 模式相关纵向缩放
-    pnh.param<double>("turn_speed_scale",  turn_speed_scale_,  0.6); // 转弯时降速
-    pnh.param<double>("merge_speed_scale", merge_speed_scale_, 0.5); // 并线时降速
+    // Mode-dependent longitudinal scaling
+    pnh.param<double>("turn_speed_scale",  turn_speed_scale_,  0.6); // Reduce speed when turning
+    pnh.param<double>("merge_speed_scale", merge_speed_scale_, 0.5); // Reduce speed when changing lanes
 
     cmd_pub_   = nh.advertise<simulation::VehicleControl>(out_topic_, 1);
     vel_sub_   = nh.subscribe(cmd_vel_topic_, 1, &SimpleFastController::cmdVelCb, this);
@@ -103,14 +103,14 @@ private:
     bool cmd_timeout  = (now - last_cmd_ ).toSec() > cmd_to_;
     bool odom_timeout = (now - last_odom_).toSec() > odom_to_;
 
-    // 优先级：无cmd/timeout 或 状态机要求停 => 直接刹停
+    // Priority rule: if there is no command, a timeout, or the state machine requests a stop → brake immediately
     if(!have_cmd_ || cmd_timeout || ctrl_mode_ == 0){
       out.Throttle = 0.0; out.Brake = 1.0; out.Steering = 0.0;
       cmd_pub_.publish(out);
       return;
     }
 
-    // --- 根据模式调整速度/转向增益 ---
+    // – Adjust speed/steering gain based on mode –
     double vx_cmd_eff = vx_cmd_;
     double steer_gain_eff = steer_gain_;
 
@@ -119,7 +119,7 @@ private:
       steer_gain_eff   = steer_gain_turn_;
     }else if(ctrl_mode_ == 3){ // Merge
       vx_cmd_eff       = vx_cmd_ * merge_speed_scale_;
-      // 转向增益不一定改，可根据需要
+      // Steering gain doesn't necessarily change; adjust only if needed
     }
 
     // ---------- Steering ----------

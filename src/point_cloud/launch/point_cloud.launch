@@ -1,11 +1,11 @@
 <launch>
     
-    <!-- 启动 点云launch文件 -->
+    <!-- Launch the point cloud launch file -->
     <include file="$(find point_cloud)/launch/depth_to_pointcloud.launch" />
    
-    <!-- 启动 体积块launch文件 -->
+    <!-- Launch the volumetric block launch file -->
     <include file="$(find point_cloud)/launch/octomap_mapping.launch" />
 
-    <!-- 启动 RViz 并加载配置 -->
+    <!-- Start RViz and load the configuration -->
     <node pkg="rviz" type="rviz" name="rviz" output="screen" args="-d $(find point_cloud)/rviz/my_config.rviz"/>
 </launch>

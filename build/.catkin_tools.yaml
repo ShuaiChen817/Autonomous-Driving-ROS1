@@ -1,6 +1,6 @@
-devel_space: /home/fangxu/ws/devel
+devel_space: /home/hao/my_workspace/7_31_2/devel
 install: false
-install_space: /home/fangxu/ws/install
+install_space: /home/hao/my_workspace/7_31_2/install
 profile: default
-source_space: /home/fangxu/ws/src
-workspace: /home/fangxu/ws
+source_space: /home/hao/my_workspace/7_31_2/src
+workspace: /home/hao/my_workspace/7_31_2

@@ -1,94 +1,149 @@
-# Introduction to ROS – Course Project Autonomous Driving
+## Project Name
 
-## Overview 
-This repository is part of the "Introduction to ROS" course project **Autonomous Driving**. It consists of a Unity-based driving simulation package and a dummy controller to help you understand how to control the vehicle.
+Autonomous Driving
 
-## System Requirements
--**Operating System**: Ubuntu 20.04 (either natively installed or via Windows Subsystem for Linux - WSL)
+## Authors
 
--**ROS Version**: ROS Noetic
+Group27
 
--**Required Tools**:
-  - Standard ROS tools: `catkin`, `roscore`, etc.
-  - Git
-  - *Git LFS* (Large File Storage – required for downloading Unity binaries and large assets)
-    To install Git LFS, run:
-    
-    ```bash
-    sudo apt install git-lfs
-    git lfs install
-    ```
+## Description
 
-## Repository Structure
-This repository contains two ROS packages:
+This project is part of the Introduction to ROS course in ss25 at TUM and aims to implement an autonomous vehicle that navigates through an urban environment within a Unity simulation, using ROS as the middleware framework.
 
-- `simulation/`
-  - Contains a Unity-based simulation environment that mimics a vehicle's sensing and movement in a virtual city.
-  - Includes launch files, configuration scripts, and integration logic.
+### Completed missions
 
-- `dummy_controller/`
-  - A basic ROS node used to control the vehicle within the simulation.
-  - Designed to demonstrate publishing control commands.
+In this project, we are fulfilling all the requirements without the help of a semantic camera:
 
-## Getting Started
++ Successfully working perception pipeline
 
-### Clone the Repository to `/src` Folder in the Workspace
++ Successfully working path planning
 
-This's how your workspace should look like...
++ Successfully working trajectory planning
 
-```text
-your_workspace/
-└── src/
-    ├── simulation/
-    ├── dummy_controller/
-    ├── CMakeList.txt
-    ├── setup_script.sh
-    └── README.md
-```
++ Successfully avoiding other cars
 
-### Run the Setup Script
++ Successfully stopping/driving at street lights
 
-The script ensures that required simulation files and scripts are executable:
++ Time to complete the mission
 
-```bash
-bash src/setup_script.sh
-```
-Note that you are free to modify this script file to helps others setup your project.
++ Using Yolov5 to recognise objects. Solving the problem **without using a semantic camera**
 
-### Build the Workspace
+Functional modules created and resources referenced to achieve the assignments:
+
+|                   Task                   | Conteibutor           | Packages/Tools Unilised                             |
+| :--------------------------------------: | --------------------- | --------------------------------------------------- |
+| Point Cloud Generation & Octomap Mapping | Hao Zhang,Kaidong Guo | depth_image_proc, octomap_ros, octomap_server, RVIZ |
+|         Traffic Light Detection          | Hao Zhang             | YOLOv5, RGB Camera, depth camera, OpenCV          |
+|              Global Planner              | Shuai Chen            | move_base, nav_msgs, tf                             |
+|              Local Planner               | Shuai Chen            | teb_local_planner                                   |
+|            Controller Design             | Fangxu Han            | No            |
+|              State Machine               | Keqing Zhang          | SMACH                           |
+|       System Integration & Testing       | All                   | Unity Simulation, RVIZ, ROS1                        |
+
+
+
+## Requirements
+
+Make sure you already had ```ros-noetic-desktop-full``` installed.
+
+## Installation
+
+### 1. Local installation
+
+Install dependencies:
 
 ```bash
-catkin build
+sudo apt-get update && sudo apt-get install -y \
+python3-rosdep \
+python3-rosinstall \
+python3-rosinstall-generator \
+python3-wstool \
+build-essential \
+opencv-contrib-python\
+python3-catkin-tools \
+ros-noetic-rviz \
+ros-noetic-octomap-server \
+ros-noetic-navigation \
+ros-noetic-octomap-rviz-plugins \
+ros-noetic-teb-local-planner
+ros-noetic-move-slow-clear
+ros-noetic-global-planner
+ros-noetic-smach
+ros-noetic-smach-ros
+ros-noetic-smach-viewer
 ```
-Upon successful build, `devel`, `build` and `logs` will be automatically generated in your workspace.
 
-### Running the Simulation
+### 2. Install Yolov5
 
-To launch the simulation node, run the command **after having ```roscore``` running**:
+1. creat a local yolo file and clone yolov5
 
 ```bash
-source devel/setup.bash
-roslaunch simulation simulation.launch
+git clone https://github.com/ultralytics/yolov5.git
 ```
-You should see a window popping up and you should be able to control the vehicle with arrow keys or WASD.
 
-Note: this is only a minimal launch file to ensure that everything in Unity simulation is accessible by ROS. You could certainly build and run on your own launch file! 
-
-### Running the Dummy Controller Node
-
-Having **the roscore and the simulation node running**, run the node in another console:
+2. Check whether the installation was successful
 
 ```bash
-source devel/setup.bash
-rosrun dummy_controller dummy_controller_node
+cd yolov5
+git checkout v6.1
+output：Note: switching to 'v6.1'.
 ```
-The vehicle should be able to accelerate and steer by itself.
 
-## Customize the Simulation
-The simulation node provides a variety of configurable parameters, including the sensor setup, the socket port etc. For details please refer to [the README.md in simulation pacakge](simulation/README.md).
+3. Install dependencies
 
-## The Project Assignment
-The detailed task description and submission requirements are available in the project PDF uploaded to Moodle. Please review that document carefully.
+```bash
+pip install -r
+requirements.txt
+```
+
+4. Test
+
+```bash
+python3 detect.py
+--source data/images --weights [yolov5s.pt](http://yolov5s.pt/) --conf0.25
+output:mage 1/2
+data/images/bus.jpg: 640x480 1 bus, 2 persons
+Results saved to
+runs/detect/exp
+```
+
+5. Change the address
+
+find the traffic_light_info file in src:
+
+(1).open the ```traffic_light_info.py ``` and change the path of yolo5 into your own path
+```bash
+sys.path.append("/your own yolo5 path/yolov5")
+```
+(2)open the ```traffic_light_info.launch``` and change the path of yolo5 into your own path
+```bash
+<param name="model_path" value="/your own yolo5 path/YoloV5/yolov5s.pt" />
+```
+
+### 3. build the project using ```catkin build``` under *.../catkin_ws/*
+
+### 4. ```source devel/setup.bash```
+
+### 5. ```roslaunch simulation simulation.launch```
+Option: If you want to change the controller to closed-loop control based on odometry feedback, you can modify the code to receive odom signals before starting the simulation.
+
+### 6. ```rosrun local_planner multi_goal_manager.py```
+
+
 
 ## Support
-If you encounter issues or have questions, please reach me via [my e-mail](mailto:jiaming.zhang@tum.de). I would love to help as much as I could :).
+
+Contact @hao Zhang at hao_zhang99@outlook.comfor help with starting the software.
+
+## License
+
+MIT License.
+
+## Future Improvements
+
++ Fine-tune TEB parameters to improve local planning smoothness
+
++ Integrate PID/MPC-based controller for smoother actuation
+
++ The current algorithm struggles to accurately recognize each traffic light in complex scenarios, such as when multiple lights overlap or are partially occluded, and therefore requires optimization.
+

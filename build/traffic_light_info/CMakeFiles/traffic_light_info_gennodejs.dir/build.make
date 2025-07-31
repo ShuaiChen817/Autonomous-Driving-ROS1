@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fangxu/ws/src/traffic_light_info
+CMAKE_SOURCE_DIR = /home/hao/my_workspace/7_31_2/src/traffic_light_info
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fangxu/ws/build/traffic_light_info
+CMAKE_BINARY_DIR = /home/hao/my_workspace/7_31_2/build/traffic_light_info
 
 # Utility rule file for traffic_light_info_gennodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/traffic_light_info_gennodejs.dir/clean:
 .PHONY : CMakeFiles/traffic_light_info_gennodejs.dir/clean
 
 CMakeFiles/traffic_light_info_gennodejs.dir/depend:
-	cd /home/fangxu/ws/build/traffic_light_info && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fangxu/ws/src/traffic_light_info /home/fangxu/ws/src/traffic_light_info /home/fangxu/ws/build/traffic_light_info /home/fangxu/ws/build/traffic_light_info /home/fangxu/ws/build/traffic_light_info/CMakeFiles/traffic_light_info_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hao/my_workspace/7_31_2/build/traffic_light_info && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hao/my_workspace/7_31_2/src/traffic_light_info /home/hao/my_workspace/7_31_2/src/traffic_light_info /home/hao/my_workspace/7_31_2/build/traffic_light_info /home/hao/my_workspace/7_31_2/build/traffic_light_info /home/hao/my_workspace/7_31_2/build/traffic_light_info/CMakeFiles/traffic_light_info_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/traffic_light_info_gennodejs.dir/depend
 

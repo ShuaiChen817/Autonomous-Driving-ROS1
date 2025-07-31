@@ -1,8 +1,8 @@
-# Install script for directory: /home/fangxu/ws/build/simulation/libsocket-prefix/src/libsocket
+# Install script for directory: /home/hao/my_workspace/7_31_2/build/simulation/libsocket-prefix/src/libsocket
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/fangxu/ws/devel/.private/simulation")
+  set(CMAKE_INSTALL_PREFIX "/home/hao/my_workspace/7_31_2/devel/.private/simulation")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/fangxu/ws/build/simulation/libsocket-prefix/src/libsocket-build/C/cmake_install.cmake")
-  include("/home/fangxu/ws/build/simulation/libsocket-prefix/src/libsocket-build/headers/cmake_install.cmake")
-  include("/home/fangxu/ws/build/simulation/libsocket-prefix/src/libsocket-build/C++/cmake_install.cmake")
+  include("/home/hao/my_workspace/7_31_2/build/simulation/libsocket-prefix/src/libsocket-build/C/cmake_install.cmake")
+  include("/home/hao/my_workspace/7_31_2/build/simulation/libsocket-prefix/src/libsocket-build/headers/cmake_install.cmake")
+  include("/home/hao/my_workspace/7_31_2/build/simulation/libsocket-prefix/src/libsocket-build/C++/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/fangxu/ws/build/simulation/libsocket-prefix/src/libsocket-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hao/my_workspace/7_31_2/build/simulation/libsocket-prefix/src/libsocket-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

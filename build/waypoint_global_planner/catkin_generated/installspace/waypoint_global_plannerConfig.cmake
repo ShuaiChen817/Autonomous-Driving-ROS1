@@ -67,14 +67,14 @@ set(waypoint_global_planner_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(waypoint_global_planner_SOURCE_PREFIX /home/fangxu/ws/src/planning/waypoint_global_planner)
-  set(waypoint_global_planner_DEVEL_PREFIX /home/fangxu/ws/devel/.private/waypoint_global_planner)
+  set(waypoint_global_planner_SOURCE_PREFIX /home/hao/my_workspace/7_31_2/src/planning/waypoint_global_planner)
+  set(waypoint_global_planner_DEVEL_PREFIX /home/hao/my_workspace/7_31_2/devel/.private/waypoint_global_planner)
   set(waypoint_global_planner_INSTALL_PREFIX "")
   set(waypoint_global_planner_PREFIX ${waypoint_global_planner_DEVEL_PREFIX})
 else()
   set(waypoint_global_planner_SOURCE_PREFIX "")
   set(waypoint_global_planner_DEVEL_PREFIX "")
-  set(waypoint_global_planner_INSTALL_PREFIX /home/fangxu/ws/install)
+  set(waypoint_global_planner_INSTALL_PREFIX /home/hao/my_workspace/7_31_2/install)
   set(waypoint_global_planner_PREFIX ${waypoint_global_planner_INSTALL_PREFIX})
 endif()
 
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/fangxu/ws/install/lib;/home/fangxu/ws/devel/lib;/home/fangxu/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/hao/my_workspace/7_31_2/install/lib;/home/hao/my_workspace/7_31_2/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

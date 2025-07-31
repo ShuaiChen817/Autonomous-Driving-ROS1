@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/fangxu/ws/devel/.private/dummy_controller/lib/dummy_controller/dummy_controller_node"
-  "/home/fangxu/ws/devel/.private/dummy_controller/lib/dummy_controller/dummy_controller_node.pdb"
+  "/home/hao/my_workspace/7_31_2/devel/.private/dummy_controller/lib/dummy_controller/dummy_controller_node"
+  "/home/hao/my_workspace/7_31_2/devel/.private/dummy_controller/lib/dummy_controller/dummy_controller_node.pdb"
   "CMakeFiles/dummy_controller_node.dir/src/dummy_controller_node.cpp.o"
 )
 

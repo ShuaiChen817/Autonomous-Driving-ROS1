@@ -5,7 +5,7 @@
 # or fall back to the destination set at configure time
 
 if test -z $_CATKIN_SETUP_DIR
-    set _CATKIN_SETUP_DIR /home/fangxu/ws/devel/.private/point_cloud
+    set _CATKIN_SETUP_DIR /home/hao/my_workspace/7_31_2/devel/.private/point_cloud
 end
 
 set CATKIN_SETUP_UTIL_ARGS "--extend --local"

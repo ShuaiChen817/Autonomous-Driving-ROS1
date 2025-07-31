@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/fangxu/ws/src/planning/waypoint_global_planner
-# Build directory: /home/fangxu/ws/build/waypoint_global_planner
+# Source directory: /home/hao/my_workspace/7_31_2/src/planning/waypoint_global_planner
+# Build directory: /home/hao/my_workspace/7_31_2/build/waypoint_global_planner
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

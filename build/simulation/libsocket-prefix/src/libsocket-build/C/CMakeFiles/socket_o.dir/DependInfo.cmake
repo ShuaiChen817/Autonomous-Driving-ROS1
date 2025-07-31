@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/fangxu/ws/build/simulation/libsocket-prefix/src/libsocket/C/inet/libinetsocket.c" "/home/fangxu/ws/build/simulation/libsocket-prefix/src/libsocket-build/C/CMakeFiles/socket_o.dir/inet/libinetsocket.c.o"
-  "/home/fangxu/ws/build/simulation/libsocket-prefix/src/libsocket/C/unix/libunixsocket.c" "/home/fangxu/ws/build/simulation/libsocket-prefix/src/libsocket-build/C/CMakeFiles/socket_o.dir/unix/libunixsocket.c.o"
+  "/home/hao/my_workspace/7_31_2/build/simulation/libsocket-prefix/src/libsocket/C/inet/libinetsocket.c" "/home/hao/my_workspace/7_31_2/build/simulation/libsocket-prefix/src/libsocket-build/C/CMakeFiles/socket_o.dir/inet/libinetsocket.c.o"
+  "/home/hao/my_workspace/7_31_2/build/simulation/libsocket-prefix/src/libsocket/C/unix/libunixsocket.c" "/home/hao/my_workspace/7_31_2/build/simulation/libsocket-prefix/src/libsocket-build/C/CMakeFiles/socket_o.dir/unix/libunixsocket.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/fangxu/ws/build/simulation/libsocket-prefix/src/libsocket/headers"
+  "/home/hao/my_workspace/7_31_2/build/simulation/libsocket-prefix/src/libsocket/headers"
   "headers"
   )
 

@@ -1,8 +1,0 @@
-prefix=/home/fangxu/ws/install
-
-Name: launch_all
-Description: Description of launch_all
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

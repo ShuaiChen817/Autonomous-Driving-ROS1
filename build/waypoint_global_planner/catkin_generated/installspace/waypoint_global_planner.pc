@@ -1,4 +1,4 @@
-prefix=/home/fangxu/ws/install
+prefix=/home/hao/my_workspace/7_31_2/install
 
 Name: waypoint_global_planner
 Description: Description of waypoint_global_planner

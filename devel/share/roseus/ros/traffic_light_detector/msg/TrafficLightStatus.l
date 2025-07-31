@@ -1,1 +1,1 @@
-/home/fangxu/ws/devel/.private/traffic_light_detector/share/roseus/ros/traffic_light_detector/msg/TrafficLightStatus.l
+/home/hao/my_workspace/7_31_2/devel/.private/traffic_light_detector/share/roseus/ros/traffic_light_detector/msg/TrafficLightStatus.l
