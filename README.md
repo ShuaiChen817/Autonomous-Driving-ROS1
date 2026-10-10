@@ -1,6 +1,6 @@
-## Project Name
+# Autonomous Driving (ROS1)
 
-Autonomous Driving
+> This repository contains the ROS1 project code. Unity simulator binaries, assets, and the bundled Unity launcher are excluded from all branch history. The ROS-Unity interface code is retained; running it requires a separately supplied simulator and its configuration.
 
 ## Authors
 

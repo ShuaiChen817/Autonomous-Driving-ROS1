@@ -1,5 +1,7 @@
 # Simulation Package
 
+> The Unity simulator and its resources are excluded from this GitHub repository. Supply and start the simulator separately. The ROS bridge expects its `simulation_config.json` at the path documented below. `simulation.launch` starts ROS nodes only.
+
 ## Package Overview
 The simulation package contains two major parts, the Unity simulator and the ROS-Unity bridge.
 
@@ -63,7 +65,7 @@ Define the address and port of the machine running the ROS node. If you are runn
 
 Setting this to `true` will turn roads into null in depth camera, as shown in the figure.
 
-![ground_removal](unity_sim/figures/ground_removal.png)
+The illustration is part of the separately supplied Unity simulator resources.
 
 #### `truePose`
 
